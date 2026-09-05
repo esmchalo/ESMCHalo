@@ -2,12 +2,10 @@ cff-version: 1.2.0
 message: "If you use ESMCHalo in your work, please cite this software release and the associated article."
 title: "ESMCHalo: homology-aware halophile-associated protein prediction with leakage-free knowledge distillation"
 type: software
-version: 2.0.0
+version: 2.0.1
 date-released: 2026-09-05
 repository-code: "https://github.com/fanglv0919/ESMCHalo"
-license:
-  - MIT
-  - CC-BY-4.0
+license: MIT
 authors:
   - family-names: "Lv"
     given-names: "Fang"
