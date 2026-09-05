@@ -4,7 +4,7 @@ title: "ESMCHalo: homology-aware halophile-associated protein prediction with le
 type: software
 version: 2.0.1
 date-released: 2026-09-05
-repository-code: "https://github.com/fanglv0919/ESMCHalo"
+repository-code: "https://github.com/esmchalo/ESMCHalo"
 license: MIT
 authors:
   - family-names: "Lv"
