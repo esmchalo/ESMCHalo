@@ -1,0 +1,14 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+*.log
+*.pid
+.env
+.env.*
+private/
+data/
+outputs/
+cache/
+*.fasta
+*.fa
+*.faa
