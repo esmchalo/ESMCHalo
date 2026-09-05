@@ -1,0 +1,19 @@
+name: esmchalo_v2
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12.13
+  - pip
+  - pip:
+      - numpy==2.5.1
+      - pandas==3.0.3
+      - scipy==1.18.0
+      - scikit-learn==1.9.0
+      - joblib==1.5.3
+      - torch==2.13.0
+      - transformers==4.57.6
+      - huggingface-hub==0.36.2
+      - safetensors==0.8.0
+
+# Verified server runtime used torch 2.13.0+cu130.
+# Select the CPU/CUDA-specific PyTorch build appropriate for the target system.
