@@ -1,0 +1,41 @@
+cff-version: 1.2.0
+message: "If you use ESMCHalo in your work, please cite this software release and the associated article."
+title: "ESMCHalo: homology-aware halophile-associated protein prediction with leakage-free knowledge distillation"
+type: software
+version: 2.0.0
+date-released: 2026-09-05
+repository-code: "https://github.com/fanglv0919/ESMCHalo"
+license:
+  - MIT
+  - CC-BY-4.0
+authors:
+  - family-names: "Lv"
+    given-names: "Fang"
+    affiliation: "Dalian University of Technology"
+  - family-names: "Jin"
+    given-names: "Hutao"
+    affiliation: "Dalian University of Technology"
+  - family-names: "Ma"
+    given-names: "Qishuai"
+    affiliation: "Dalian University of Technology"
+  - family-names: "Cheng"
+    given-names: "Chi"
+    affiliation: "Dalian University of Technology"
+    email: "cheng.chi@dlut.edu.cn"
+  - family-names: "Xue"
+    given-names: "Chuang"
+    affiliation: "Dalian University of Technology"
+    email: "xue.1@dlut.edu.cn"
+keywords:
+  - "bioinformatics"
+  - "halophile-associated protein prediction"
+  - "protein language model"
+  - "ESM Cambrian"
+  - "knowledge distillation"
+  - "homology-aware evaluation"
+abstract: >-
+  ESMCHalo is a frozen protein-sequence predictor that combines ESMC-600M
+  layer-36 canonical mean representations with five compact student heads
+  trained using leakage-free out-of-fold knowledge distillation. The release
+  provides frozen inference code, model checkpoints, calibration, a fixed
+  threshold, verification utilities and locked evaluation summaries.
