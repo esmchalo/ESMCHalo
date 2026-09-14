@@ -1,0 +1,43 @@
+{
+  "module": "V2-03A",
+  "status": "LOCKED",
+  "models": [
+    "lr",
+    "linear_svm",
+    "rbf_svm",
+    "catboost",
+    "mlp_2layer"
+  ],
+  "requested_models": [
+    "lr",
+    "linear_svm",
+    "rbf_svm",
+    "catboost",
+    "mlp_2layer"
+  ],
+  "representation": "frozen ESMC-600M canonical batch-1 protein embeddings, 1152-D",
+  "records": 10567,
+  "folds": 5,
+  "group": "strict40 homology_group",
+  "labels": "source-defined; unchanged",
+  "sample_weight": "uniform 1.0",
+  "selection_priority": [
+    "AP",
+    "MCC",
+    "AUROC",
+    "lower complexity"
+  ],
+  "ap_tie_band": 0.002,
+  "calibration_applied": false,
+  "threshold_optimized": false,
+  "fixed_classification_boundary": "raw score >= 0; equivalent probability >= 0.5",
+  "outer_validation_used_for_early_stopping": false,
+  "blind_test200_external_labels_read": false,
+  "hyperparameters": {
+    "lr": "StandardScaler + LR(C=1, lbfgs)",
+    "linear_svm": "StandardScaler + LinearSVC(C=1)",
+    "rbf_svm": "StandardScaler + RBF-SVC(C=2, gamma=scale)",
+    "catboost": "500 trees, depth=6, learning_rate=0.05, l2=3",
+    "mlp_2layer": "StandardScaler + 1152-256-64-1 GELU dropout=0.2, AdamW, fixed 30 epochs"
+  }
+}

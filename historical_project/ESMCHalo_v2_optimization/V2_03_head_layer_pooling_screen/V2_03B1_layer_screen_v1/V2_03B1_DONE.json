@@ -1,0 +1,45 @@
+{
+  "module": "V2-03B1",
+  "status": "PASS_LAYER_SCREEN_COMPLETE",
+  "started_at_utc": "2026-09-03T02:52:26.169948+00:00",
+  "finished_at_utc": "2026-09-03T03:20:42.126153+00:00",
+  "elapsed_seconds": 1695.956,
+  "records": 10567,
+  "representations": [
+    "canonical_b1",
+    "layer24_mean",
+    "layer30_mean",
+    "layer36_mean",
+    "layers24_30_36_fixed_mean",
+    "layers24_30_36_concat"
+  ],
+  "heads": [
+    "rbf_svm",
+    "catboost"
+  ],
+  "selection": {
+    "status": "PASS",
+    "primary_head": "rbf_svm",
+    "secondary_head": "catboost",
+    "selected_representations": [
+      "layer36_mean",
+      "canonical_b1"
+    ],
+    "decision": "KEEP_CANONICAL_PROCEED_TO_STREAMED_POOLING",
+    "blind_labels_read": false,
+    "next_gate": "V2-03B2 streamed max/std pooling extraction"
+  },
+  "labels_changed": 0,
+  "weights_applied": false,
+  "calibration_applied": false,
+  "threshold_optimized": false,
+  "blind_labels_read": false,
+  "next_gate": "V2-03B2 streamed max/std pooling extraction",
+  "versions": {
+    "python": "3.12.13",
+    "numpy": "2.5.1",
+    "pandas": "3.0.3",
+    "scipy": "1.18.0",
+    "sklearn": "1.9.0"
+  }
+}

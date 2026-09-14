@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "finalists": [
+    "rbf_svm",
+    "catboost"
+  ],
+  "decision": "HEAD_GAIN",
+  "rule": "highest AP; within 0.002 of best AP use MCC, then AUROC, then lower complexity",
+  "next_gate": "V2-03B layer and pooling screen",
+  "blind_labels_read": false
+}

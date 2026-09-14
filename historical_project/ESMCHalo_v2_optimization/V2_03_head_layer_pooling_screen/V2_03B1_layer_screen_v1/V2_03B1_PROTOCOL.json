@@ -1,0 +1,40 @@
+{
+  "module": "V2-03B1",
+  "status": "LOCKED",
+  "records": 10567,
+  "folds": 5,
+  "representations": [
+    "canonical_b1",
+    "layer24_mean",
+    "layer30_mean",
+    "layer36_mean",
+    "layers24_30_36_fixed_mean",
+    "layers24_30_36_concat"
+  ],
+  "heads": [
+    "rbf_svm",
+    "catboost"
+  ],
+  "primary_head": "rbf_svm",
+  "secondary_head": "catboost",
+  "selection_priority": [
+    "AP",
+    "MCC",
+    "AUROC",
+    "lower dimension"
+  ],
+  "ap_tie_band": 0.002,
+  "gain_gate": {
+    "delta_ap": 0.005,
+    "delta_auroc": 0.005,
+    "delta_mcc": 0.02,
+    "minimum_nonnegative_ap_folds": 4,
+    "catboost_max_allowed_ap_drop": 0.005
+  },
+  "labels_changed": 0,
+  "sample_weights": "uniform 1.0",
+  "calibration": false,
+  "threshold_optimization": false,
+  "blind_test200_external_labels_read": false,
+  "note": "Protein-level layer screen only; no residue tensors or pooling-stat extraction."
+}

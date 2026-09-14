@@ -1,0 +1,38 @@
+{
+  "module": "V2-03A",
+  "status": "PASS_HEAD_SCREEN_COMPLETE",
+  "started_at_utc": "2026-09-03T01:48:46.707746+00:00",
+  "finished_at_utc": "2026-09-03T02:00:46.966946+00:00",
+  "elapsed_seconds": 720.259,
+  "records": 10567,
+  "completed_models": [
+    "lr",
+    "linear_svm",
+    "rbf_svm",
+    "catboost",
+    "mlp_2layer"
+  ],
+  "finalists": [
+    "rbf_svm",
+    "catboost"
+  ],
+  "decision": "HEAD_GAIN",
+  "lr_baseline_replication": {
+    "status": "PASS",
+    "records": 10567,
+    "max_abs_probability_difference": 8.750844138205593e-08
+  },
+  "labels_changed": 0,
+  "weights_applied": false,
+  "calibration_applied": false,
+  "threshold_optimized": false,
+  "blind_labels_read": false,
+  "next_gate": "V2-03B layer and pooling screen",
+  "versions": {
+    "python": "3.12.13",
+    "numpy": "2.5.1",
+    "pandas": "3.0.3",
+    "scipy": "1.18.0",
+    "sklearn": "1.9.0"
+  }
+}
