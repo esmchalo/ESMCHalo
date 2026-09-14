@@ -1,0 +1,95 @@
+{
+  "seed": 20260903,
+  "k2_seed_offset": 2,
+  "records_expected": 10567,
+  "folds_expected": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "representation": {
+    "model": "ESMC-600M",
+    "pooling": "canonical_mean",
+    "dimension": 1152,
+    "frozen": true
+  },
+  "student": {
+    "dimensions": [
+      1152,
+      256,
+      64,
+      1
+    ],
+    "activation": "GELU",
+    "dropout": 0.2,
+    "optimizer": "AdamW",
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "batch_size": 256,
+    "maximum_epochs": 80,
+    "early_stopping_patience": 10,
+    "early_stopping_metric": "inner_validation_hard_label_AP",
+    "gradient_clip_norm": 5.0,
+    "preprocessing": "outer-fold-local StandardScaler"
+  },
+  "expected_audit_counts": {
+    "A_clean_core": 7934,
+    "D_hard": 2063,
+    "K2_oof_false_positive": 348
+  },
+  "module": "R6",
+  "arms": [
+    "B0",
+    "M0"
+  ],
+  "candidate_parameters": {
+    "B0": "BCE hard labels only",
+    "M0": "Mixup hard targets only; Beta(0.2,0.2); scalar per batch",
+    "teacher_loss_weight": 0,
+    "hard_loss_weight": 1
+  },
+  "selection": {
+    "ranking_guard_raw_and_calibrated": {
+      "AP_max_drop": 0.001,
+      "AUROC_max_drop": 0.001
+    },
+    "classification_calibrated": "ACC and MCC >= H0",
+    "probability_calibrated": "Brier and log_loss <= H0",
+    "minimum_gain": "log_loss decrease >=0.005 OR MCC increase >=0.010",
+    "fold_consistency": "at least 3/5 folds improve log_loss or MCC; report all fold metrics",
+    "subsets": "strict25 and clean-core raw AP/AUROC drop <=0.001",
+    "tie_break": [
+      "lower calibrated log_loss",
+      "higher calibrated MCC",
+      "higher raw AP",
+      "B0 before M0"
+    ]
+  },
+  "calibration": "Five fold cross-fit unregularized Platt on OOF logits for each arm; then fit all development for selected deployment. No old Platt applied to new models.",
+  "challenge_policy": "Only selected new arm; label-free predictions saved before label merge. Prior results already known: retrospective evaluation.",
+  "limitations": [
+    "Teacher-student fold dependence remains; not fully nested causal distillation evidence.",
+    "Calibration OOF single-member to deployment ensemble mismatch remains.",
+    "Focal changes relative hard/soft effective loss scale; not pure sample-weight causal isolation.",
+    "Mixup embedding interpolation is regularization, not a real biological sequence.",
+    "2x2 is comparison of complete training recipes, not pure distillation causality: objective scale, selected epochs, and historical teacher dependence differ."
+  ],
+  "gpu_fits": 20,
+  "final_heads": 10,
+  "references": [
+    "H0",
+    "Mixup_KD"
+  ],
+  "R5_oof_sha256": "850e1d386749aedb88052978e2ac3fcd128eb1b918ef15c3f134cc34ef7e3d25",
+  "R5_protocol_sha256": "5f4e0bf5ec0f52e4987a7665b492deee849894dea56621f24b2577fa176d1ada",
+  "reference_directory": "R5_student_training_v1_output",
+  "diagnostic_contrasts": [
+    "M0-B0",
+    "Mixup_KD-H0",
+    "(M0-B0)-(Mixup_KD-H0)",
+    "H0-B0",
+    "Mixup_KD-M0"
+  ]
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "dataset": "haloclass_newtest1402",
+    "system": "ESMCHalo",
+    "source_prior": 0.5932620422935775,
+    "estimated_prior": 0.6846652689585004,
+    "iterations": 17,
+    "boundary": false
+  },
+  {
+    "dataset": "haloclass_newtest1402",
+    "system": "DeepSaltPro",
+    "source_prior": 0.5932620422000838,
+    "estimated_prior": 0.6008847444178962,
+    "iterations": 13,
+    "boundary": false
+  },
+  {
+    "dataset": "haloclass_zhang278",
+    "system": "ESMCHalo",
+    "source_prior": 0.5932620422935775,
+    "estimated_prior": 0.6574375531727377,
+    "iterations": 16,
+    "boundary": false
+  },
+  {
+    "dataset": "haloclass_zhang278",
+    "system": "DeepSaltPro",
+    "source_prior": 0.5932620422000838,
+    "estimated_prior": 0.612693794935675,
+    "iterations": 16,
+    "boundary": false
+  }
+]

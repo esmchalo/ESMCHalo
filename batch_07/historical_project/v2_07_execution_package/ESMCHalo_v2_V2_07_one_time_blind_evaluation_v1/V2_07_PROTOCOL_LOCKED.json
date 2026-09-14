@@ -1,0 +1,39 @@
+{
+  "module": "V2-07",
+  "version": "V2_07_one_time_blind_evaluation_v1",
+  "purpose": "One-time evaluation on the locked 1865-record blind set",
+  "blind_records": 1865,
+  "group_bootstrap_field": "homology_group",
+  "bootstrap_replicates": 5000,
+  "bootstrap_seed": 20260903,
+  "esmchalo_v2": {
+    "representation": "canonical_mean_1152",
+    "student": "K2_H0_unweighted",
+    "members": 5,
+    "aggregation": "mean_raw_logit",
+    "calibration": "C1_Platt",
+    "platt_coefficient": 1.65445192210991,
+    "platt_intercept": -0.059280024051954906,
+    "threshold": 0.5
+  },
+  "deepsaltpro": {
+    "features": ["ESM-2_2560", "Ankh_1536"],
+    "fold_local_preprocessing": "MinMaxScaler_then_PCA512_per_backbone",
+    "members": 5,
+    "aggregation": "mean_probability",
+    "calibration": "none",
+    "threshold": 0.5
+  },
+  "stage_separation": {
+    "stage1": "Generate and cryptographically lock predictions without opening labels",
+    "stage2": "After independent lock review, open frozen labels once and evaluate"
+  },
+  "selection_after_blind": false,
+  "model_retraining": false,
+  "recalibration": false,
+  "threshold_optimization": false,
+  "lora": false,
+  "test200_labels_read": false,
+  "external_challenge_labels_read": false,
+  "immutability": "Blind results cannot authorize changes to models, ensemble rules, calibrators, thresholds, or the analysis protocol."
+}

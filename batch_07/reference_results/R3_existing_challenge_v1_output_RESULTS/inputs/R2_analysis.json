@@ -1,0 +1,26 @@
+{
+  "status": "COMPLETED_RETROSPECTIVE_SENSITIVITY_ANALYSIS",
+  "coefficient": 1.7244061167358966,
+  "intercept": -0.007820316795430216,
+  "fit_data": "10567 existing development OOF raw logits and labels",
+  "application": "sigmoid(a * logit(mean(five frozen DSP probabilities)) + b)",
+  "calibration": "unregularized binary log loss, same optimizer settings as V2-06 C1",
+  "evaluation_n": 1865,
+  "evaluation_positive": 1107,
+  "bootstrap_groups": 1808,
+  "bootstrap_repeats": 5000,
+  "bootstrap_seed": 20260913,
+  "limitations": [
+    "Historical use of the 1865 evaluation records remains unchanged",
+    "Post-hoc analysis, not prospective independent evaluation",
+    "Single-member OOF versus ensemble score distribution mismatch remains",
+    "Intervals condition on models and calibrator; no training uncertainty",
+    "No causal distillation claim; no functional salt-tolerance endpoint"
+  ],
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "sklearn": "1.8.0"
+  }
+}

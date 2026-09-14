@@ -1,0 +1,172 @@
+{
+  "status": "PASS",
+  "arm": "Mixup",
+  "outer_fold": 2,
+  "inner_fold": 3,
+  "outer_train_records": 8454,
+  "outer_validation_records": 2113,
+  "weighted_outer_train_records": 0,
+  "selected_epochs": 21,
+  "best_inner_ap": 0.991529058745994,
+  "epoch_history": [
+    {
+      "epoch": 1,
+      "mean_training_loss": 1.3961389589309692,
+      "inner_ap": 0.986098035525627
+    },
+    {
+      "epoch": 2,
+      "mean_training_loss": 1.3636236810684204,
+      "inner_ap": 0.9879200168674382
+    },
+    {
+      "epoch": 3,
+      "mean_training_loss": 1.3325701904296876,
+      "inner_ap": 0.9895276718759385
+    },
+    {
+      "epoch": 4,
+      "mean_training_loss": 1.3203842067718505,
+      "inner_ap": 0.9896660975210256
+    },
+    {
+      "epoch": 5,
+      "mean_training_loss": 1.3126270627975465,
+      "inner_ap": 0.9900991535833734
+    },
+    {
+      "epoch": 6,
+      "mean_training_loss": 1.3172120237350464,
+      "inner_ap": 0.9904901430753463
+    },
+    {
+      "epoch": 7,
+      "mean_training_loss": 1.3712537670135498,
+      "inner_ap": 0.9898564789135177
+    },
+    {
+      "epoch": 8,
+      "mean_training_loss": 1.3249115180969238,
+      "inner_ap": 0.9904028903303653
+    },
+    {
+      "epoch": 9,
+      "mean_training_loss": 1.3088136386871339,
+      "inner_ap": 0.9907809761815524
+    },
+    {
+      "epoch": 10,
+      "mean_training_loss": 1.3235135316848754,
+      "inner_ap": 0.9905174906349907
+    },
+    {
+      "epoch": 11,
+      "mean_training_loss": 1.301316237449646,
+      "inner_ap": 0.9912407121332341
+    },
+    {
+      "epoch": 12,
+      "mean_training_loss": 1.318117003440857,
+      "inner_ap": 0.9906186014245573
+    },
+    {
+      "epoch": 13,
+      "mean_training_loss": 1.2763046836853027,
+      "inner_ap": 0.9901865646292052
+    },
+    {
+      "epoch": 14,
+      "mean_training_loss": 1.272275266647339,
+      "inner_ap": 0.9905336201941501
+    },
+    {
+      "epoch": 15,
+      "mean_training_loss": 1.2756204652786254,
+      "inner_ap": 0.9910279486523594
+    },
+    {
+      "epoch": 16,
+      "mean_training_loss": 1.2664553070068358,
+      "inner_ap": 0.9908214093599225
+    },
+    {
+      "epoch": 17,
+      "mean_training_loss": 1.2741260433197021,
+      "inner_ap": 0.9902879295519847
+    },
+    {
+      "epoch": 18,
+      "mean_training_loss": 1.3208546733856201,
+      "inner_ap": 0.9908144688230336
+    },
+    {
+      "epoch": 19,
+      "mean_training_loss": 1.278252067565918,
+      "inner_ap": 0.9905584637648712
+    },
+    {
+      "epoch": 20,
+      "mean_training_loss": 1.2705324840545655,
+      "inner_ap": 0.9907174046744902
+    },
+    {
+      "epoch": 21,
+      "mean_training_loss": 1.289150938987732,
+      "inner_ap": 0.991529058745994
+    },
+    {
+      "epoch": 22,
+      "mean_training_loss": 1.2939411401748657,
+      "inner_ap": 0.9909920728601408
+    },
+    {
+      "epoch": 23,
+      "mean_training_loss": 1.2959922981262206,
+      "inner_ap": 0.9910284397735528
+    },
+    {
+      "epoch": 24,
+      "mean_training_loss": 1.3203653478622437,
+      "inner_ap": 0.9903713255267925
+    },
+    {
+      "epoch": 25,
+      "mean_training_loss": 1.2478397703170776,
+      "inner_ap": 0.9906227214444706
+    },
+    {
+      "epoch": 26,
+      "mean_training_loss": 1.3006614875793456,
+      "inner_ap": 0.9904173517847399
+    },
+    {
+      "epoch": 27,
+      "mean_training_loss": 1.2568601989746093,
+      "inner_ap": 0.9907044198607435
+    },
+    {
+      "epoch": 28,
+      "mean_training_loss": 1.2999831628799439,
+      "inner_ap": 0.9900505388194553
+    },
+    {
+      "epoch": 29,
+      "mean_training_loss": 1.3035451030731202,
+      "inner_ap": 0.9907627352975719
+    },
+    {
+      "epoch": 30,
+      "mean_training_loss": 1.2857164478302001,
+      "inner_ap": 0.9905036091397903
+    },
+    {
+      "epoch": 31,
+      "mean_training_loss": 1.2832097911834717,
+      "inner_ap": 0.9904288370370603
+    }
+  ],
+  "result_sha256": "28d46e77e2e05e6559eaae32e44160f24ad4a49c583df53650c2791cd7a4dca8",
+  "checkpoint_sha256": "9e193d68df434350f161b29b1565a024b1b89a29e468b4775d9aeeb6a9999d2b",
+  "outer_shared_groups": 0,
+  "validation_flags_used_for_training": false
+}

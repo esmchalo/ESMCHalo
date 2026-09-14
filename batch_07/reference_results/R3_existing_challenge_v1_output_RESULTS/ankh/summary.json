@@ -1,0 +1,31 @@
+{
+  "extractor": "Ankh",
+  "extractor_version": "window_v2",
+  "model_id": "/home/lvfang/ESMC_halophile/model_cache/huggingface/hub/models--ElnaggarLab--ankh-large/snapshots/74b371dbfa3ee0a05d32ae74df0c2e0b82d6b9a6",
+  "revision": "74b371dbfa3ee0a05d32ae74df0c2e0b82d6b9a6",
+  "device": "cuda:0",
+  "requested_dtype": "bfloat16",
+  "effective_dtype": "torch.bfloat16",
+  "expected_dim": 1536,
+  "max_seq_len": 3000,
+  "long_sequence_policy": "window",
+  "window_size": 3000,
+  "window_overlap": 0,
+  "window_aggregation": "length_weighted_mean",
+  "newly_completed": 1675,
+  "skipped": 0,
+  "failed_this_run": 0,
+  "elapsed_seconds": 639.414,
+  "torch_version": "2.7.0+cu126",
+  "input_records": 1675,
+  "completed_records": 1675,
+  "missing_records": 0,
+  "embedding_shape": [
+    1675,
+    1536
+  ],
+  "embedding_dtype": "float32",
+  "all_finite": true,
+  "unique_ids": true,
+  "status": "PASS"
+}

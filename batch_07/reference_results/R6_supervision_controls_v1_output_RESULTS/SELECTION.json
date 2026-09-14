@@ -1,0 +1,49 @@
+{
+  "selected_arm": "H0",
+  "eligible_arms": [],
+  "gates": [
+    {
+      "arm": "B0",
+      "passed": false,
+      "delta": {
+        "ACC": -0.004353174978707353,
+        "MCC": -0.009043565980502377,
+        "Brier": 0.00747691378282541,
+        "log_loss": 0.04050975805092891
+      },
+      "guards": {
+        "raw_AP": false,
+        "raw_AUROC": false,
+        "crossfit_Platt_AP": false,
+        "crossfit_Platt_AUROC": false,
+        "strict25_AP": false,
+        "strict25_AUROC": false,
+        "clean_core_AP": true,
+        "clean_core_AUROC": true
+      },
+      "improving_folds": 0
+    },
+    {
+      "arm": "M0",
+      "passed": false,
+      "delta": {
+        "ACC": -0.004542443456042378,
+        "MCC": -0.009360388943509101,
+        "Brier": 0.003063721776703901,
+        "log_loss": 0.01397520137442504
+      },
+      "guards": {
+        "raw_AP": false,
+        "raw_AUROC": false,
+        "crossfit_Platt_AP": false,
+        "crossfit_Platt_AUROC": false,
+        "strict25_AP": false,
+        "strict25_AUROC": false,
+        "clean_core_AP": true,
+        "clean_core_AUROC": true
+      },
+      "improving_folds": 0
+    }
+  ],
+  "decision": "NO_CANDIDATE_SELECTED"
+}

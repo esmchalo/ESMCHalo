@@ -1,0 +1,75 @@
+{
+  "module": "V2-04",
+  "protocol_status": "LOCKED_BEFORE_EXECUTION",
+  "seed": 20260903,
+  "records_expected": 10567,
+  "folds_expected": [0, 1, 2, 3, 4],
+  "representation": {
+    "model": "ESMC-600M",
+    "pooling": "canonical_mean",
+    "dimension": 1152,
+    "frozen": true
+  },
+  "student": {
+    "type": "two_hidden_layer_mlp",
+    "dimensions": [1152, 256, 64, 1],
+    "activation": "GELU",
+    "dropout": 0.2,
+    "optimizer": "AdamW",
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "batch_size": 256,
+    "maximum_epochs": 80,
+    "early_stopping_patience": 10,
+    "early_stopping_metric": "inner_validation_hard_label_AP",
+    "gradient_clip_norm": 5.0,
+    "preprocessing": "outer-fold-local StandardScaler"
+  },
+  "inner_validation_rule": "For outer fold f, use the first fold in cyclic order f+1..f+4 as inner validation; retrain on complete outer-train for selected epochs.",
+  "candidates": {
+    "K0": {"alpha": 1.0, "beta": 0.0, "gamma": 0.0, "temperature": 1.0},
+    "K1": {"alpha": 0.7, "beta": 0.3, "gamma": 0.0, "temperature": 2.0},
+    "K2": {"alpha": 0.5, "beta": 0.5, "gamma": 0.0, "temperature": 2.0},
+    "K3": {"alpha": 0.5, "beta": 0.5, "gamma": 0.0, "temperature": 4.0},
+    "K4": {"alpha": 0.5, "beta": 0.4, "gamma": 0.1, "temperature": 2.0},
+    "K5": {"alpha": 0.5, "beta": 0.4, "gamma": 0.1, "temperature": 4.0}
+  },
+  "loss": {
+    "formula": "alpha*hard_BCE + beta*T^2*soft_BCE(sigmoid(teacher_logit/T), student_logit/T) + gamma*pairwise_teacher_rank_logistic",
+    "teacher_source": "DeepSaltPro leakage-controlled group-OOF uncalibrated score only",
+    "rank_pair_cap_per_minibatch": 2048
+  },
+  "selection_priority": ["AP", "MCC", "AUROC"],
+  "gain_gate_vs_K0": {
+    "delta_ap_or_delta_auroc": 0.005,
+    "delta_mcc": 0.02,
+    "logic": "delta_AP>=0.005 OR delta_AUROC>=0.005 OR delta_MCC>=0.02"
+  },
+  "fold_stability_gate": {
+    "metric_set": ["AP", "MCC", "AUROC"],
+    "maximum_candidate_sd": "max(K0_SD + 0.005, 1.25*K0_SD) for every metric"
+  },
+  "strict25_gate": {
+    "required_for_final_pass": true,
+    "maximum_ap_drop": 0.005,
+    "maximum_auroc_drop": 0.005,
+    "maximum_mcc_drop": 0.02,
+    "accepted_membership_columns": ["strict25", "is_strict25", "strict25_member", "strict25_subset", "strict25_eval", "strict25_diagnostic"]
+  },
+  "bootstrap": {
+    "replicates": 5000,
+    "unit": "strict40_homology_group",
+    "comparison": "selected_candidate_minus_K0"
+  },
+  "prohibited": [
+    "blind labels or blind evaluation",
+    "test200 labels or evaluation",
+    "external challenge labels or evaluation",
+    "LoRA or any ESMC parameter update",
+    "hard-negative reweighting",
+    "calibration",
+    "threshold optimization",
+    "post-hoc candidate additions"
+  ],
+  "fixed_classification_boundary": 0.5
+}
