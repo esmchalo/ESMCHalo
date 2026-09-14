@@ -12,3 +12,6 @@ cache/
 *.fasta
 *.fa
 *.faa
+
+# Versioned acceptance fixtures
+!tests/*.fasta
