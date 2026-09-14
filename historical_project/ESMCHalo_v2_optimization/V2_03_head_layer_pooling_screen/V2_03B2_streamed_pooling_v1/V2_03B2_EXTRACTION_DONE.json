@@ -1,0 +1,41 @@
+{
+  "module": "V2-03B2-extraction",
+  "status": "PASS_STREAMED_FEATURES_COMPLETE",
+  "records": 10567,
+  "width": 1152,
+  "window": 2046,
+  "stride": 1790,
+  "nominal_overlap": 256,
+  "long_sequence_contract": "endpoint-aligned; overlap residue states averaged before global pooling",
+  "statistics": [
+    "mean",
+    "max",
+    "std_ddof0"
+  ],
+  "smoke_binding": {
+    "status": "PASS",
+    "records": 7,
+    "short_records": 5,
+    "long_records": 2,
+    "maximum_mean_abs_difference": 4.1234394151009233e-05,
+    "minimum_cosine": 0.9999968409538269,
+    "mae_limit": 0.005,
+    "cosine_floor": 0.995
+  },
+  "full_mean_binding": {
+    "status": "PASS",
+    "shape": [
+      10567,
+      1152
+    ],
+    "mean_abs_difference": 2.437377869828598e-05,
+    "max_abs_difference": 0.007322490215301514,
+    "median_cosine": 0.9999982374907677,
+    "minimum_cosine": 0.999990006841629,
+    "mean_abs_limit": 0.001,
+    "median_cosine_floor": 0.9999,
+    "minimum_cosine_floor": 0.995
+  },
+  "blind_labels_read": false,
+  "finished_at_utc": "2026-09-03T07:01:04.081832+00:00"
+}

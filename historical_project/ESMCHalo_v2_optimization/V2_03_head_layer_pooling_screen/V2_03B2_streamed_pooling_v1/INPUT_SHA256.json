@@ -1,0 +1,50 @@
+{
+  "development": {
+    "path": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_00_protocol_and_data_lock/v2_development.tsv",
+    "sha256": "42c82870f161a4b27ed93612a20334801bceb85a6ad9994120a08b2546000522"
+  },
+  "blind_ids": {
+    "path": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_00_protocol_and_data_lock/v2_blind_ids.tsv",
+    "sha256": "74b235b80684ec291fc925ec4a1615a161b9934f545c7abd7e64a787fa8c4c85"
+  },
+  "folds": {
+    "path": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_01_baseline_and_teacher_oof/group_folds_v2.tsv",
+    "sha256": "68119ccd8a9c03244c2b23356b52bc9c20a4c1ba6319970917a8bca53863205d"
+  },
+  "registry": {
+    "path": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_02_label_audit/V2_02B_audit_lock_v1/V2_02_LOCKED_TRAINING_REGISTRY.tsv",
+    "sha256": "d02f0cb31d7b599d1de4780f61d3bda6b26390671dc42053ef1ba1c8dc2b0ee5"
+  },
+  "audit_done": {
+    "path": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_02_label_audit/V2_02B_audit_lock_v1/V2_02B_DONE.json",
+    "sha256": "3e8faaa8ad85175b6ab562be15e480cd6ff1666bd5c67856b14ee67803e6a39c"
+  },
+  "canonical_rows": {
+    "path": "/home/lvfang/ESMC_halophile/data/embeddings/esmc600m_canonical_b1/rows.tsv",
+    "sha256": "48e032b4ef7cfcaf2a8b03037111fb0f1d75aec1c9db51a832cca9f54502d39f"
+  },
+  "canonical_matrix": {
+    "path": "/home/lvfang/ESMC_halophile/data/embeddings/esmc600m_canonical_b1/embeddings.npy",
+    "sha256": "04dd4e5a0e0d6738de5ad97a962b9fbd1bc514e2ce04333db3f5875e2ffc837e"
+  },
+  "v203a_rbf_anchor": {
+    "path": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_03_head_layer_pooling_screen/V2_03A_head_screen_v1/oof_predictions_rbf_svm.tsv",
+    "sha256": "3e6f41886bfd1c4d9623b8344d452a537e475a116b59c0a64830eeff4bc2b587"
+  },
+  "v203a_catboost_anchor": {
+    "path": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_03_head_layer_pooling_screen/V2_03A_head_screen_v1/oof_predictions_catboost.tsv",
+    "sha256": "cac9d49916f9a4ee6091d3eab5d420ba8fa96d4cd0b6362741b1f871d4774b41"
+  },
+  "source_manifest": {
+    "path": "/home/lvfang/ESMC_halophile/data/model_ready/original_split/hpclas_clean_manifest.tsv",
+    "sha256": "920c78223cd29dbd442946f66652773bab7e275419f05670c1a83ea4edb0a1e8"
+  },
+  "v203b1_done": {
+    "path": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_03_head_layer_pooling_screen/V2_03B1_layer_screen_v1/V2_03B1_DONE.json",
+    "sha256": "af9bc2055c25fe4d58b5fe3262f713af47864e42e8f486d60d8f1f6c60753849"
+  },
+  "v203b1_selection": {
+    "path": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_03_head_layer_pooling_screen/V2_03B1_layer_screen_v1/selected_layer_representations.json",
+    "sha256": "6ac6d41749173d708ee1a7be338385820319eb1097093f4253e2826cefbd1bcd"
+  }
+}

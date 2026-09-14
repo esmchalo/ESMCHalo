@@ -1,0 +1,21 @@
+{
+  "module": "V2-03B2-canonical-backend-binding-smoke",
+  "status": "PASS_CANONICAL_BACKEND_SMOKE",
+  "finished_at_utc": "2026-09-03T06:34:47.034954+00:00",
+  "locked_base_sha256": "7dba3b7c6386ad85ee9184aed781b8208b4a3b6ad4d2293a839a7986bc9a14fa",
+  "model_path": "/home/lvfang/ESMC_halophile/external/models/ESMC-600M",
+  "smoke_binding": {
+    "status": "PASS",
+    "records": 7,
+    "short_records": 5,
+    "long_records": 2,
+    "maximum_mean_abs_difference": 4.1234394151009233e-05,
+    "minimum_cosine": 0.9999968409538269,
+    "mae_limit": 0.005,
+    "cosine_floor": 0.995
+  },
+  "feature_extraction_started": false,
+  "labels_changed": 0,
+  "blind_labels_read": false,
+  "next_gate": "Run full unchanged V2-03B2 through this canonical backend launcher"
+}

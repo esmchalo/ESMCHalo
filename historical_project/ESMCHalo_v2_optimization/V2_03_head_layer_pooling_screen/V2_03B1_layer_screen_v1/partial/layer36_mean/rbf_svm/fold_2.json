@@ -1,0 +1,3 @@
+{
+  "definition": "fold-local StandardScaler + RBF-SVC(C=2,gamma=scale)"
+}

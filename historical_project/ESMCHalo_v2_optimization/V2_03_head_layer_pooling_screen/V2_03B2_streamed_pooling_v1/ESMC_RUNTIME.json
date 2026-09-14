@@ -1,0 +1,96 @@
+{
+  "backend": "transformers.AutoModelForMaskedLM canonical local directory",
+  "model_path": "/home/lvfang/ESMC_halophile/external/models/ESMC-600M",
+  "model_class": "ESMCForMaskedLM",
+  "tokenizer_class": "ESMCTokenizer",
+  "embedding_dimension": 1152,
+  "dtype_requested": "torch.bfloat16",
+  "device": "cuda:0",
+  "torch_version": "2.13.0+cu130",
+  "transformers_version": "4.57.6",
+  "parameter_count": 575036992,
+  "local_files_only": true,
+  "directory_inventory": [
+    {
+      "name": ".cache",
+      "type": "directory",
+      "symlink_target": null,
+      "resolved_path": "/home/lvfang/ESMC_halophile/external/models/ESMC-600M/.cache",
+      "resolved_exists": true,
+      "size_bytes": null,
+      "sha256_if_small": null
+    },
+    {
+      "name": ".gitattributes",
+      "type": "file",
+      "symlink_target": null,
+      "resolved_path": "/home/lvfang/ESMC_halophile/external/models/ESMC-600M/.gitattributes",
+      "resolved_exists": true,
+      "size_bytes": 1579,
+      "sha256_if_small": "68a3053ed4d877dcfbc0b7a6f76f63e9c68a186f49b646d2177fb14d4de46064"
+    },
+    {
+      "name": "README.md",
+      "type": "file",
+      "symlink_target": null,
+      "resolved_path": "/home/lvfang/ESMC_halophile/external/models/ESMC-600M/README.md",
+      "resolved_exists": true,
+      "size_bytes": 14887,
+      "sha256_if_small": "59867d6e974fc0b2f6841615901e85c9a8144098534b03553828212ac611c7a4"
+    },
+    {
+      "name": "config.json",
+      "type": "file",
+      "symlink_target": null,
+      "resolved_path": "/home/lvfang/ESMC_halophile/external/models/ESMC-600M/config.json",
+      "resolved_exists": true,
+      "size_bytes": 341,
+      "sha256_if_small": "d7472be972ebd9f6d3afa659ca35a8080c8e4462813dd9801827329659ee9c43"
+    },
+    {
+      "name": "images",
+      "type": "directory",
+      "symlink_target": null,
+      "resolved_path": "/home/lvfang/ESMC_halophile/external/models/ESMC-600M/images",
+      "resolved_exists": true,
+      "size_bytes": null,
+      "sha256_if_small": null
+    },
+    {
+      "name": "model.safetensors",
+      "type": "file",
+      "symlink_target": null,
+      "resolved_path": "/home/lvfang/ESMC_halophile/external/models/ESMC-600M/model.safetensors",
+      "resolved_exists": true,
+      "size_bytes": 2300205696,
+      "sha256_if_small": null
+    },
+    {
+      "name": "special_tokens_map.json",
+      "type": "file",
+      "symlink_target": null,
+      "resolved_path": "/home/lvfang/ESMC_halophile/external/models/ESMC-600M/special_tokens_map.json",
+      "resolved_exists": true,
+      "size_bytes": 171,
+      "sha256_if_small": "0b7245ec86c8c3aeaf61523ba70dfa79be137e6283f127bd651adc30b4f15c74"
+    },
+    {
+      "name": "tokenizer.json",
+      "type": "file",
+      "symlink_target": null,
+      "resolved_path": "/home/lvfang/ESMC_halophile/external/models/ESMC-600M/tokenizer.json",
+      "resolved_exists": true,
+      "size_bytes": 2879,
+      "sha256_if_small": "8d3447b278176e65fb3ef0224472927bf5fee3be46ea2bd77fad0111423cee1f"
+    },
+    {
+      "name": "tokenizer_config.json",
+      "type": "file",
+      "symlink_target": null,
+      "resolved_path": "/home/lvfang/ESMC_halophile/external/models/ESMC-600M/tokenizer_config.json",
+      "resolved_exists": true,
+      "size_bytes": 1392,
+      "sha256_if_small": "e8d8e40c9f92b334f0272e80bb65ed4043cb9836523cbae899e9859e8cbb8833"
+    }
+  ]
+}

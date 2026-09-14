@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "primary_head": "rbf_svm",
+  "secondary_head": "catboost",
+  "selected_representations": [
+    "layer36_mean",
+    "canonical_b1"
+  ],
+  "decision": "KEEP_CANONICAL_PROCEED_TO_STREAMED_POOLING",
+  "blind_labels_read": false,
+  "next_gate": "V2-03B2 streamed max/std pooling extraction"
+}

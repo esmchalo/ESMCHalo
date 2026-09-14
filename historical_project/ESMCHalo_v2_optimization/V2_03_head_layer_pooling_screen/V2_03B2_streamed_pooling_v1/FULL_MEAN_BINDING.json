@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "shape": [
+    10567,
+    1152
+  ],
+  "mean_abs_difference": 2.437377869828598e-05,
+  "max_abs_difference": 0.007322490215301514,
+  "median_cosine": 0.9999982374907677,
+  "minimum_cosine": 0.999990006841629,
+  "mean_abs_limit": 0.001,
+  "median_cosine_floor": 0.9999,
+  "minimum_cosine_floor": 0.995
+}

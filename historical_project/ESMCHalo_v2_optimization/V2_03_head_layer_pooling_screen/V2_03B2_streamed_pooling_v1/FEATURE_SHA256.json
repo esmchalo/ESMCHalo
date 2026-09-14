@@ -1,0 +1,26 @@
+{
+  "mean": {
+    "path": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_03_head_layer_pooling_screen/V2_03B2_streamed_pooling_v1/feature_cache/layer36_mean.npy",
+    "sha256": "bdae2a0890fd96cbadb6b69d7e76e059e94a0202758daae17408a19bb699fb06"
+  },
+  "max": {
+    "path": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_03_head_layer_pooling_screen/V2_03B2_streamed_pooling_v1/feature_cache/layer36_max.npy",
+    "sha256": "a313df6e1d86dd37f20930fca57f3ac8f7a35623f71cd7223b0f378c1565cb47"
+  },
+  "std": {
+    "path": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_03_head_layer_pooling_screen/V2_03B2_streamed_pooling_v1/feature_cache/layer36_std.npy",
+    "sha256": "8694be220f4da4e78ff959819fda652faf7c226bc9ac17dacd0f105e30013b39"
+  },
+  "completed": {
+    "path": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_03_head_layer_pooling_screen/V2_03B2_streamed_pooling_v1/feature_cache/completed.npy",
+    "sha256": "e22ef28d4298b72294ae657945b71ef5eaf39ecdb6a2b05f91c4dd113a43b797"
+  },
+  "window_counts": {
+    "path": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_03_head_layer_pooling_screen/V2_03B2_streamed_pooling_v1/feature_cache/window_counts.npy",
+    "sha256": "b8fbf798a3b400cbca6672a6f1fcc2ce9f31cd434a40142b6f5203e442f5df3e"
+  },
+  "rows": {
+    "path": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_03_head_layer_pooling_screen/V2_03B2_streamed_pooling_v1/feature_cache/rows.tsv",
+    "sha256": "3f1e0100a2caf2c43ebd16291cc752a3017623d6b9f38216ae615cda7cb8a136"
+  }
+}

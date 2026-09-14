@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "records": 7,
+  "short_records": 5,
+  "long_records": 2,
+  "maximum_mean_abs_difference": 4.1234394151009233e-05,
+  "minimum_cosine": 0.9999968409538269,
+  "mae_limit": 0.005,
+  "cosine_floor": 0.995
+}

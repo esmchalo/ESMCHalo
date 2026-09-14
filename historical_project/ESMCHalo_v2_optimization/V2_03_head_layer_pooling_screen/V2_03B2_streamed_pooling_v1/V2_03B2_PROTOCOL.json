@@ -1,0 +1,57 @@
+{
+  "module": "V2-03B2",
+  "status": "LOCKED",
+  "records": 10567,
+  "folds": 5,
+  "model": "esmc_600m",
+  "layer": 36,
+  "batch_size": 1,
+  "window": 2046,
+  "stride": 1790,
+  "nominal_overlap": 256,
+  "long_sequence_contract": "endpoint-aligned; shared residue states averaged before global pooling",
+  "statistics": [
+    "mean",
+    "max",
+    "std_ddof0"
+  ],
+  "representations": [
+    "canonical_mean",
+    "streamed_layer36_mean",
+    "layer36_max",
+    "layer36_mean_max",
+    "layer36_mean_std",
+    "layer36_mean_max_std"
+  ],
+  "heads": [
+    "rbf_svm",
+    "catboost"
+  ],
+  "primary_head": "rbf_svm",
+  "secondary_head": "catboost",
+  "selection_priority": [
+    "AP",
+    "MCC",
+    "AUROC",
+    "lower dimension"
+  ],
+  "ap_tie_band": 0.002,
+  "gain_gate": {
+    "delta_ap": 0.005,
+    "delta_auroc": 0.005,
+    "delta_mcc": 0.02,
+    "minimum_nonnegative_ap_folds": 4,
+    "catboost_max_allowed_ap_drop": 0.005
+  },
+  "labels_changed": 0,
+  "sample_weights": "uniform 1.0",
+  "calibration": false,
+  "threshold_optimization": false,
+  "blind_test200_external_labels_read": false,
+  "prohibited": [
+    "knowledge distillation",
+    "LoRA",
+    "blind evaluation",
+    "attention pooling"
+  ]
+}

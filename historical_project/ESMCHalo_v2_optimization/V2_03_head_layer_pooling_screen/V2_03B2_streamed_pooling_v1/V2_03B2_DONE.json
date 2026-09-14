@@ -1,0 +1,47 @@
+{
+  "module": "V2-03B2",
+  "status": "PASS_POOLING_SCREEN_COMPLETE",
+  "started_at_utc": "2026-09-03T06:53:26.948667+00:00",
+  "finished_at_utc": "2026-09-03T07:25:53.917077+00:00",
+  "elapsed_seconds": 1946.968,
+  "records": 10567,
+  "representations": [
+    "canonical_mean",
+    "streamed_layer36_mean",
+    "layer36_max",
+    "layer36_mean_max",
+    "layer36_mean_std",
+    "layer36_mean_max_std"
+  ],
+  "heads": [
+    "rbf_svm",
+    "catboost"
+  ],
+  "selection": {
+    "status": "PASS",
+    "primary_head": "rbf_svm",
+    "secondary_head": "catboost",
+    "selected_representations": [
+      "canonical_mean",
+      "streamed_layer36_mean"
+    ],
+    "decision": "KEEP_CANONICAL_POOLING",
+    "blind_labels_read": false,
+    "next_gate": "V2-04 knowledge distillation only after review"
+  },
+  "labels_changed": 0,
+  "weights_applied": false,
+  "calibration_applied": false,
+  "threshold_optimized": false,
+  "knowledge_distillation": false,
+  "lora": false,
+  "blind_labels_read": false,
+  "next_gate": "V2-04 only after V2-03B2 review",
+  "versions": {
+    "python": "3.12.13",
+    "numpy": "2.5.1",
+    "pandas": "3.0.3",
+    "scipy": "1.18.0",
+    "sklearn": "1.9.0"
+  }
+}
