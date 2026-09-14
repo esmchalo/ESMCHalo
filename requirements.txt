@@ -1,7 +1,4 @@
-# ESMCHalo-v2 verified software environment (2026-09-05)
-# Server runtime: Python 3.12.13; PyTorch runtime build: 2.13.0+cu130.
-# Install the PyTorch build appropriate for the target CPU/CUDA platform.
-
+# Observed server inference versions; clean installation and native ESMC integration not verified.
 numpy==2.5.1
 pandas==3.0.3
 scipy==1.18.0

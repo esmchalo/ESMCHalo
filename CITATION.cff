@@ -1,9 +1,8 @@
 cff-version: 1.2.0
 message: "If you use ESMCHalo in your work, please cite this software release and the associated article."
-title: "ESMCHalo: homology-aware halophile-associated protein prediction with leakage-free knowledge distillation"
+title: "ESMCHalo: halophile-associated protein prediction with frozen protein representations"
 type: software
-version: 2.0.1
-date-released: 2026-09-05
+version: 2.0.2-rc1
 repository-code: "https://github.com/esmchalo/ESMCHalo"
 license: MIT
 authors:
@@ -34,6 +33,6 @@ keywords:
 abstract: >-
   ESMCHalo is a frozen protein-sequence predictor that combines ESMC-600M
   layer-36 canonical mean representations with five compact student heads
-  trained using leakage-free out-of-fold knowledge distillation. The release
+  trained using out-of-fold teacher targets with documented cross-fold limitations. The release
   provides frozen inference code, model checkpoints, calibration, a fixed
   threshold, verification utilities and locked evaluation summaries.
