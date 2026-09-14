@@ -1,0 +1,18 @@
+{
+  "status": "PASS_KD_GAIN",
+  "decision": "KEEP_KD",
+  "selected_candidate": "K2",
+  "eligible_kd_candidates": [
+    "K2"
+  ],
+  "selection_priority": [
+    "AP",
+    "MCC",
+    "AUROC"
+  ],
+  "canonical_mean_only": true,
+  "deepSaltPro_required_at_inference": false,
+  "blind_labels_read": false,
+  "lora": false,
+  "next_gate": "V2-05 only after V2-04 review"
+}

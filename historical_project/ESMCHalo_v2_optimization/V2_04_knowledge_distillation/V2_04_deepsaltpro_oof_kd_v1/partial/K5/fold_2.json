@@ -1,0 +1,173 @@
+{
+  "status": "PASS",
+  "candidate": "K5",
+  "outer_fold": 2,
+  "inner_fold": 3,
+  "outer_train_records": 8454,
+  "outer_validation_records": 2113,
+  "inner_selection_train_records": 6341,
+  "inner_validation_records": 2113,
+  "outer_shared_groups": 0,
+  "inner_shared_groups": 0,
+  "selected_epochs": 21,
+  "best_inner_ap": 0.9909788550291208,
+  "epoch_history": [
+    {
+      "epoch": 1,
+      "mean_training_loss": 4.442099018096924,
+      "inner_ap": 0.9861316403979248
+    },
+    {
+      "epoch": 2,
+      "mean_training_loss": 4.340836391448975,
+      "inner_ap": 0.9888003988866528
+    },
+    {
+      "epoch": 3,
+      "mean_training_loss": 4.327750587463379,
+      "inner_ap": 0.9892905409179272
+    },
+    {
+      "epoch": 4,
+      "mean_training_loss": 4.320527038574219,
+      "inner_ap": 0.9901448712843466
+    },
+    {
+      "epoch": 5,
+      "mean_training_loss": 4.315836677551269,
+      "inner_ap": 0.9906300145995376
+    },
+    {
+      "epoch": 6,
+      "mean_training_loss": 4.309194660186767,
+      "inner_ap": 0.9902412882740103
+    },
+    {
+      "epoch": 7,
+      "mean_training_loss": 4.306032066345215,
+      "inner_ap": 0.9907998387785439
+    },
+    {
+      "epoch": 8,
+      "mean_training_loss": 4.303776817321777,
+      "inner_ap": 0.9905626079697295
+    },
+    {
+      "epoch": 9,
+      "mean_training_loss": 4.302042255401611,
+      "inner_ap": 0.9905510306052989
+    },
+    {
+      "epoch": 10,
+      "mean_training_loss": 4.298248920440674,
+      "inner_ap": 0.9906420288985001
+    },
+    {
+      "epoch": 11,
+      "mean_training_loss": 4.296172218322754,
+      "inner_ap": 0.9905450407500056
+    },
+    {
+      "epoch": 12,
+      "mean_training_loss": 4.29699161529541,
+      "inner_ap": 0.9907904674997788
+    },
+    {
+      "epoch": 13,
+      "mean_training_loss": 4.2943500137329105,
+      "inner_ap": 0.9908978725907878
+    },
+    {
+      "epoch": 14,
+      "mean_training_loss": 4.2922878837585445,
+      "inner_ap": 0.990445114843836
+    },
+    {
+      "epoch": 15,
+      "mean_training_loss": 4.291683044433594,
+      "inner_ap": 0.9908690736259594
+    },
+    {
+      "epoch": 16,
+      "mean_training_loss": 4.291770362854004,
+      "inner_ap": 0.9906089748598055
+    },
+    {
+      "epoch": 17,
+      "mean_training_loss": 4.289870929718018,
+      "inner_ap": 0.9904002291439873
+    },
+    {
+      "epoch": 18,
+      "mean_training_loss": 4.286626319885254,
+      "inner_ap": 0.9903448829914651
+    },
+    {
+      "epoch": 19,
+      "mean_training_loss": 4.286445808410645,
+      "inner_ap": 0.990806223125876
+    },
+    {
+      "epoch": 20,
+      "mean_training_loss": 4.286991786956787,
+      "inner_ap": 0.9902039849333237
+    },
+    {
+      "epoch": 21,
+      "mean_training_loss": 4.285520153045654,
+      "inner_ap": 0.9909788550291208
+    },
+    {
+      "epoch": 22,
+      "mean_training_loss": 4.284771556854248,
+      "inner_ap": 0.9899523485131578
+    },
+    {
+      "epoch": 23,
+      "mean_training_loss": 4.284043045043945,
+      "inner_ap": 0.9909055071655946
+    },
+    {
+      "epoch": 24,
+      "mean_training_loss": 4.284570503234863,
+      "inner_ap": 0.9899780223410696
+    },
+    {
+      "epoch": 25,
+      "mean_training_loss": 4.286809272766114,
+      "inner_ap": 0.9908919200963393
+    },
+    {
+      "epoch": 26,
+      "mean_training_loss": 4.284418907165527,
+      "inner_ap": 0.9909426790645697
+    },
+    {
+      "epoch": 27,
+      "mean_training_loss": 4.282750835418701,
+      "inner_ap": 0.9904402587597436
+    },
+    {
+      "epoch": 28,
+      "mean_training_loss": 4.28265380859375,
+      "inner_ap": 0.9903789323535885
+    },
+    {
+      "epoch": 29,
+      "mean_training_loss": 4.2827397727966305,
+      "inner_ap": 0.9906372949486151
+    },
+    {
+      "epoch": 30,
+      "mean_training_loss": 4.282914009094238,
+      "inner_ap": 0.9909158628975023
+    },
+    {
+      "epoch": 31,
+      "mean_training_loss": 4.28226676940918,
+      "inner_ap": 0.9896482947745145
+    }
+  ],
+  "result_sha256": "f331f91c2aa6526ab9aed8fd0d2e33261c53b74a2a72eaf7c7dadc948e1aceb6",
+  "checkpoint_sha256": "927f6d59bcd456a1296ee8f4dffc2e9a78d5fafe0270dc40275bac05912b23cc"
+}

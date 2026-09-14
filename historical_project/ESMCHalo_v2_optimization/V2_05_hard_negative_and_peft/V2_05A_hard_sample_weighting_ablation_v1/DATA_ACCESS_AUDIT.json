@@ -1,0 +1,69 @@
+{
+  "status": "PASS_ALLOWED_INPUTS_ONLY",
+  "accessed_inputs": [
+    {
+      "role": "protocol",
+      "path": "/home/lvfang/ESMC_halophile/v2_05a_execution_package/ESMCHalo_v2_V2_05A_hard_sample_weighting_ablation_v1/V2_05A_PROTOCOL.json",
+      "opened_at_utc": "2026-09-03T08:25:36.855256+00:00"
+    },
+    {
+      "role": "folds",
+      "path": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_01_baseline_and_teacher_oof/group_folds_v2.tsv",
+      "opened_at_utc": "2026-09-03T08:25:36.931020+00:00"
+    },
+    {
+      "role": "registry",
+      "path": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_02_label_audit/V2_02B_audit_lock_v1/V2_02_LOCKED_TRAINING_REGISTRY.tsv",
+      "opened_at_utc": "2026-09-03T08:25:36.933400+00:00"
+    },
+    {
+      "role": "canonical_rows",
+      "path": "/home/lvfang/ESMC_halophile/data/embeddings/esmc600m_canonical_b1/rows.tsv",
+      "opened_at_utc": "2026-09-03T08:25:36.935017+00:00"
+    },
+    {
+      "role": "canonical_matrix",
+      "path": "/home/lvfang/ESMC_halophile/data/embeddings/esmc600m_canonical_b1/embeddings.npy",
+      "opened_at_utc": "2026-09-03T08:25:36.935971+00:00"
+    },
+    {
+      "role": "teacher_oof",
+      "path": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_01_baseline_and_teacher_oof/deepsaltpro_nested_oof_full_v1/deepsaltpro_oof_predictions.tsv",
+      "opened_at_utc": "2026-09-03T08:25:36.994193+00:00"
+    },
+    {
+      "role": "v204_done",
+      "path": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_04_knowledge_distillation/V2_04_deepsaltpro_oof_kd_v1/V2_04_DONE.json",
+      "opened_at_utc": "2026-09-03T08:25:36.995370+00:00"
+    },
+    {
+      "role": "v204_selection",
+      "path": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_04_knowledge_distillation/V2_04_deepsaltpro_oof_kd_v1/selected_kd_candidate.json",
+      "opened_at_utc": "2026-09-03T08:25:36.995430+00:00"
+    },
+    {
+      "role": "v204_oof",
+      "path": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_04_knowledge_distillation/V2_04_deepsaltpro_oof_kd_v1/all_candidate_oof_predictions.tsv",
+      "opened_at_utc": "2026-09-03T08:25:36.995489+00:00"
+    },
+    {
+      "role": "v204_binding",
+      "path": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_04_knowledge_distillation/V2_04_deepsaltpro_oof_kd_v1/V2_04_BINDING_AUDIT.json",
+      "opened_at_utc": "2026-09-03T08:25:37.004028+00:00"
+    }
+  ],
+  "forbidden_tokens": [
+    "blind",
+    "test200",
+    "external",
+    "challenge"
+  ],
+  "blind_labels_read": false,
+  "test200_labels_read": false,
+  "external_challenge_labels_read": false,
+  "candidate_negative_pool_used": false,
+  "esmc_loaded_or_updated": false,
+  "lora_or_peft": false,
+  "calibration": false,
+  "threshold_optimized": false
+}

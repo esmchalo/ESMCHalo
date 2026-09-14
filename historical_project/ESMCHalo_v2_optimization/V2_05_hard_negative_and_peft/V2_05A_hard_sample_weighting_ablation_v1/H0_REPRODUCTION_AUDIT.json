@@ -1,0 +1,15 @@
+{
+  "status": "PASS_H0_REPRODUCTION",
+  "passed": true,
+  "identity_columns_exact": true,
+  "records": 10567,
+  "probability_max_abs_difference": 1.1102230246251565e-16,
+  "metric_abs_differences": {
+    "ap": 0.0,
+    "mcc": 0.0,
+    "auroc": 0.0,
+    "accuracy": 0.0
+  },
+  "probability_tolerance": 1e-05,
+  "metric_tolerance": 1e-06
+}

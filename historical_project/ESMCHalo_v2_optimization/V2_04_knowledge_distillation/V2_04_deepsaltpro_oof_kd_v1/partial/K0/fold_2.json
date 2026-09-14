@@ -1,0 +1,88 @@
+{
+  "status": "PASS",
+  "candidate": "K0",
+  "outer_fold": 2,
+  "inner_fold": 3,
+  "outer_train_records": 8454,
+  "outer_validation_records": 2113,
+  "inner_selection_train_records": 6341,
+  "inner_validation_records": 2113,
+  "outer_shared_groups": 0,
+  "inner_shared_groups": 0,
+  "selected_epochs": 4,
+  "best_inner_ap": 0.9896738822377945,
+  "epoch_history": [
+    {
+      "epoch": 1,
+      "mean_training_loss": 0.3033930897712708,
+      "inner_ap": 0.9862609938652697
+    },
+    {
+      "epoch": 2,
+      "mean_training_loss": 0.17847742825746538,
+      "inner_ap": 0.9892833365004978
+    },
+    {
+      "epoch": 3,
+      "mean_training_loss": 0.150737007856369,
+      "inner_ap": 0.9886864891749516
+    },
+    {
+      "epoch": 4,
+      "mean_training_loss": 0.12904490172863006,
+      "inner_ap": 0.9896738822377945
+    },
+    {
+      "epoch": 5,
+      "mean_training_loss": 0.10623121708631515,
+      "inner_ap": 0.9893936104263302
+    },
+    {
+      "epoch": 6,
+      "mean_training_loss": 0.08771642670035362,
+      "inner_ap": 0.9892376969177923
+    },
+    {
+      "epoch": 7,
+      "mean_training_loss": 0.07609900206327438,
+      "inner_ap": 0.9886311930241287
+    },
+    {
+      "epoch": 8,
+      "mean_training_loss": 0.06273694172501564,
+      "inner_ap": 0.9887537132360749
+    },
+    {
+      "epoch": 9,
+      "mean_training_loss": 0.04985572025179863,
+      "inner_ap": 0.988341268955061
+    },
+    {
+      "epoch": 10,
+      "mean_training_loss": 0.042010767608881,
+      "inner_ap": 0.9888301751180674
+    },
+    {
+      "epoch": 11,
+      "mean_training_loss": 0.03857468612492085,
+      "inner_ap": 0.9888958885969281
+    },
+    {
+      "epoch": 12,
+      "mean_training_loss": 0.027547695301473142,
+      "inner_ap": 0.988828499141142
+    },
+    {
+      "epoch": 13,
+      "mean_training_loss": 0.019195904079824685,
+      "inner_ap": 0.988280671066943
+    },
+    {
+      "epoch": 14,
+      "mean_training_loss": 0.0218164692632854,
+      "inner_ap": 0.9885404427789903
+    }
+  ],
+  "result_sha256": "b009aad8825daf4cee1377aceedb9005dc69f0553eacd1dcf84f415a5e756d5d",
+  "checkpoint_sha256": "f492805e0182ec8503fc930a17481dccd226ac5cc223fe551fc77520a82c5024"
+}

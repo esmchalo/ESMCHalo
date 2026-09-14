@@ -1,0 +1,93 @@
+{
+  "status": "PASS",
+  "candidate": "K0",
+  "outer_fold": 0,
+  "inner_fold": 1,
+  "outer_train_records": 8453,
+  "outer_validation_records": 2114,
+  "inner_selection_train_records": 6339,
+  "inner_validation_records": 2114,
+  "outer_shared_groups": 0,
+  "inner_shared_groups": 0,
+  "selected_epochs": 5,
+  "best_inner_ap": 0.9871490578489128,
+  "epoch_history": [
+    {
+      "epoch": 1,
+      "mean_training_loss": 0.29310057997703554,
+      "inner_ap": 0.9830010475878593
+    },
+    {
+      "epoch": 2,
+      "mean_training_loss": 0.1635678455233574,
+      "inner_ap": 0.9851821477861905
+    },
+    {
+      "epoch": 3,
+      "mean_training_loss": 0.13374754548072815,
+      "inner_ap": 0.9865568121697161
+    },
+    {
+      "epoch": 4,
+      "mean_training_loss": 0.11730193734169006,
+      "inner_ap": 0.9860751880049401
+    },
+    {
+      "epoch": 5,
+      "mean_training_loss": 0.09751157894730568,
+      "inner_ap": 0.9871490578489128
+    },
+    {
+      "epoch": 6,
+      "mean_training_loss": 0.07732184424996376,
+      "inner_ap": 0.98532323407014
+    },
+    {
+      "epoch": 7,
+      "mean_training_loss": 0.06651422291994095,
+      "inner_ap": 0.9868798355071555
+    },
+    {
+      "epoch": 8,
+      "mean_training_loss": 0.05488311439752579,
+      "inner_ap": 0.9861132971503024
+    },
+    {
+      "epoch": 9,
+      "mean_training_loss": 0.04327682934701443,
+      "inner_ap": 0.9868753862079347
+    },
+    {
+      "epoch": 10,
+      "mean_training_loss": 0.031991399675607685,
+      "inner_ap": 0.9858059327768631
+    },
+    {
+      "epoch": 11,
+      "mean_training_loss": 0.03113106817007065,
+      "inner_ap": 0.9859078925533251
+    },
+    {
+      "epoch": 12,
+      "mean_training_loss": 0.028099449276924135,
+      "inner_ap": 0.9866534416217835
+    },
+    {
+      "epoch": 13,
+      "mean_training_loss": 0.01733577165752649,
+      "inner_ap": 0.9867112066232655
+    },
+    {
+      "epoch": 14,
+      "mean_training_loss": 0.014850120190531016,
+      "inner_ap": 0.9864286751402652
+    },
+    {
+      "epoch": 15,
+      "mean_training_loss": 0.01746521033346653,
+      "inner_ap": 0.9858865232830307
+    }
+  ],
+  "result_sha256": "66c916955551aa7a9e6db0079b82917e7ebb1e5a8d24f773c4b3f797ff89713a",
+  "checkpoint_sha256": "c113053fbf3334399a6521c70f55d50ae336ae10604cfe62990c23f867d1a03e"
+}

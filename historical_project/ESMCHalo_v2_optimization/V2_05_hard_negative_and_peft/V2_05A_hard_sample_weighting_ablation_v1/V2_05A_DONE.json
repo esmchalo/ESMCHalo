@@ -1,0 +1,31 @@
+{
+  "module": "V2-05A",
+  "status": "PASS_SCREEN_COMPLETE_NO_STABLE_GAIN",
+  "decision": "STOP_HARD_SAMPLE_NO_STABLE_GAIN",
+  "selected_arm": "H0",
+  "started_at_utc": "2026-09-03T08:25:36.854867+00:00",
+  "finished_at_utc": "2026-09-03T08:30:44.798774+00:00",
+  "elapsed_seconds": 307.944,
+  "records": 10567,
+  "arms": [
+    "H0",
+    "H1",
+    "H2",
+    "H3"
+  ],
+  "arm_folds_complete": 20,
+  "strict40_shared_groups": 0,
+  "strict25_records": 10458,
+  "clean_core_records": 7934,
+  "canonical_mean_only": true,
+  "k2_fixed": true,
+  "labels_changed": 0,
+  "calibration_applied": false,
+  "threshold_optimized": false,
+  "candidate_negative_pool_used": false,
+  "lora": false,
+  "blind_labels_read": false,
+  "test200_labels_read": false,
+  "external_challenge_labels_read": false,
+  "next_gate": "V2-06 only after review"
+}

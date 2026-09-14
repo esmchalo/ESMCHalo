@@ -1,0 +1,10 @@
+path	shape	dtype	size_bytes	status
+/home/lvfang/ESMC_halophile/data/embeddings/esmc600m_layers/layer_36.npy	(12663, 1152)	float32	58351232	PASS
+/home/lvfang/ESMC_halophile/data/embeddings/esmc600m_layers/layer_30.npy	(12663, 1152)	float32	58351232	PASS
+/home/lvfang/ESMC_halophile/data/embeddings/esmc600m_layers/layer_24.npy	(12663, 1152)	float32	58351232	PASS
+/home/lvfang/ESMC_halophile/data/embeddings/esmc600m_layers_smoke/layer_36.npy	(20, 1152)	float32	92288	PASS
+/home/lvfang/ESMC_halophile/data/embeddings/esmc600m_layers_smoke/layer_30.npy	(20, 1152)	float32	92288	PASS
+/home/lvfang/ESMC_halophile/data/embeddings/esmc600m_layers_smoke/layer_24.npy	(20, 1152)	float32	92288	PASS
+/home/lvfang/ESMC_halophile/data/embeddings/esmc600m_canonical_b1/embeddings.npy	(12663, 1152)	float32	58351232	PASS
+/home/lvfang/ESMC_halophile/data/embeddings/esmc600m_canonical_b1/completed.npy	(12663,)	bool	12791	PASS
+/home/lvfang/ESMC_halophile/data/embeddings/esmc600m_canonical_b1/window_counts.npy	(12663,)	uint16	25454	PASS

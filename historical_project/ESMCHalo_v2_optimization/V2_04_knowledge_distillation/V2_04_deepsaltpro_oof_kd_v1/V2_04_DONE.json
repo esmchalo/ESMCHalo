@@ -1,0 +1,32 @@
+{
+  "module": "V2-04",
+  "status": "PASS_KD_GAIN",
+  "decision": "KEEP_KD",
+  "selected_candidate": "K2",
+  "started_at_utc": "2026-09-03T07:55:50.621716+00:00",
+  "finished_at_utc": "2026-09-03T08:01:31.392218+00:00",
+  "elapsed_seconds": 340.77,
+  "records": 10567,
+  "candidates": [
+    "K0",
+    "K1",
+    "K2",
+    "K3",
+    "K4",
+    "K5"
+  ],
+  "outer_folds_complete": 5,
+  "strict40_shared_groups": 0,
+  "strict25_records": 10458,
+  "canonical_mean_only": true,
+  "labels_changed": 0,
+  "weights_applied": false,
+  "calibration_applied": false,
+  "threshold_optimized": false,
+  "hard_negative_training": false,
+  "lora": false,
+  "blind_labels_read": false,
+  "test200_labels_read": false,
+  "external_challenge_labels_read": false,
+  "next_gate": "V2-05 only after review"
+}

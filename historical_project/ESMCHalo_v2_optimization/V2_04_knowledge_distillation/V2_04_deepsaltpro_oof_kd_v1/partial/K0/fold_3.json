@@ -1,0 +1,88 @@
+{
+  "status": "PASS",
+  "candidate": "K0",
+  "outer_fold": 3,
+  "inner_fold": 4,
+  "outer_train_records": 8454,
+  "outer_validation_records": 2113,
+  "inner_selection_train_records": 6341,
+  "inner_validation_records": 2113,
+  "outer_shared_groups": 0,
+  "inner_shared_groups": 0,
+  "selected_epochs": 4,
+  "best_inner_ap": 0.9887728511960622,
+  "epoch_history": [
+    {
+      "epoch": 1,
+      "mean_training_loss": 0.31343240082263946,
+      "inner_ap": 0.9848575184380056
+    },
+    {
+      "epoch": 2,
+      "mean_training_loss": 0.1817935299873352,
+      "inner_ap": 0.9867757102437265
+    },
+    {
+      "epoch": 3,
+      "mean_training_loss": 0.14961068391799925,
+      "inner_ap": 0.9879825597545082
+    },
+    {
+      "epoch": 4,
+      "mean_training_loss": 0.1253627622127533,
+      "inner_ap": 0.9887728511960622
+    },
+    {
+      "epoch": 5,
+      "mean_training_loss": 0.10480764299631119,
+      "inner_ap": 0.9879123715842817
+    },
+    {
+      "epoch": 6,
+      "mean_training_loss": 0.09129946604371071,
+      "inner_ap": 0.9880465235036833
+    },
+    {
+      "epoch": 7,
+      "mean_training_loss": 0.07434330582618713,
+      "inner_ap": 0.986939124371299
+    },
+    {
+      "epoch": 8,
+      "mean_training_loss": 0.06506320491433143,
+      "inner_ap": 0.9871247765447377
+    },
+    {
+      "epoch": 9,
+      "mean_training_loss": 0.055364320427179335,
+      "inner_ap": 0.9873005758024181
+    },
+    {
+      "epoch": 10,
+      "mean_training_loss": 0.04703398071229458,
+      "inner_ap": 0.9864528443136783
+    },
+    {
+      "epoch": 11,
+      "mean_training_loss": 0.038713820353150366,
+      "inner_ap": 0.9861100060106287
+    },
+    {
+      "epoch": 12,
+      "mean_training_loss": 0.03413262959569693,
+      "inner_ap": 0.9869675888330676
+    },
+    {
+      "epoch": 13,
+      "mean_training_loss": 0.028113268949091434,
+      "inner_ap": 0.9863499545931638
+    },
+    {
+      "epoch": 14,
+      "mean_training_loss": 0.024534317441284658,
+      "inner_ap": 0.9867903527046029
+    }
+  ],
+  "result_sha256": "571e6df68b987a1fcc50868208c580a48921adf8d1da41ab3e0e7378a4e8ffbe",
+  "checkpoint_sha256": "ae5620be40fa9d0f05b509f895398baf83e4e81fd6274659c58831d7ab6f8a50"
+}

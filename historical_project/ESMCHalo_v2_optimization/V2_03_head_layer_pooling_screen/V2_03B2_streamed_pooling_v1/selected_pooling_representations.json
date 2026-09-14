@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "primary_head": "rbf_svm",
+  "secondary_head": "catboost",
+  "selected_representations": [
+    "canonical_mean",
+    "streamed_layer36_mean"
+  ],
+  "decision": "KEEP_CANONICAL_POOLING",
+  "blind_labels_read": false,
+  "next_gate": "V2-04 knowledge distillation only after review"
+}

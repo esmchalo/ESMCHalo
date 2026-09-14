@@ -1,0 +1,10 @@
+{
+  "python": "3.12.13 | packaged by conda-forge | (main, Mar  5 2026, 16:50:00) [GCC 14.3.0]",
+  "numpy": "2.5.1",
+  "pandas": "3.0.3",
+  "sklearn": "1.9.0",
+  "torch": "2.13.0+cu130",
+  "device": "cuda:0",
+  "cuda_device_name": "NVIDIA GeForce RTX 4090",
+  "threads": 16
+}

@@ -1,0 +1,31 @@
+{
+  "protocol": {
+    "path": "/home/lvfang/ESMC_halophile/v2_04_execution_package_v1_1_fix/ESMCHalo_v2_V2_04_DeepSaltPro_OOF_KD_v1/V2_04_PROTOCOL.json",
+    "sha256": "ff75520fb671c76b8c978a84f2556dd6dcec34dae45b01aa79ad9727ea69cc2f"
+  },
+  "folds": {
+    "path": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_01_baseline_and_teacher_oof/group_folds_v2.tsv",
+    "sha256": "68119ccd8a9c03244c2b23356b52bc9c20a4c1ba6319970917a8bca53863205d",
+    "status": "PASS"
+  },
+  "registry": {
+    "path": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_02_label_audit/V2_02B_audit_lock_v1/V2_02_LOCKED_TRAINING_REGISTRY.tsv",
+    "sha256": "d02f0cb31d7b599d1de4780f61d3bda6b26390671dc42053ef1ba1c8dc2b0ee5",
+    "status": "PASS"
+  },
+  "canonical_rows": {
+    "path": "/home/lvfang/ESMC_halophile/data/embeddings/esmc600m_canonical_b1/rows.tsv",
+    "sha256": "48e032b4ef7cfcaf2a8b03037111fb0f1d75aec1c9db51a832cca9f54502d39f",
+    "status": "PASS"
+  },
+  "canonical_matrix": {
+    "path": "/home/lvfang/ESMC_halophile/data/embeddings/esmc600m_canonical_b1/embeddings.npy",
+    "sha256": "04dd4e5a0e0d6738de5ad97a962b9fbd1bc514e2ce04333db3f5875e2ffc837e",
+    "status": "PASS"
+  },
+  "teacher_oof": {
+    "path": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_01_baseline_and_teacher_oof/deepsaltpro_nested_oof_full_v1/deepsaltpro_oof_predictions.tsv",
+    "sha256": "e3715f16f7f32fb0bd28f48250c5c0bf748f8666762ba52e2a5d853d508915b2",
+    "status": "PASS"
+  }
+}

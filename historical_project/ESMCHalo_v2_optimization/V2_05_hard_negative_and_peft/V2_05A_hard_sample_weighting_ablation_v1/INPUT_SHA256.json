@@ -1,0 +1,51 @@
+{
+  "protocol": {
+    "path": "/home/lvfang/ESMC_halophile/v2_05a_execution_package/ESMCHalo_v2_V2_05A_hard_sample_weighting_ablation_v1/V2_05A_PROTOCOL.json",
+    "sha256": "d2a5315453c51874dc1417d1a9e5f4b2d51b015d280f1d4345ad1a33193af324"
+  },
+  "folds": {
+    "path": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_01_baseline_and_teacher_oof/group_folds_v2.tsv",
+    "sha256": "68119ccd8a9c03244c2b23356b52bc9c20a4c1ba6319970917a8bca53863205d",
+    "status": "PASS"
+  },
+  "registry": {
+    "path": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_02_label_audit/V2_02B_audit_lock_v1/V2_02_LOCKED_TRAINING_REGISTRY.tsv",
+    "sha256": "d02f0cb31d7b599d1de4780f61d3bda6b26390671dc42053ef1ba1c8dc2b0ee5",
+    "status": "PASS"
+  },
+  "canonical_rows": {
+    "path": "/home/lvfang/ESMC_halophile/data/embeddings/esmc600m_canonical_b1/rows.tsv",
+    "sha256": "48e032b4ef7cfcaf2a8b03037111fb0f1d75aec1c9db51a832cca9f54502d39f",
+    "status": "PASS"
+  },
+  "canonical_matrix": {
+    "path": "/home/lvfang/ESMC_halophile/data/embeddings/esmc600m_canonical_b1/embeddings.npy",
+    "sha256": "04dd4e5a0e0d6738de5ad97a962b9fbd1bc514e2ce04333db3f5875e2ffc837e",
+    "status": "PASS"
+  },
+  "teacher_oof": {
+    "path": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_01_baseline_and_teacher_oof/deepsaltpro_nested_oof_full_v1/deepsaltpro_oof_predictions.tsv",
+    "sha256": "e3715f16f7f32fb0bd28f48250c5c0bf748f8666762ba52e2a5d853d508915b2",
+    "status": "PASS"
+  },
+  "v204_done": {
+    "path": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_04_knowledge_distillation/V2_04_deepsaltpro_oof_kd_v1/V2_04_DONE.json",
+    "sha256": "e2403dbda79a4e4ce3b512d214653184cf7bb8b00accd5588b81508ddd565027",
+    "status": "PASS"
+  },
+  "v204_selection": {
+    "path": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_04_knowledge_distillation/V2_04_deepsaltpro_oof_kd_v1/selected_kd_candidate.json",
+    "sha256": "520d372900467f67aa12d96d9c02c1e11be0ad877e67719543627e16a6535c4e",
+    "status": "PASS"
+  },
+  "v204_oof": {
+    "path": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_04_knowledge_distillation/V2_04_deepsaltpro_oof_kd_v1/all_candidate_oof_predictions.tsv",
+    "sha256": "1cc10ccaff97df186f784fdbabe0b8a7f13f8ddbe5693d7505549e1b76152494",
+    "status": "PASS"
+  },
+  "v204_binding": {
+    "path": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_04_knowledge_distillation/V2_04_deepsaltpro_oof_kd_v1/V2_04_BINDING_AUDIT.json",
+    "sha256": "e18a3b95b03fac800c66ca29ea0241cb72865d6ee482ece83db29724af78b06a",
+    "status": "PASS"
+  }
+}

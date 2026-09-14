@@ -1,0 +1,107 @@
+{
+  "status": "PASS",
+  "records": 10567,
+  "positive": 6269,
+  "negative": 4298,
+  "unique_ids": 10567,
+  "unique_strict40_groups": 10239,
+  "fold_sizes": {
+    "0": 2114,
+    "1": 2114,
+    "2": 2113,
+    "3": 2113,
+    "4": 2113
+  },
+  "maximum_folds_per_group": 1,
+  "canonical_store_shape": [
+    12663,
+    1152
+  ],
+  "canonical_store_records": 12663,
+  "canonical_unused_records": 2096,
+  "canonical_selected_development_shape": [
+    10567,
+    1152
+  ],
+  "teacher": {
+    "source_column": "raw_logit",
+    "conversion": "raw_logit",
+    "minimum": -5.801928551580949,
+    "maximum": 6.373680421078383,
+    "mean": 0.6523914833010999,
+    "std": 2.426634362958165
+  },
+  "strict25": {
+    "source": "folds",
+    "column": "strict25_member",
+    "mode": "boolean_column",
+    "records": 10458
+  },
+  "input_hashes": {
+    "folds": {
+      "path": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_01_baseline_and_teacher_oof/group_folds_v2.tsv",
+      "sha256": "68119ccd8a9c03244c2b23356b52bc9c20a4c1ba6319970917a8bca53863205d",
+      "status": "PASS"
+    },
+    "registry": {
+      "path": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_02_label_audit/V2_02B_audit_lock_v1/V2_02_LOCKED_TRAINING_REGISTRY.tsv",
+      "sha256": "d02f0cb31d7b599d1de4780f61d3bda6b26390671dc42053ef1ba1c8dc2b0ee5",
+      "status": "PASS"
+    },
+    "canonical_rows": {
+      "path": "/home/lvfang/ESMC_halophile/data/embeddings/esmc600m_canonical_b1/rows.tsv",
+      "sha256": "48e032b4ef7cfcaf2a8b03037111fb0f1d75aec1c9db51a832cca9f54502d39f",
+      "status": "PASS"
+    },
+    "canonical_matrix": {
+      "path": "/home/lvfang/ESMC_halophile/data/embeddings/esmc600m_canonical_b1/embeddings.npy",
+      "sha256": "04dd4e5a0e0d6738de5ad97a962b9fbd1bc514e2ce04333db3f5875e2ffc837e",
+      "status": "PASS"
+    },
+    "teacher_oof": {
+      "path": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_01_baseline_and_teacher_oof/deepsaltpro_nested_oof_full_v1/deepsaltpro_oof_predictions.tsv",
+      "sha256": "e3715f16f7f32fb0bd28f48250c5c0bf748f8666762ba52e2a5d853d508915b2",
+      "status": "PASS"
+    }
+  },
+  "labels_changed": 0,
+  "sample_weights_applied": false,
+  "blind_test200_external_labels_read": false,
+  "v203b2_gate": {
+    "status": "PASS",
+    "decision": "KEEP_CANONICAL_POOLING",
+    "records": 10567,
+    "feature_hash_checks": {
+      "mean": {
+        "path": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_03_head_layer_pooling_screen/V2_03B2_streamed_pooling_v1/feature_cache/layer36_mean.npy",
+        "sha256": "bdae2a0890fd96cbadb6b69d7e76e059e94a0202758daae17408a19bb699fb06",
+        "status": "PASS"
+      },
+      "max": {
+        "path": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_03_head_layer_pooling_screen/V2_03B2_streamed_pooling_v1/feature_cache/layer36_max.npy",
+        "sha256": "a313df6e1d86dd37f20930fca57f3ac8f7a35623f71cd7223b0f378c1565cb47",
+        "status": "PASS"
+      },
+      "std": {
+        "path": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_03_head_layer_pooling_screen/V2_03B2_streamed_pooling_v1/feature_cache/layer36_std.npy",
+        "sha256": "8694be220f4da4e78ff959819fda652faf7c226bc9ac17dacd0f105e30013b39",
+        "status": "PASS"
+      },
+      "completed": {
+        "path": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_03_head_layer_pooling_screen/V2_03B2_streamed_pooling_v1/feature_cache/completed.npy",
+        "sha256": "e22ef28d4298b72294ae657945b71ef5eaf39ecdb6a2b05f91c4dd113a43b797",
+        "status": "PASS"
+      },
+      "window_counts": {
+        "path": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_03_head_layer_pooling_screen/V2_03B2_streamed_pooling_v1/feature_cache/window_counts.npy",
+        "sha256": "b8fbf798a3b400cbca6672a6f1fcc2ce9f31cd434a40142b6f5203e442f5df3e",
+        "status": "PASS"
+      },
+      "rows": {
+        "path": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_03_head_layer_pooling_screen/V2_03B2_streamed_pooling_v1/feature_cache/rows.tsv",
+        "sha256": "3f1e0100a2caf2c43ebd16291cc752a3017623d6b9f38216ae615cda7cb8a136",
+        "status": "PASS"
+      }
+    }
+  }
+}
