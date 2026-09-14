@@ -1,0 +1,15 @@
+{
+  "lengths": [
+    64,
+    2046,
+    2047,
+    3837
+  ],
+  "windows_expected": [
+    1,
+    1,
+    2,
+    3
+  ],
+  "scope": "Execution, window count, IDs, finite probability, fixed threshold only. No historical numeric oracle for synthetic sequences."
+}

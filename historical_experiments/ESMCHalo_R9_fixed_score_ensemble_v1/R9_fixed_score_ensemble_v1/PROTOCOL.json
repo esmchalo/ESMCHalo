@@ -1,0 +1,128 @@
+{
+  "seed": 20260903,
+  "k2_seed_offset": 2,
+  "records_expected": 10567,
+  "folds_expected": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "representation": {
+    "model": "ESMC-600M",
+    "pooling": "canonical_mean",
+    "dimension": 1152,
+    "frozen": true
+  },
+  "student": {
+    "dimensions": [
+      1152,
+      256,
+      64,
+      1
+    ],
+    "activation": "GELU",
+    "dropout": 0.2,
+    "optimizer": "AdamW",
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "batch_size": 256,
+    "maximum_epochs": 80,
+    "early_stopping_patience": 10,
+    "early_stopping_metric": "inner_validation_hard_label_AP",
+    "gradient_clip_norm": 5.0,
+    "preprocessing": "outer-fold-local StandardScaler"
+  },
+  "expected_audit_counts": {
+    "A_clean_core": 7934,
+    "D_hard": 2063,
+    "K2_oof_false_positive": 348
+  },
+  "module": "R9",
+  "arms": [
+    "E0"
+  ],
+  "candidate_parameters": {
+    "E0": "equal raw logit mean of five H0 heads and five existing Mixup KD heads",
+    "weight": 0.5,
+    "training": false,
+    "hyperparameter_search": false
+  },
+  "calibration": "Five fold cross-fit unregularized Platt on OOF logits for each arm; then fit all development for selected deployment. No old Platt applied to new models.",
+  "challenge_policy": "Explicit exploratory extension after original development gate failed; retain H0, no threshold or weight tuning and no claim of confirmatory evaluation.",
+  "limitations": [
+    "Teacher-student fold dependence remains.",
+    "OOF single-member calibration to deployed ensemble mismatch remains.",
+    "Ten heads instead of five; R1 timing does not apply to E0.",
+    "Development gains below original minimum gate; this is explicit exploratory evaluation rather than model selection.",
+    "Challenge results already observed; retrospective analysis only."
+  ],
+  "gpu_fits": 0,
+  "final_heads": 10,
+  "references": [
+    "H0",
+    "R5_Mixup_KD"
+  ],
+  "diagnostic_contrasts": [
+    "S0-H0"
+  ],
+  "reference_directory": "R5_student_training_v1_output",
+  "R5_oof_sha256": "850e1d386749aedb88052978e2ac3fcd128eb1b918ef15c3f134cc34ef7e3d25",
+  "R5_protocol_sha256": "5f4e0bf5ec0f52e4987a7665b492deee849894dea56621f24b2577fa176d1ada",
+  "source_checkpoints": {
+    "0": {
+      "H0": {
+        "path": "ESMCHalo_v2_optimization/V2_06_ensemble_calibration_freeze/V2_06_ensemble_calibration_freeze_v1/frozen_ensemble/members/fold_0.pt",
+        "sha256": "57a12bba50e19bebc94cb839ba05639276b4b004892283efb867adf5c5480ae4"
+      },
+      "Mixup": {
+        "path": "R5_student_training_v1_output/partial/Mixup/fold_0.pt",
+        "sha256": "34c25122c991ec4bf76efcd4e095f8b1740f14eb3fa65b7bb8868edb4a2ca04b"
+      }
+    },
+    "1": {
+      "H0": {
+        "path": "ESMCHalo_v2_optimization/V2_06_ensemble_calibration_freeze/V2_06_ensemble_calibration_freeze_v1/frozen_ensemble/members/fold_1.pt",
+        "sha256": "1e49d4f98d7ba8e2a567e9a7bf1298db43cbde20389d7b7243a41ce753c2c9bf"
+      },
+      "Mixup": {
+        "path": "R5_student_training_v1_output/partial/Mixup/fold_1.pt",
+        "sha256": "36d82f2534eabca3b9dcccfab0670ac6ad10072a73ff50c15fd713936e0fd226"
+      }
+    },
+    "2": {
+      "H0": {
+        "path": "ESMCHalo_v2_optimization/V2_06_ensemble_calibration_freeze/V2_06_ensemble_calibration_freeze_v1/frozen_ensemble/members/fold_2.pt",
+        "sha256": "5685ca6f2ec06e4ac19c44cdbf8d13347d2ab00646a17a995b366e279ec3d023"
+      },
+      "Mixup": {
+        "path": "R5_student_training_v1_output/partial/Mixup/fold_2.pt",
+        "sha256": "9e193d68df434350f161b29b1565a024b1b89a29e468b4775d9aeeb6a9999d2b"
+      }
+    },
+    "3": {
+      "H0": {
+        "path": "ESMCHalo_v2_optimization/V2_06_ensemble_calibration_freeze/V2_06_ensemble_calibration_freeze_v1/frozen_ensemble/members/fold_3.pt",
+        "sha256": "c40651770ae2f689415cefdd516e7f2a74a60efd5c2f70b26a798c460f1606a2"
+      },
+      "Mixup": {
+        "path": "R5_student_training_v1_output/partial/Mixup/fold_3.pt",
+        "sha256": "fac32dce9cf2888b7beebbe9abf08f24786e3acad0edfaceb7c0c3e888ab9304"
+      }
+    },
+    "4": {
+      "H0": {
+        "path": "ESMCHalo_v2_optimization/V2_06_ensemble_calibration_freeze/V2_06_ensemble_calibration_freeze_v1/frozen_ensemble/members/fold_4.pt",
+        "sha256": "6c290a6b7f5de70c5ff9052df2565486008f54056dccbb84d521216d545c524a"
+      },
+      "Mixup": {
+        "path": "R5_student_training_v1_output/partial/Mixup/fold_4.pt",
+        "sha256": "95f6d0c6986037fd46022b62fdc36ad82a7701ab39a85994e044839c126739e6"
+      }
+    }
+  },
+  "purpose": "Exploratory retrospective challenge evaluation; NOT a selected replacement",
+  "production_arm": "H0",
+  "development_minimum_gain_passed": false
+}

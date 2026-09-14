@@ -1,0 +1,1872 @@
+[
+  {
+    "check": "R5/development_metrics.tsv/0",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R5/development_metrics.tsv/1",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R5/development_metrics.tsv/2",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R5/development_metrics.tsv/3",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R5/development_metrics.tsv/4",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R5/development_metrics.tsv/5",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R5/fold_metrics.tsv/0",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R5/fold_metrics.tsv/1",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R5/fold_metrics.tsv/2",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R5/fold_metrics.tsv/3",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R5/fold_metrics.tsv/4",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R5/fold_metrics.tsv/5",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R5/fold_metrics.tsv/6",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R5/fold_metrics.tsv/7",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R5/fold_metrics.tsv/8",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R5/fold_metrics.tsv/9",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R5/fold_metrics.tsv/10",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R5/fold_metrics.tsv/11",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R5/fold_metrics.tsv/12",
+    "max_error": 6.938893903907228e-18,
+    "passed": true
+  },
+  {
+    "check": "R5/fold_metrics.tsv/13",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R5/fold_metrics.tsv/14",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R5/fold_metrics.tsv/15",
+    "max_error": 6.938893903907228e-18,
+    "passed": true
+  },
+  {
+    "check": "R5/fold_metrics.tsv/16",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R5/fold_metrics.tsv/17",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R5/fold_metrics.tsv/18",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R5/fold_metrics.tsv/19",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R5/fold_metrics.tsv/20",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R5/fold_metrics.tsv/21",
+    "max_error": 6.938893903907228e-18,
+    "passed": true
+  },
+  {
+    "check": "R5/fold_metrics.tsv/22",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R5/fold_metrics.tsv/23",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R5/fold_metrics.tsv/24",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R5/fold_metrics.tsv/25",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R5/fold_metrics.tsv/26",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R5/fold_metrics.tsv/27",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R5/fold_metrics.tsv/28",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R5/fold_metrics.tsv/29",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R5/subset_metrics.tsv/0",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R5/subset_metrics.tsv/1",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R5/subset_metrics.tsv/2",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R5/subset_metrics.tsv/3",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R5/subset_metrics.tsv/4",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R5/subset_metrics.tsv/5",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R5/subset_metrics.tsv/6",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R5/subset_metrics.tsv/7",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R5/subset_metrics.tsv/8",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R5/subset_metrics.tsv/9",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R5/subset_metrics.tsv/10",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R5/subset_metrics.tsv/11",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R5/Platt/Focal/0",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R5/Platt/Focal/1",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R5/Platt/Focal/2",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R5/Platt/Focal/3",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R5/Platt/Focal/4",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R5/Platt/H0/0",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R5/Platt/H0/1",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R5/Platt/H0/2",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R5/Platt/H0/3",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R5/Platt/H0/4",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R5/Platt/Mixup/0",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R5/Platt/Mixup/1",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R5/Platt/Mixup/2",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R5/Platt/Mixup/3",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R5/Platt/Mixup/4",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R5/fold_integrity/Focal",
+    "passed": true
+  },
+  {
+    "check": "R5/fold_integrity/H0",
+    "passed": true
+  },
+  {
+    "check": "R5/fold_integrity/Mixup",
+    "passed": true
+  },
+  {
+    "check": "R6/development_metrics.tsv/0",
+    "max_error": 6.938893903907228e-18,
+    "passed": true
+  },
+  {
+    "check": "R6/development_metrics.tsv/1",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R6/development_metrics.tsv/2",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R6/development_metrics.tsv/3",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R6/development_metrics.tsv/4",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R6/development_metrics.tsv/5",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R6/development_metrics.tsv/6",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R6/development_metrics.tsv/7",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R6/fold_metrics.tsv/0",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R6/fold_metrics.tsv/1",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R6/fold_metrics.tsv/2",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R6/fold_metrics.tsv/3",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R6/fold_metrics.tsv/4",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R6/fold_metrics.tsv/5",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R6/fold_metrics.tsv/6",
+    "max_error": 6.938893903907228e-18,
+    "passed": true
+  },
+  {
+    "check": "R6/fold_metrics.tsv/7",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R6/fold_metrics.tsv/8",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R6/fold_metrics.tsv/9",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R6/fold_metrics.tsv/10",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R6/fold_metrics.tsv/11",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R6/fold_metrics.tsv/12",
+    "max_error": 6.938893903907228e-18,
+    "passed": true
+  },
+  {
+    "check": "R6/fold_metrics.tsv/13",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R6/fold_metrics.tsv/14",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R6/fold_metrics.tsv/15",
+    "max_error": 6.938893903907228e-18,
+    "passed": true
+  },
+  {
+    "check": "R6/fold_metrics.tsv/16",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R6/fold_metrics.tsv/17",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R6/fold_metrics.tsv/18",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R6/fold_metrics.tsv/19",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R6/fold_metrics.tsv/20",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R6/fold_metrics.tsv/21",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R6/fold_metrics.tsv/22",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R6/fold_metrics.tsv/23",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R6/fold_metrics.tsv/24",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R6/fold_metrics.tsv/25",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R6/fold_metrics.tsv/26",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R6/fold_metrics.tsv/27",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R6/fold_metrics.tsv/28",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R6/fold_metrics.tsv/29",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R6/fold_metrics.tsv/30",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R6/fold_metrics.tsv/31",
+    "max_error": 6.938893903907228e-18,
+    "passed": true
+  },
+  {
+    "check": "R6/fold_metrics.tsv/32",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R6/fold_metrics.tsv/33",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R6/fold_metrics.tsv/34",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R6/fold_metrics.tsv/35",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R6/fold_metrics.tsv/36",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R6/fold_metrics.tsv/37",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R6/fold_metrics.tsv/38",
+    "max_error": 6.938893903907228e-18,
+    "passed": true
+  },
+  {
+    "check": "R6/fold_metrics.tsv/39",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R6/subset_metrics.tsv/0",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R6/subset_metrics.tsv/1",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R6/subset_metrics.tsv/2",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R6/subset_metrics.tsv/3",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R6/subset_metrics.tsv/4",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R6/subset_metrics.tsv/5",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R6/subset_metrics.tsv/6",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R6/subset_metrics.tsv/7",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R6/subset_metrics.tsv/8",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R6/subset_metrics.tsv/9",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R6/subset_metrics.tsv/10",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R6/subset_metrics.tsv/11",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R6/subset_metrics.tsv/12",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R6/subset_metrics.tsv/13",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R6/subset_metrics.tsv/14",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R6/subset_metrics.tsv/15",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R6/Platt/B0/0",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R6/Platt/B0/1",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R6/Platt/B0/2",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R6/Platt/B0/3",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R6/Platt/B0/4",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R6/Platt/H0/0",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R6/Platt/H0/1",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R6/Platt/H0/2",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R6/Platt/H0/3",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R6/Platt/H0/4",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R6/Platt/M0/0",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R6/Platt/M0/1",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R6/Platt/M0/2",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R6/Platt/M0/3",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R6/Platt/M0/4",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R6/Platt/Mixup_KD/0",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R6/Platt/Mixup_KD/1",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R6/Platt/Mixup_KD/2",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R6/Platt/Mixup_KD/3",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R6/Platt/Mixup_KD/4",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R6/fold_integrity/B0",
+    "passed": true
+  },
+  {
+    "check": "R6/fold_integrity/H0",
+    "passed": true
+  },
+  {
+    "check": "R6/fold_integrity/M0",
+    "passed": true
+  },
+  {
+    "check": "R6/fold_integrity/Mixup_KD",
+    "passed": true
+  },
+  {
+    "check": "R7/development_metrics.tsv/0",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R7/development_metrics.tsv/1",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R7/development_metrics.tsv/2",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R7/development_metrics.tsv/3",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R7/fold_metrics.tsv/0",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R7/fold_metrics.tsv/1",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R7/fold_metrics.tsv/2",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R7/fold_metrics.tsv/3",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R7/fold_metrics.tsv/4",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R7/fold_metrics.tsv/5",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R7/fold_metrics.tsv/6",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R7/fold_metrics.tsv/7",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R7/fold_metrics.tsv/8",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R7/fold_metrics.tsv/9",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R7/fold_metrics.tsv/10",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R7/fold_metrics.tsv/11",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R7/fold_metrics.tsv/12",
+    "max_error": 6.938893903907228e-18,
+    "passed": true
+  },
+  {
+    "check": "R7/fold_metrics.tsv/13",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R7/fold_metrics.tsv/14",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R7/fold_metrics.tsv/15",
+    "max_error": 6.938893903907228e-18,
+    "passed": true
+  },
+  {
+    "check": "R7/fold_metrics.tsv/16",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R7/fold_metrics.tsv/17",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R7/fold_metrics.tsv/18",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R7/fold_metrics.tsv/19",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R7/subset_metrics.tsv/0",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R7/subset_metrics.tsv/1",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R7/subset_metrics.tsv/2",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R7/subset_metrics.tsv/3",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R7/subset_metrics.tsv/4",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R7/subset_metrics.tsv/5",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R7/subset_metrics.tsv/6",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R7/subset_metrics.tsv/7",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R7/Platt/G0/0",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R7/Platt/G0/1",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R7/Platt/G0/2",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R7/Platt/G0/3",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R7/Platt/G0/4",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R7/Platt/H0/0",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R7/Platt/H0/1",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R7/Platt/H0/2",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R7/Platt/H0/3",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R7/Platt/H0/4",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R7/fold_integrity/G0",
+    "passed": true
+  },
+  {
+    "check": "R7/fold_integrity/H0",
+    "passed": true
+  },
+  {
+    "check": "R8/development_metrics.tsv/0",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R8/development_metrics.tsv/1",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R8/development_metrics.tsv/2",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R8/development_metrics.tsv/3",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R8/fold_metrics.tsv/0",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R8/fold_metrics.tsv/1",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R8/fold_metrics.tsv/2",
+    "max_error": 6.938893903907228e-18,
+    "passed": true
+  },
+  {
+    "check": "R8/fold_metrics.tsv/3",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R8/fold_metrics.tsv/4",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R8/fold_metrics.tsv/5",
+    "max_error": 6.938893903907228e-18,
+    "passed": true
+  },
+  {
+    "check": "R8/fold_metrics.tsv/6",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R8/fold_metrics.tsv/7",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R8/fold_metrics.tsv/8",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R8/fold_metrics.tsv/9",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R8/fold_metrics.tsv/10",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R8/fold_metrics.tsv/11",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R8/fold_metrics.tsv/12",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R8/fold_metrics.tsv/13",
+    "max_error": 6.938893903907228e-18,
+    "passed": true
+  },
+  {
+    "check": "R8/fold_metrics.tsv/14",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R8/fold_metrics.tsv/15",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R8/fold_metrics.tsv/16",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R8/fold_metrics.tsv/17",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R8/fold_metrics.tsv/18",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R8/fold_metrics.tsv/19",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R8/subset_metrics.tsv/0",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R8/subset_metrics.tsv/1",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R8/subset_metrics.tsv/2",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R8/subset_metrics.tsv/3",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R8/subset_metrics.tsv/4",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R8/subset_metrics.tsv/5",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R8/subset_metrics.tsv/6",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R8/subset_metrics.tsv/7",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R8/Platt/H0/0",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R8/Platt/H0/1",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R8/Platt/H0/2",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R8/Platt/H0/3",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R8/Platt/H0/4",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R8/Platt/S0/0",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R8/Platt/S0/1",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R8/Platt/S0/2",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R8/Platt/S0/3",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R8/Platt/S0/4",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R8/fold_integrity/H0",
+    "passed": true
+  },
+  {
+    "check": "R8/fold_integrity/S0",
+    "passed": true
+  },
+  {
+    "check": "R3/metrics/0",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R3/metrics/1",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R3/metrics/2",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R3/metrics/3",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R3/metrics/4",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R3/metrics/5",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R3/metrics/6",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R3/metrics/7",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R3/metrics/8",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R3/metrics/9",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R3/metrics/10",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R3/metrics/11",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R3/metrics/12",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R3/metrics/13",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R3/metrics/14",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R3/metrics/15",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R3/metrics/16",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R3/metrics/17",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R3/metrics/18",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R3/metrics/19",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R3/metrics/20",
+    "max_error": 5.551115123125783e-17,
+    "passed": true
+  },
+  {
+    "check": "R3/metrics/21",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R3/metrics/22",
+    "max_error": 5.551115123125783e-17,
+    "passed": true
+  },
+  {
+    "check": "R3/metrics/23",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R9/metrics/0",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R9/metrics/1",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R9/metrics/2",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R9/metrics/3",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R9/metrics/4",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R9/metrics/5",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R9/metrics/6",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R9/metrics/7",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R9/metrics/8",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R9/metrics/9",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R9/metrics/10",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R9/metrics/11",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R9/metrics/12",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R9/metrics/13",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R9/metrics/14",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R9/metrics/15",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R9/metrics/16",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R9/metrics/17",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R9/metrics/18",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R9/metrics/19",
+    "max_error": 1.3877787807814457e-17,
+    "passed": true
+  },
+  {
+    "check": "R9/metrics/20",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R9/metrics/21",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R9/metrics/22",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R9/metrics/23",
+    "max_error": 1.3877787807814457e-17,
+    "passed": true
+  },
+  {
+    "check": "R9/metrics/24",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R9/metrics/25",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R9/metrics/26",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R9/metrics/27",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R9/metrics/28",
+    "max_error": 1.3877787807814457e-17,
+    "passed": true
+  },
+  {
+    "check": "R9/metrics/29",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R9/H0_mean",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R9/Mixup_mean",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R9/E0_mean_logit",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R9/E0_raw",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R9/E0_Platt",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R4/development/0/before_",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R4/development/0/after_",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R4/development/1/before_",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R4/development/1/after_",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R4/development/2/before_",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R4/development/2/after_",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R4/development/3/before_",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R4/development/3/after_",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R4/development/4/before_",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R4/development/4/after_",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R4/development/5/before_",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R4/development/5/after_",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R4/development/6/before_",
+    "max_error": 6.938893903907228e-18,
+    "passed": true
+  },
+  {
+    "check": "R4/development/6/after_",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R4/development/7/before_",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R4/development/7/after_",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R4/development/8/before_",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R4/development/8/after_",
+    "max_error": 1.3877787807814457e-17,
+    "passed": true
+  },
+  {
+    "check": "R4/development/9/before_",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R4/development/9/after_",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R4/development/10/before_",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R4/development/10/after_",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R4/development/11/before_",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R4/development/11/after_",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R4/development/12/before_",
+    "max_error": 6.938893903907228e-18,
+    "passed": true
+  },
+  {
+    "check": "R4/development/12/after_",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R4/development/13/before_",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R4/development/13/after_",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R4/development/14/before_",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R4/development/14/after_",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R4/development/15/before_",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R4/development/15/after_",
+    "max_error": 1.3877787807814457e-17,
+    "passed": true
+  },
+  {
+    "check": "R4/development/16/before_",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R4/development/16/after_",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R4/development/17/before_",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R4/development/17/after_",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R4/development/18/before_",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R4/development/18/after_",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R4/development/19/before_",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R4/development/19/after_",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R4/development/20/before_",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R4/development/20/after_",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R4/development/21/before_",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R4/development/21/after_",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R4/development/22/before_",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R4/development/22/after_",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R4/development/23/before_",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R4/development/23/after_",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R4/development/24/before_",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R4/development/24/after_",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R4/development/25/before_",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R4/development/25/after_",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R4/development/26/before_",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R4/development/26/after_",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R4/development/27/before_",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R4/development/27/after_",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R4/development/28/before_",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R4/development/28/after_",
+    "max_error": 6.938893903907228e-18,
+    "passed": true
+  },
+  {
+    "check": "R4/development/29/before_",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R4/development/29/after_",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R4/challenge/0",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R4/challenge/1",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R4/challenge/2",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R4/challenge/3",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R4/challenge/4",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R4/challenge/5",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R4/challenge/6",
+    "max_error": 1.3877787807814457e-17,
+    "passed": true
+  },
+  {
+    "check": "R4/challenge/7",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "R1/ESMCHalo/median_seconds",
+    "passed": true
+  },
+  {
+    "check": "R1/ESMCHalo/min_seconds",
+    "passed": true
+  },
+  {
+    "check": "R1/ESMCHalo/max_seconds",
+    "passed": true
+  },
+  {
+    "check": "R1/ESMCHalo/throughput_at_median",
+    "passed": true
+  },
+  {
+    "check": "R1/DeepSaltPro/median_seconds",
+    "passed": true
+  },
+  {
+    "check": "R1/DeepSaltPro/min_seconds",
+    "passed": true
+  },
+  {
+    "check": "R1/DeepSaltPro/max_seconds",
+    "passed": true
+  },
+  {
+    "check": "R1/DeepSaltPro/throughput_at_median",
+    "passed": true
+  },
+  {
+    "check": "R1/paired_ratio",
+    "passed": true
+  }
+]

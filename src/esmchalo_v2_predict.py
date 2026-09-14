@@ -14,10 +14,10 @@ import numpy as np
 import torch
 
 HERE = Path(__file__).resolve().parent
-sys.path.insert(0, str(HERE / "legacy_extractor"))
 sys.path.insert(0, str(HERE))
 
-from esmchalo_predict import ESMCEmbedder, parse_fasta  # noqa: E402
+from fasta_input import parse_fasta  # noqa: E402
+from historical_backend_adapter import ESMCEmbedder  # noqa: E402
 from frozen_ensemble_inference import calibrate, score  # noqa: E402
 
 
@@ -40,6 +40,7 @@ def sha256(path: Path) -> str:
 
 def main() -> None:
     p = argparse.ArgumentParser(description="Frozen ESMCHalo-v2 FASTA inference")
+    p.add_argument("--model-dir", type=Path, required=True, help="Local ESMC directory matching HISTORICAL_MODEL_SHA256.json")
     p.add_argument("--input", type=Path, required=True)
     p.add_argument("--output", type=Path, required=True)
     p.add_argument("--device", default="auto")
@@ -71,6 +72,7 @@ def main() -> None:
         dtype_name=args.dtype,
         allow_model_download=args.allow_model_download,
         cache_dir=args.cache_dir,
+        model_dir=args.model_dir,
     )
     matrices = []
     windows = []

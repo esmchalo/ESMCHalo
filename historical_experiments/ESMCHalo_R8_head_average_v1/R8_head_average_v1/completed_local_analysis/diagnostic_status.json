@@ -1,0 +1,43 @@
+{
+  "status": "COMPLETED_LOCAL_DIAGNOSTIC",
+  "training_performed": false,
+  "weights_searched": false,
+  "weight": 0.5,
+  "calibrators": [
+    {
+      "fold": 0,
+      "coefficient": 1.744979979105094,
+      "intercept": -0.039649573645152765
+    },
+    {
+      "fold": 1,
+      "coefficient": 1.7667688845002796,
+      "intercept": -0.049388997124270084
+    },
+    {
+      "fold": 2,
+      "coefficient": 1.7357955708621893,
+      "intercept": -0.053232297075658255
+    },
+    {
+      "fold": 3,
+      "coefficient": 1.736941456707768,
+      "intercept": -0.10608420621271654
+    },
+    {
+      "fold": 4,
+      "coefficient": 1.7533893109610068,
+      "intercept": -0.10184598211098107
+    }
+  ],
+  "delta": {
+    "ACC": 0.0017980505346834041,
+    "MCC": 0.0037932872474407686,
+    "Brier": -0.0008082641089434198,
+    "log_loss": -0.0034428734026623053,
+    "AP": 0.00038641019023621936,
+    "AUROC": 0.0006155322254964846
+  },
+  "original_minimum_gain_met": false,
+  "note": "Prediction average is NOT weight average; no S0 performance claimed."
+}

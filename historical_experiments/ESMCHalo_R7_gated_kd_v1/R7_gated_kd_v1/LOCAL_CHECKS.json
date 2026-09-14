@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "python_syntax": "PASS",
+  "shell_syntax": "PASS",
+  "actual_selection_function_checks": [
+    "eligible candidate",
+    "ACC regression rejected",
+    "ranking regression rejected",
+    "insufficient improvement rejected"
+  ],
+  "known_Platt_and_metrics": "PASS",
+  "torch_runtime_tests": "NOT_RUN_LOCALLY; launcher runs 7 CPU tests including gating loss, gradients and train-partition isolation before GPU training",
+  "GPU_training": "NOT_RUN",
+  "actual_teacher_diagnostics_on_R6_records": "PASS: reverse B0/H0 error transitions 155 corrected, 201 introduced"
+}

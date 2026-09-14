@@ -1,0 +1,8 @@
+{
+  "python_syntax": "PASS",
+  "shell_syntax": "PASS",
+  "record_restoration": "PASS actual function; dedup restoration and missing/duplicate failures",
+  "ten_head_equal_mean": "PASS",
+  "torch_inference": "NOT RUN LOCALLY; reused R8 score function whose server tests passed",
+  "GPU_execution": "NOT_RUN"
+}

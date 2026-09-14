@@ -1,0 +1,34 @@
+{
+  "candidate_version": "2.0.2-rc1",
+  "package_role": "pre-release candidate, not a completed full-training distribution",
+  "result_metric_checks": 378,
+  "result_metric_rows": 298,
+  "primary_statistics_checks": 38,
+  "historical_fasta_max_probability_error": 8.203488999214414e-09,
+  "historical_fasta_classes_match": true,
+  "boundary_lengths": [
+    64,
+    2046,
+    2047,
+    3837
+  ],
+  "expected_windows": [
+    1,
+    1,
+    2,
+    3
+  ],
+  "inherited_checks": "Performed on antecedent verification packages; this reorganized candidate has not been rerun on GPU.",
+  "not_verified": [
+    "fresh dependency installation",
+    "public-download identity of the historical ESMC files",
+    "portable end-to-end retraining",
+    "all supplementary bootstrap intervals"
+  ],
+  "server_training_inputs": "five locked hashes matched; four help entries passed; no full training run",
+  "scientific_limitations": [
+    "teacher targets can depend across student folds",
+    "historical evaluation data use",
+    "no consistent classification gain across challenges"
+  ]
+}

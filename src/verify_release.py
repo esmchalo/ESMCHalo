@@ -1,21 +1,17 @@
 #!/usr/bin/env python3
+"""Check package bytes; this is not a scientific execution acceptance."""
 from pathlib import Path
-import hashlib
-import sys
-
-root = Path(__file__).resolve().parents[1]
-manifest = root / "MANIFEST.sha256"
-failures = []
-for line in manifest.read_text(encoding="utf-8").splitlines():
-    expected, relative = line.split("  ", 1)
-    path = root / relative
-    if not path.is_file():
-        failures.append(f"MISSING {relative}")
-        continue
-    observed = hashlib.sha256(path.read_bytes()).hexdigest()
-    if observed != expected:
-        failures.append(f"HASH_MISMATCH {relative}")
-if failures:
-    print("\n".join(failures), file=sys.stderr)
-    raise SystemExit(1)
-print("RELEASE_MANIFEST_PASS")
+import hashlib,json,sys
+R=Path(__file__).resolve().parents[1]
+def sha(p):
+ h=hashlib.sha256()
+ with p.open('rb') as f:
+  for b in iter(lambda:f.read(8*1024*1024),b''):h.update(b)
+ return h.hexdigest()
+def main():
+ failures=[];count=0
+ for line in (R/'MANIFEST.sha256').read_text().splitlines():
+  h,n=line.split('  ',1);p=R/n;count+=1
+  if not p.is_file() or sha(p)!=h:failures.append(n)
+ print(json.dumps({'scope':'listed file bytes only','files':count,'status':'PASS' if not failures else 'FAIL','failures':failures},indent=2));return bool(failures)
+if __name__=='__main__':sys.exit(main())

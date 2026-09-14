@@ -1,0 +1,6 @@
+{
+  "tokenizer.json": true,
+  "special_tokens_map.json": true,
+  "config.json": true,
+  "tokenizer_config.json": true
+}

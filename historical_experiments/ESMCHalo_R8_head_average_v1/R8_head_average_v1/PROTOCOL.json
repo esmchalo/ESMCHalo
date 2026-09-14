@@ -1,0 +1,140 @@
+{
+  "seed": 20260903,
+  "k2_seed_offset": 2,
+  "records_expected": 10567,
+  "folds_expected": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "representation": {
+    "model": "ESMC-600M",
+    "pooling": "canonical_mean",
+    "dimension": 1152,
+    "frozen": true
+  },
+  "student": {
+    "dimensions": [
+      1152,
+      256,
+      64,
+      1
+    ],
+    "activation": "GELU",
+    "dropout": 0.2,
+    "optimizer": "AdamW",
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "batch_size": 256,
+    "maximum_epochs": 80,
+    "early_stopping_patience": 10,
+    "early_stopping_metric": "inner_validation_hard_label_AP",
+    "gradient_clip_norm": 5.0,
+    "preprocessing": "outer-fold-local StandardScaler"
+  },
+  "expected_audit_counts": {
+    "A_clean_core": 7934,
+    "D_hard": 2063,
+    "K2_oof_false_positive": 348
+  },
+  "module": "R8",
+  "arms": [
+    "S0"
+  ],
+  "candidate_parameters": {
+    "S0": "equal parameter mean H0 and R5 Mixup KD at matching outer fold",
+    "weight": 0.5,
+    "training": false,
+    "hyperparameter_search": false
+  },
+  "selection": {
+    "ranking_guard_raw_and_calibrated": {
+      "AP_max_drop": 0.001,
+      "AUROC_max_drop": 0.001
+    },
+    "classification_calibrated": "ACC and MCC >= H0",
+    "probability_calibrated": "Brier and log_loss <= H0",
+    "minimum_gain": "log_loss decrease >=0.005 OR MCC increase >=0.010",
+    "fold_consistency": "at least 3/5 folds improve log_loss or MCC; report all fold metrics",
+    "subsets": "strict25 and clean-core raw AP/AUROC drop <=0.001",
+    "tie_break": [
+      "single candidate S0"
+    ]
+  },
+  "calibration": "Five fold cross-fit unregularized Platt on OOF logits for each arm; then fit all development for selected deployment. No old Platt applied to new models.",
+  "challenge_policy": "Only selected new arm; label-free predictions saved before label merge. Prior results already known: retrospective evaluation.",
+  "limitations": [
+    "Teacher-student fold dependence remains; not fully nested causal distillation evidence.",
+    "OOF single-member to deployed ensemble calibration mismatch remains.",
+    "Challenges already observed; any later challenge evaluation is retrospective.",
+    "Shared initialization and equal scalers do not guarantee a common low-loss basin.",
+    "Prediction averaging and parameter averaging are different candidates; local prediction-average gains do not validate S0.",
+    "Local fixed prediction average did not meet original minimum improvement gate; thresholds unchanged."
+  ],
+  "gpu_fits": 0,
+  "final_heads": 5,
+  "references": [
+    "H0",
+    "R5_Mixup_KD"
+  ],
+  "diagnostic_contrasts": [
+    "S0-H0"
+  ],
+  "reference_directory": "R5_student_training_v1_output",
+  "R5_oof_sha256": "850e1d386749aedb88052978e2ac3fcd128eb1b918ef15c3f134cc34ef7e3d25",
+  "R5_protocol_sha256": "5f4e0bf5ec0f52e4987a7665b492deee849894dea56621f24b2577fa176d1ada",
+  "source_checkpoints": {
+    "0": {
+      "H0": {
+        "path": "ESMCHalo_v2_optimization/V2_06_ensemble_calibration_freeze/V2_06_ensemble_calibration_freeze_v1/frozen_ensemble/members/fold_0.pt",
+        "sha256": "57a12bba50e19bebc94cb839ba05639276b4b004892283efb867adf5c5480ae4"
+      },
+      "Mixup": {
+        "path": "R5_student_training_v1_output/partial/Mixup/fold_0.pt",
+        "sha256": "34c25122c991ec4bf76efcd4e095f8b1740f14eb3fa65b7bb8868edb4a2ca04b"
+      }
+    },
+    "1": {
+      "H0": {
+        "path": "ESMCHalo_v2_optimization/V2_06_ensemble_calibration_freeze/V2_06_ensemble_calibration_freeze_v1/frozen_ensemble/members/fold_1.pt",
+        "sha256": "1e49d4f98d7ba8e2a567e9a7bf1298db43cbde20389d7b7243a41ce753c2c9bf"
+      },
+      "Mixup": {
+        "path": "R5_student_training_v1_output/partial/Mixup/fold_1.pt",
+        "sha256": "36d82f2534eabca3b9dcccfab0670ac6ad10072a73ff50c15fd713936e0fd226"
+      }
+    },
+    "2": {
+      "H0": {
+        "path": "ESMCHalo_v2_optimization/V2_06_ensemble_calibration_freeze/V2_06_ensemble_calibration_freeze_v1/frozen_ensemble/members/fold_2.pt",
+        "sha256": "5685ca6f2ec06e4ac19c44cdbf8d13347d2ab00646a17a995b366e279ec3d023"
+      },
+      "Mixup": {
+        "path": "R5_student_training_v1_output/partial/Mixup/fold_2.pt",
+        "sha256": "9e193d68df434350f161b29b1565a024b1b89a29e468b4775d9aeeb6a9999d2b"
+      }
+    },
+    "3": {
+      "H0": {
+        "path": "ESMCHalo_v2_optimization/V2_06_ensemble_calibration_freeze/V2_06_ensemble_calibration_freeze_v1/frozen_ensemble/members/fold_3.pt",
+        "sha256": "c40651770ae2f689415cefdd516e7f2a74a60efd5c2f70b26a798c460f1606a2"
+      },
+      "Mixup": {
+        "path": "R5_student_training_v1_output/partial/Mixup/fold_3.pt",
+        "sha256": "fac32dce9cf2888b7beebbe9abf08f24786e3acad0edfaceb7c0c3e888ab9304"
+      }
+    },
+    "4": {
+      "H0": {
+        "path": "ESMCHalo_v2_optimization/V2_06_ensemble_calibration_freeze/V2_06_ensemble_calibration_freeze_v1/frozen_ensemble/members/fold_4.pt",
+        "sha256": "6c290a6b7f5de70c5ff9052df2565486008f54056dccbb84d521216d545c524a"
+      },
+      "Mixup": {
+        "path": "R5_student_training_v1_output/partial/Mixup/fold_4.pt",
+        "sha256": "95f6d0c6986037fd46022b62fdc36ad82a7701ab39a85994e044839c126739e6"
+      }
+    }
+  }
+}

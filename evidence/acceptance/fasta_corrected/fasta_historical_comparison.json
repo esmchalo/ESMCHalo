@@ -1,0 +1,7 @@
+{
+  "max_probability_error": 8.203488999214414e-09,
+  "absolute_tolerance": 0.0001,
+  "classes_match": true,
+  "reference": "R1 repeat1 historical probabilities",
+  "interpretation": "Predeclared BF16 tolerance; mismatch needs investigation, never auto-relaxed."
+}

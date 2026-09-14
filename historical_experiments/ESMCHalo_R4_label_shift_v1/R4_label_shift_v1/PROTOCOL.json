@@ -1,0 +1,45 @@
+{
+  "stage": "R4 retrospective label-shift feasibility",
+  "method": "One EM prior-shift candidate; source-calibrated scores for both systems",
+  "created_before_server_results": true,
+  "seed": 20260914,
+  "folds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "batch_size": 500,
+  "positives": [
+    150,
+    250,
+    350
+  ],
+  "sampling": "Without replacement inside held-out fold; deterministic seed=base+100*fold+scenario_index; same members for both systems",
+  "source_calibration": "Same unregularized Platt fit as R2, trained on other-fold OOF scores; not a new calibrator selection",
+  "source_prior": "Mean source-calibrated probabilities on source fitting records; not target truth",
+  "EM": {
+    "initial": "source prior",
+    "bounds": [
+      0.0001,
+      0.9999
+    ],
+    "tolerance": 1e-08,
+    "maxiter": 1000
+  },
+  "threshold": 0.5,
+  "gate": "Each system: equal-weight mean delta ACC>0, log_loss<0, MCC>=0, Brier<=0 across 15 conditions; BOTH pass to enter challenge adaptation. Any boundary estimate fails gate. No significance claim.",
+  "original_baselines": "Frozen R3 outputs remain authoritative; DSP source-calibrated baseline uses existing R2 Platt",
+  "failure": "Explicit stop on hash/schema/fit/convergence/ranking error; no fallback",
+  "limitations": [
+    "Prior results already seen; exploratory, not preregistered before challenge disclosure.",
+    "Simulated pure prior shifts do not establish real target conditional-distribution stability.",
+    "Existing teacher-student dependence remains.",
+    "Source OOF single-member to deployed ensemble distribution mismatch remains.",
+    "Batch-dependent predictions, not unchanged single-record deployment."
+  ],
+  "references": [
+    "https://proceedings.mlr.press/v119/alexandari20a.html"
+  ]
+}

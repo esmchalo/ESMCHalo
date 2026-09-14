@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "python_syntax": "PASS",
+  "shell_syntax": "PASS",
+  "actual_selection_function_checks": [
+    "eligible candidate and deterministic tie",
+    "ACC regression rejected",
+    "ranking regression rejected",
+    "insufficient improvement rejected"
+  ],
+  "known_Platt_and_metrics": "PASS",
+  "torch_runtime_tests": "NOT_RUN_LOCALLY; launcher runs 7 CPU tests including teacher-value/gradient independence before GPU training",
+  "GPU_training": "NOT_RUN",
+  "contrast_algebra": "PASS"
+}

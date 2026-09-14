@@ -1,0 +1,7 @@
+[
+  "historical_project/ESMCHalo_v2_optimization/V2_02_label_audit/label_issue_candidates.tsv",
+  "historical_project/ESMCHalo_v2_optimization/V2_02_label_audit/hard_sample_registry.tsv",
+  "historical_project/ESMCHalo_v2_optimization/V2_02_label_audit/deterministic_data_conflicts.tsv",
+  "historical_project/ESMCHalo_v2_optimization/V2_00_protocol_and_data_lock/v2_blind_ids.tsv",
+  "reference_results/R3_existing_challenge_v1_output_RESULTS/inputs/sequences.tsv"
+]

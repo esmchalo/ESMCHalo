@@ -1,0 +1,228 @@
+[
+  {
+    "check": "V207_metrics/n",
+    "max_absolute_error": 0.0,
+    "tolerance": 1e-09,
+    "passed": true
+  },
+  {
+    "check": "V207_metrics/positives",
+    "max_absolute_error": 0.0,
+    "tolerance": 1e-09,
+    "passed": true
+  },
+  {
+    "check": "V207_metrics/negatives",
+    "max_absolute_error": 0.0,
+    "tolerance": 1e-09,
+    "passed": true
+  },
+  {
+    "check": "V207_metrics/threshold",
+    "max_absolute_error": 0.0,
+    "tolerance": 1e-09,
+    "passed": true
+  },
+  {
+    "check": "V207_metrics/ap",
+    "max_absolute_error": 0.0,
+    "tolerance": 1e-09,
+    "passed": true
+  },
+  {
+    "check": "V207_metrics/auroc",
+    "max_absolute_error": 0.0,
+    "tolerance": 1e-09,
+    "passed": true
+  },
+  {
+    "check": "V207_metrics/mcc",
+    "max_absolute_error": 0.0,
+    "tolerance": 1e-09,
+    "passed": true
+  },
+  {
+    "check": "V207_metrics/accuracy",
+    "max_absolute_error": 0.0,
+    "tolerance": 1e-09,
+    "passed": true
+  },
+  {
+    "check": "V207_metrics/balanced_accuracy",
+    "max_absolute_error": 0.0,
+    "tolerance": 1e-09,
+    "passed": true
+  },
+  {
+    "check": "V207_metrics/sensitivity",
+    "max_absolute_error": 0.0,
+    "tolerance": 1e-09,
+    "passed": true
+  },
+  {
+    "check": "V207_metrics/specificity",
+    "max_absolute_error": 0.0,
+    "tolerance": 1e-09,
+    "passed": true
+  },
+  {
+    "check": "V207_metrics/ppv",
+    "max_absolute_error": 0.0,
+    "tolerance": 1e-09,
+    "passed": true
+  },
+  {
+    "check": "V207_metrics/f1",
+    "max_absolute_error": 0.0,
+    "tolerance": 1e-09,
+    "passed": true
+  },
+  {
+    "check": "V207_metrics/brier",
+    "max_absolute_error": 0.0,
+    "tolerance": 1e-09,
+    "passed": true
+  },
+  {
+    "check": "V207_metrics/ece_10_bins",
+    "max_absolute_error": 0.0,
+    "tolerance": 1e-09,
+    "passed": true
+  },
+  {
+    "check": "V207_metrics/log_loss",
+    "max_absolute_error": 0.0,
+    "tolerance": 1e-09,
+    "passed": true
+  },
+  {
+    "check": "V207_metrics/tn",
+    "max_absolute_error": 0.0,
+    "tolerance": 1e-09,
+    "passed": true
+  },
+  {
+    "check": "V207_metrics/fp",
+    "max_absolute_error": 0.0,
+    "tolerance": 1e-09,
+    "passed": true
+  },
+  {
+    "check": "V207_metrics/fn",
+    "max_absolute_error": 0.0,
+    "tolerance": 1e-09,
+    "passed": true
+  },
+  {
+    "check": "V207_metrics/tp",
+    "max_absolute_error": 0.0,
+    "tolerance": 1e-09,
+    "passed": true
+  },
+  {
+    "check": "V207_McNemar",
+    "passed": true
+  },
+  {
+    "check": "V207_intervals/observed_delta_ESMCHalo_minus_DeepSaltPro",
+    "max_absolute_error": 0.0,
+    "tolerance": 1e-09,
+    "passed": true
+  },
+  {
+    "check": "V207_intervals/bootstrap_mean",
+    "max_absolute_error": 0.0,
+    "tolerance": 1e-09,
+    "passed": true
+  },
+  {
+    "check": "V207_intervals/ci_2_5",
+    "max_absolute_error": 0.0,
+    "tolerance": 1e-09,
+    "passed": true
+  },
+  {
+    "check": "V207_intervals/median",
+    "max_absolute_error": 0.0,
+    "tolerance": 1e-09,
+    "passed": true
+  },
+  {
+    "check": "V207_intervals/ci_97_5",
+    "max_absolute_error": 0.0,
+    "tolerance": 1e-09,
+    "passed": true
+  },
+  {
+    "check": "V207_intervals/fraction_gt_zero",
+    "max_absolute_error": 0.0,
+    "tolerance": 1e-09,
+    "passed": true
+  },
+  {
+    "check": "R3_intervals/difference",
+    "max_absolute_error": 0.0,
+    "tolerance": 1e-09,
+    "passed": true
+  },
+  {
+    "check": "R3_intervals/lower",
+    "max_absolute_error": 0.0,
+    "tolerance": 1e-09,
+    "passed": true
+  },
+  {
+    "check": "R3_intervals/upper",
+    "max_absolute_error": 0.0,
+    "tolerance": 1e-09,
+    "passed": true
+  },
+  {
+    "check": "R3_intervals/groups",
+    "max_absolute_error": 0.0,
+    "tolerance": 1e-09,
+    "passed": true
+  },
+  {
+    "check": "R3_intervals/repeats",
+    "max_absolute_error": 0.0,
+    "tolerance": 1e-09,
+    "passed": true
+  },
+  {
+    "check": "R3_intervals/valid_repeats",
+    "max_absolute_error": 0.0,
+    "tolerance": 1e-09,
+    "passed": true
+  },
+  {
+    "check": "R3_intervals/invalid_repeats",
+    "max_absolute_error": 0.0,
+    "tolerance": 1e-09,
+    "passed": true
+  },
+  {
+    "check": "R3_intervals/seed",
+    "max_absolute_error": 0.0,
+    "tolerance": 1e-09,
+    "passed": true
+  },
+  {
+    "check": "R3_McNemar/esmchalo_only_correct",
+    "max_absolute_error": 0.0,
+    "tolerance": 1e-09,
+    "passed": true
+  },
+  {
+    "check": "R3_McNemar/deepsaltpro_only_correct",
+    "max_absolute_error": 0.0,
+    "tolerance": 1e-09,
+    "passed": true
+  },
+  {
+    "check": "R3_McNemar/exact_two_sided_p",
+    "max_absolute_error": 0.0,
+    "tolerance": 1e-09,
+    "passed": true
+  }
+]

@@ -1,0 +1,87 @@
+{
+  "seed": 20260903,
+  "k2_seed_offset": 2,
+  "records_expected": 10567,
+  "folds_expected": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "representation": {
+    "model": "ESMC-600M",
+    "pooling": "canonical_mean",
+    "dimension": 1152,
+    "frozen": true
+  },
+  "student": {
+    "dimensions": [
+      1152,
+      256,
+      64,
+      1
+    ],
+    "activation": "GELU",
+    "dropout": 0.2,
+    "optimizer": "AdamW",
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "batch_size": 256,
+    "maximum_epochs": 80,
+    "early_stopping_patience": 10,
+    "early_stopping_metric": "inner_validation_hard_label_AP",
+    "gradient_clip_norm": 5.0,
+    "preprocessing": "outer-fold-local StandardScaler"
+  },
+  "expected_audit_counts": {
+    "A_clean_core": 7934,
+    "D_hard": 2063,
+    "K2_oof_false_positive": 348
+  },
+  "module": "R7",
+  "arms": [
+    "G0"
+  ],
+  "candidate_parameters": {
+    "G0": "training-label agreement gated KD; no Mixup",
+    "gate": "(teacher_logit>=0)==label",
+    "teacher_temperature": 2,
+    "hard_loss_weight": 0.5,
+    "soft_loss_weight": 0.5,
+    "reduction": "full batch mean; no gate-count normalization"
+  },
+  "selection": {
+    "ranking_guard_raw_and_calibrated": {
+      "AP_max_drop": 0.001,
+      "AUROC_max_drop": 0.001
+    },
+    "classification_calibrated": "ACC and MCC >= H0",
+    "probability_calibrated": "Brier and log_loss <= H0",
+    "minimum_gain": "log_loss decrease >=0.005 OR MCC increase >=0.010",
+    "fold_consistency": "at least 3/5 folds improve log_loss or MCC; report all fold metrics",
+    "subsets": "strict25 and clean-core raw AP/AUROC drop <=0.001",
+    "tie_break": [
+      "single candidate G0"
+    ]
+  },
+  "calibration": "Five fold cross-fit unregularized Platt on OOF logits for each arm; then fit all development for selected deployment. No old Platt applied to new models.",
+  "challenge_policy": "Only selected new arm; label-free predictions saved before label merge. Prior results already known: retrospective evaluation.",
+  "limitations": [
+    "Teacher-student fold dependence remains; no fully nested causal distillation claim.",
+    "OOF single-member calibration to ensemble distribution mismatch remains.",
+    "Gating changes effective loss weight on conflict records; not pure causal isolation.",
+    "Training source labels may contain noise; disagreement is not proof of erroneous biological information.",
+    "Challenges already observed; retrospective evaluation."
+  ],
+  "gpu_fits": 10,
+  "final_heads": 5,
+  "references": [
+    "H0"
+  ],
+  "diagnostic_contrasts": [
+    "G0-H0",
+    "teacher_agrees",
+    "teacher_disagrees"
+  ]
+}

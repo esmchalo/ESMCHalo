@@ -1,0 +1,5 @@
+input_order	record_id	description	length	number_of_windows	sequence_sha256	ensemble_mean_raw_logit	probability_calibrated	fixed_threshold	prediction	prediction_label
+1	synthetic_64	synthetic_64	64	1	420cc9d4ec171922b60855f670c278aa66442b833aa7793d016a2791c3d2dc99	-0.0596913635731	0.460572896484	0.5	0	non_halophilic_like
+2	synthetic_2046	synthetic_2046	2046	1	48e682e6aa0e89a844a82a4be391414b5700269a73e9dc57c5c9a33aacae6786	-1.01941752136	0.148570475567	0.5	0	non_halophilic_like
+3	synthetic_2047	synthetic_2047	2047	2	504c02dd7d80c0763f792e4d57dae938e45d47953a940c2d48037ff3ca98cc3c	-1.00707098842	0.151172995316	0.5	0	non_halophilic_like
+4	synthetic_3837	synthetic_3837	3837	3	6edeefd2669cf9c11f3c4fec5c5ab0e1a9522ace639b3239ddacfa07f4fca2e8	-0.99563306272	0.153617315397	0.5	0	non_halophilic_like
