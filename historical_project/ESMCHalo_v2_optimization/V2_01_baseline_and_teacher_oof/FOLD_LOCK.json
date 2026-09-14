@@ -1,0 +1,14 @@
+{
+  "lock_version": "ESMCHalo-v2/V2-01A/1.0",
+  "created_at_utc": "2026-09-02T12:48:19.851234+00:00",
+  "algorithm": "StratifiedGroupKFold",
+  "n_splits": 5,
+  "shuffle": true,
+  "seed": 20260902,
+  "group": "primary40 homology_group",
+  "development_manifest": {
+    "path": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_00_protocol_and_data_lock/v2_development.tsv",
+    "sha256": "42c82870f161a4b27ed93612a20334801bceb85a6ad9994120a08b2546000522"
+  },
+  "fold_manifest_sha256": "68119ccd8a9c03244c2b23356b52bc9c20a4c1ba6319970917a8bca53863205d"
+}

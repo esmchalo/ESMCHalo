@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "created_at_utc": "2026-09-02T12:41:20.924602+00:00",
+  "checks": {
+    "source_rows_12721": true,
+    "model_ready_rows_12663": true,
+    "strict_train_12463_test_200": true,
+    "primary40_rows_12432": true,
+    "strict25_rows_12314": true,
+    "removed_primary40_rows_31": true,
+    "primary40_plus_removed_reconstructs_strict_train": true,
+    "historical_test_ids_excluded": true,
+    "historical_test_hashes_excluded": true,
+    "cross_v2_id_overlap": 0,
+    "cross_v2_sequence_hash_overlap": 0,
+    "cross_v2_primary40_group_overlap": 0
+  }
+}

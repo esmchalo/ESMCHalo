@@ -1,0 +1,21 @@
+{
+  "contract_version": "ESMCHalo-v2/V2-00/1.0",
+  "created_at_utc": "2026-09-02T12:41:20.619400+00:00",
+  "model_selection_order": [
+    "AP",
+    "MCC",
+    "AUROC",
+    "Accuracy",
+    "Sensitivity/Specificity",
+    "Brier/ECE",
+    "complexity/stability"
+  ],
+  "roles": {
+    "v2_development": "only model-development source",
+    "v2_blind": "opened once after V2-06 freeze; never used for tuning",
+    "historical_test200": "historical evidence only",
+    "existing_external_challenges": "seen diagnostic evidence only",
+    "strict25_taxonomy": "prespecified degradation gates; not candidate-ranking criteria"
+  },
+  "comparator_rule": "Retrain ESMCHalo-v1 and audited DeepSaltPro architectures using v2_development only before blind comparison."
+}

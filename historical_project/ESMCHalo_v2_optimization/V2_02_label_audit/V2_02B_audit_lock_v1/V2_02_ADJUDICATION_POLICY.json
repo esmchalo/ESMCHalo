@@ -1,0 +1,14 @@
+{
+  "module": "V2-02B",
+  "status": "AUDIT_POLICY_LOCKED",
+  "records": 10567,
+  "source_labels_retained": 10567,
+  "labels_changed": 0,
+  "records_excluded_from_v2_03": 0,
+  "v2_03_weight_policy": "uniform_1.0",
+  "B_ambiguous_policy": "retain source label; diagnostic stratum only in V2-03",
+  "D_hard_sample_policy": "retain source label; diagnostic stratum only in V2-03",
+  "future_weighting_policy": "sample weighting and hard-sample enrichment may be tested only in V2-05 as isolated ablations",
+  "blind_test200_external_read": false,
+  "reason": "No deterministic conflicts were found. Model consensus and mixed-label homology are evidence of proxy-label ambiguity, not sufficient evidence for relabeling."
+}

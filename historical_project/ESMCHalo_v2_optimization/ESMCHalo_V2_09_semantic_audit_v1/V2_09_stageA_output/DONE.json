@@ -1,0 +1,28 @@
+{
+  "module": "V2-09",
+  "stage": "A_input_discovery",
+  "status": "PASS_STAGE_A_INPUT_DISCOVERY_COMPLETE",
+  "started_at_utc": "2026-09-04T05:26:38.225893+00:00",
+  "completed_at_utc": "2026-09-04T05:26:38.616625+00:00",
+  "project_root": "/home/lvfang/ESMC_halophile",
+  "candidate_file_count": 780,
+  "excluded_directory_count": 10,
+  "v2_08_input_inventory_copied": true,
+  "data_rows_read": 0,
+  "labels_read": false,
+  "models_loaded": false,
+  "training_performed": false,
+  "calibration_performed": false,
+  "threshold_changed": false,
+  "blind_labels_read": false,
+  "test200_labels_read": false,
+  "external_challenge_labels_read": false,
+  "forbidden_tokens": [
+    "blind",
+    "test200",
+    "external_challenge",
+    "external-challenge",
+    "public_challenge",
+    "v2_07"
+  ]
+}

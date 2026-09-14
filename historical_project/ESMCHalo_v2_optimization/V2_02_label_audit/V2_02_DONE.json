@@ -1,0 +1,18 @@
+{
+  "module": "V2-02",
+  "status": "PASS_AUDIT_COMPLETE",
+  "started_at_utc": "2026-09-03T01:29:48.901225+00:00",
+  "finished_at_utc": "2026-09-03T01:29:54.813581+00:00",
+  "elapsed_seconds": 5.912,
+  "records": 10567,
+  "labels_modified": 0,
+  "weights_applied": false,
+  "blind_labels_read": false,
+  "manual_review_required": true,
+  "next_gate": "Review B/C audit candidates, then V2-03 head/layer/pooling screening",
+  "versions": {
+    "python": "3.12.13",
+    "numpy": "2.5.1",
+    "pandas": "3.0.3"
+  }
+}

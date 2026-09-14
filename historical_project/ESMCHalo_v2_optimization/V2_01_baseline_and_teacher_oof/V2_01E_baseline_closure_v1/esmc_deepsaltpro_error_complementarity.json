@@ -1,0 +1,14 @@
+{
+  "n": 10567,
+  "both_correct": 9216,
+  "esmc_only_correct": 389,
+  "deepsaltpro_only_correct": 526,
+  "both_wrong": 436,
+  "discordant_calls": 915,
+  "exact_two_sided_mcnemar_p": 6.670111500540917e-06,
+  "oracle_accuracy": 0.9587394719409482,
+  "probability_pearson_r": 0.8890453234426233,
+  "probability_pearson_p": 0.0,
+  "probability_spearman_rho": 0.8867086981779339,
+  "probability_spearman_p": 0.0
+}

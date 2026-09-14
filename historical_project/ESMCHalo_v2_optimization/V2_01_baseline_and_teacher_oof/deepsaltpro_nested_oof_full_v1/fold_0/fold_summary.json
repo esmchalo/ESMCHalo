@@ -1,0 +1,37 @@
+{
+  "outer_fold": 0,
+  "status": "PASS",
+  "outer_fit_records": 8453,
+  "outer_validation_records": 2114,
+  "outer_group_overlap": 0,
+  "inner_train_records": 6340,
+  "inner_validation_records": 2113,
+  "inner_group_overlap": 0,
+  "inner_best_mcc": 0.8373135728530086,
+  "selected_epoch": 11,
+  "outer_metrics_at_0_5": {
+    "threshold": 0.5,
+    "accuracy": 0.9224219489120151,
+    "balanced_accuracy": 0.9176208226697822,
+    "specificity": 0.891860465116279,
+    "sensitivity": 0.9433811802232854,
+    "precision": 0.927115987460815,
+    "f1": 0.9351778656126483,
+    "mcc": 0.8388084321626771,
+    "roc_auc": 0.976845257965209,
+    "pr_auc": 0.9836394210327275,
+    "brier": 0.060829101042630576,
+    "ece_10_bins": 0.06334229679152636,
+    "confusion_matrix": [
+      [
+        767,
+        93
+      ],
+      [
+        71,
+        1183
+      ]
+    ]
+  },
+  "outer_validation_used_for_early_stopping": false
+}

@@ -1,0 +1,2 @@
+outer_fold	selected_epoch	outer_validation_records	auroc	ap	mcc_at_0_5
+0	3	2114	0.9627322799599423	0.9737251390717754	0.7883824599508243

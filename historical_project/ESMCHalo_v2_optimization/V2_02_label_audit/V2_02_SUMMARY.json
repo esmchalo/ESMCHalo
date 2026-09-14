@@ -1,0 +1,24 @@
+{
+  "module": "V2-02",
+  "records": 10567,
+  "tier_counts": {
+    "A_clean_core": 7934,
+    "B_ambiguous": 570,
+    "D_hard_sample": 2063
+  },
+  "reason_counts": {
+    "deepsaltpro_borderline_0.35_0.65": 1138,
+    "esmc_borderline_0.35_0.65": 350,
+    "esmc_deepsaltpro_disagreement": 915,
+    "high_confidence_consensus_against_label": 52,
+    "mixed_label_homology_group": 527,
+    "one_or_more_oof_models_wrong": 1915
+  },
+  "manual_review_candidates": 570,
+  "deterministic_data_conflicts": 0,
+  "hard_samples": 2063,
+  "hard_negative_candidate_pairs": 18807,
+  "labels_modified": 0,
+  "weights_applied": false,
+  "blind_labels_read": false
+}

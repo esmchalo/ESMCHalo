@@ -1,0 +1,51 @@
+{
+  "module": "V2-09",
+  "status": "CONDITIONAL_DUAL_REVIEW_REQUIRED",
+  "started_at_utc": "2026-09-04T05:46:13.277858+00:00",
+  "completed_at_utc": "2026-09-04T05:46:13.642303+00:00",
+  "G0_access_and_freeze": "PASS",
+  "G1_binding": "PASS",
+  "G2_traceability": "PASS",
+  "G3_structural_coherence": "PASS",
+  "G3_dual_review": "PENDING",
+  "V2_10_release": false,
+  "n_development": 10567,
+  "expected_n": 10567,
+  "class_counts": {
+    "0": 4298,
+    "1": 6269
+  },
+  "roles": [
+    "development"
+  ],
+  "overall_traceability": 1.0,
+  "per_class_traceability": {
+    "0": 1.0,
+    "1": 1.0
+  },
+  "dominant_rule_fraction_per_class": {
+    "0": 1.0,
+    "1": 1.0
+  },
+  "incompatible_rule_fraction": 0.0,
+  "sequence_hash_mismatch_count": 0,
+  "unresolved_record_count": 0,
+  "cross_class_raw_fasta_conflict_count": 0,
+  "lineage_bridge_unique": true,
+  "lineage_bridge_covers_development": true,
+  "semantic_level_counts": {
+    "L1": 10567
+  },
+  "evidence_level_counts": {
+    "E1": 10567
+  },
+  "model_loaded": false,
+  "training_performed": false,
+  "recalibration_performed": false,
+  "threshold_changed": false,
+  "labels_modified": false,
+  "blind_labels_read": false,
+  "test200_labels_read": false,
+  "external_challenge_labels_read": false,
+  "claim_boundary": "halophile-associated protein prediction; no direct protein salt phenotype claim"
+}

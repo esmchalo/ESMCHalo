@@ -1,0 +1,75 @@
+{
+  "lock_version": "ESMCHalo-v2/V2-00/1.0",
+  "created_at_utc": "2026-09-02T12:41:20.891419+00:00",
+  "seed": 20260902,
+  "algorithm": "GroupShuffleSplit random search; group=primary40 homology_group",
+  "candidate_splits": 4096,
+  "target_blind_fraction": 0.15,
+  "selection_objective": "size + label-prevalence + source + optional genus distribution distance",
+  "selection": {
+    "candidate_index": 2522,
+    "objective": 0.006600194602875878,
+    "blind_fraction": 0.15001608751608753,
+    "overall_positive_fraction": 0.5933075933075933,
+    "blind_positive_fraction": 0.5935656836461126,
+    "source_max_abs_proportion_difference_top20": 0.0002580903385193123,
+    "genus_max_abs_proportion_difference_top30": 0.004019636258242157
+  },
+  "genus_mapping": {
+    "used": true,
+    "path": "/home/lvfang/ESMC_halophile/sci_revision_20260820/M1_homology_taxonomy_shortcut_v1/taxonomy_resolution_record_level.tsv",
+    "column": "taxonomy_genus",
+    "coverage": 0.9687902187902188
+  },
+  "inputs": {
+    "source": {
+      "path": "/home/lvfang/ESMC_halophile/data/model_ready/original_split/hpclas_clean_manifest.tsv",
+      "sha256": "920c78223cd29dbd442946f66652773bab7e275419f05670c1a83ea4edb0a1e8"
+    },
+    "strict": {
+      "path": "/home/lvfang/ESMC_halophile/data/model_ready/strict_mmseqs50/strict_manifest.tsv",
+      "sha256": "68cb4df25be72a43c9594f1b85ca89735987a4821917b81e63f65aaa5437d2d6"
+    },
+    "primary40": {
+      "path": "/home/lvfang/ESMC_halophile/sci_revision_20260820/M1R_homology_repair_v1/M1R_train_primary40_manifest.tsv",
+      "sha256": "5299c7287c6c5044ad76771c9b6a26db93f6b814ca71e8d5b48467c9bfaab62d"
+    },
+    "strict25": {
+      "path": "/home/lvfang/ESMC_halophile/sci_revision_20260820/M1R_homology_repair_v1/M1R_train_strict25_manifest.tsv",
+      "sha256": "77296ab0e47e9d74560d1349eb894fae6b5978f6f41f67b625e43011ec831e2f"
+    },
+    "removed40": {
+      "path": "/home/lvfang/ESMC_halophile/sci_revision_20260820/M1R_homology_repair_v1/M1R_removed_training_primary40.tsv",
+      "sha256": "cdc153af47e8045b4c29fbe9ad03c20dd77a00069df7416f5869d8c4286398ed"
+    }
+  },
+  "counts": {
+    "primary40": {
+      "records": 12432,
+      "positive": 7376,
+      "negative": 5056,
+      "positive_fraction": 0.5933075933075933,
+      "strict40_groups": 12047,
+      "sequence_hashes": 12432
+    },
+    "v2_development": {
+      "records": 10567,
+      "positive": 6269,
+      "negative": 4298,
+      "positive_fraction": 0.5932620422068704,
+      "strict40_groups": 10239,
+      "sequence_hashes": 10567
+    },
+    "v2_blind": {
+      "records": 1865,
+      "positive": 1107,
+      "negative": 758,
+      "positive_fraction": 0.5935656836461126,
+      "strict40_groups": 1808,
+      "sequence_hashes": 1865
+    },
+    "historical_test200": 200,
+    "strict25": 12314,
+    "removed_primary40": 31
+  }
+}

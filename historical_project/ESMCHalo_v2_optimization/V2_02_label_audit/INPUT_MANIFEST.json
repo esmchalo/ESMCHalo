@@ -1,0 +1,34 @@
+{
+  "ESMCHalo_v2_optimization/V2_00_protocol_and_data_lock/v2_development.tsv": {
+    "sha256": "42c82870f161a4b27ed93612a20334801bceb85a6ad9994120a08b2546000522",
+    "bytes": 5379359
+  },
+  "ESMCHalo_v2_optimization/V2_01_baseline_and_teacher_oof/group_folds_v2.tsv": {
+    "sha256": "68119ccd8a9c03244c2b23356b52bc9c20a4c1ba6319970917a8bca53863205d",
+    "bytes": 1622856
+  },
+  "ESMCHalo_v2_optimization/V2_01_baseline_and_teacher_oof/esmc_v1_oof_predictions.tsv": {
+    "sha256": "25937c627917bb6dc6fd363d1af1af3b4da0f2aea4b89fde06d5f5dfa8c2c634",
+    "bytes": 986741
+  },
+  "ESMCHalo_v2_optimization/V2_01_baseline_and_teacher_oof/deepsaltpro_nested_oof_full_v1/deepsaltpro_oof_predictions.tsv": {
+    "sha256": "e3715f16f7f32fb0bd28f48250c5c0bf748f8666762ba52e2a5d853d508915b2",
+    "bytes": 912312
+  },
+  "ESMCHalo_v2_optimization/V2_01_baseline_and_teacher_oof/V2_01E_baseline_closure_v1/catboost_oof_predictions.tsv": {
+    "sha256": "15b01e15b520d435689ec7d274397d8848994df01d18e0cd8782f1d825fb531b",
+    "bytes": 733260
+  },
+  "ESMCHalo_v2_optimization/V2_01_baseline_and_teacher_oof/V2_01E_baseline_closure_v1/aac_physchem_features.tsv": {
+    "sha256": "fb3bc71946fab09dc0010624236710e6f80724b99abed233e5845655df4972d2",
+    "bytes": 7449284
+  },
+  "ESMCHalo_v2_optimization/V2_01_baseline_and_teacher_oof/V2_01E_baseline_closure_v1/V2_01E_DONE.json": {
+    "sha256": "a3ef7edf9112a61004f8f74eaed35e11616cc026cf25edda81e7bfef4effe4eb",
+    "bytes": 505
+  },
+  "ESMCHalo_v2_optimization/V2_01_baseline_and_teacher_oof/V2_01E_baseline_closure_v1/distillation_teacher_gate.json": {
+    "sha256": "ff4c19eb04c647b6339ed8a6f4739df70e9ac49fac0b14123f5e5cfc4c22ddf9",
+    "bytes": 496
+  }
+}

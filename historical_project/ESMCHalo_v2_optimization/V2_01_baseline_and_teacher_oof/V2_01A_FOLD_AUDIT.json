@@ -1,0 +1,76 @@
+{
+  "module": "V2-01A",
+  "state": "PASS",
+  "created_at_utc": "2026-09-02T12:48:19.850689+00:00",
+  "development_records": 10567,
+  "folds": 5,
+  "each_record_exactly_one_validation_fold": true,
+  "blind_id_overlap": 0,
+  "blind_hash_overlap": 0,
+  "blind_group_overlap": 0,
+  "fold_statistics": [
+    {
+      "fold": 0,
+      "train_records": 8453,
+      "valid_records": 2114,
+      "train_positive": 5015,
+      "valid_positive": 1254,
+      "train_positive_fraction": 0.5932804921329705,
+      "valid_positive_fraction": 0.5931882686849574,
+      "train_groups": 8191,
+      "valid_groups": 2048,
+      "group_overlap": 0
+    },
+    {
+      "fold": 1,
+      "train_records": 8453,
+      "valid_records": 2114,
+      "train_positive": 5015,
+      "valid_positive": 1254,
+      "train_positive_fraction": 0.5932804921329705,
+      "valid_positive_fraction": 0.5931882686849574,
+      "train_groups": 8187,
+      "valid_groups": 2052,
+      "group_overlap": 0
+    },
+    {
+      "fold": 2,
+      "train_records": 8454,
+      "valid_records": 2113,
+      "train_positive": 5015,
+      "valid_positive": 1254,
+      "train_positive_fraction": 0.5932103146439556,
+      "valid_positive_fraction": 0.5934690014197823,
+      "train_groups": 8192,
+      "valid_groups": 2047,
+      "group_overlap": 0
+    },
+    {
+      "fold": 3,
+      "train_records": 8454,
+      "valid_records": 2113,
+      "train_positive": 5015,
+      "valid_positive": 1254,
+      "train_positive_fraction": 0.5932103146439556,
+      "valid_positive_fraction": 0.5934690014197823,
+      "train_groups": 8196,
+      "valid_groups": 2043,
+      "group_overlap": 0
+    },
+    {
+      "fold": 4,
+      "train_records": 8454,
+      "valid_records": 2113,
+      "train_positive": 5016,
+      "valid_positive": 1253,
+      "train_positive_fraction": 0.5933286018452804,
+      "valid_positive_fraction": 0.5929957406530999,
+      "train_groups": 8190,
+      "valid_groups": 2049,
+      "group_overlap": 0
+    }
+  ],
+  "max_valid_prevalence_deviation": 0.00026630155377049824,
+  "reusable_asset_candidates": 26775,
+  "deepsaltpro_code_candidates": 132
+}

@@ -1,0 +1,11 @@
+{
+  "status": "PASS_FOR_KD",
+  "direction": "deepsaltpro_minus_esmc_v1",
+  "delta_ap": 0.0042148419629787215,
+  "delta_auroc": 0.006329051911133976,
+  "delta_mcc_at_0_5": 0.026826143620531817,
+  "esmc_only_correct": 389,
+  "deepsaltpro_only_correct": 526,
+  "decision_rule": "At least one of delta AP>=0.002, delta AUROC>=0.002, delta MCC>=0.01, and both models have unique correct calls.",
+  "teacher_role": "OOF soft-label/ranking teacher only; never used during final single-ESMC inference"
+}

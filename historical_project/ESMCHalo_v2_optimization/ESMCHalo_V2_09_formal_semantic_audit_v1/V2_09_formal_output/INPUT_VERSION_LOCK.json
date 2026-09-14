@@ -1,0 +1,42 @@
+[
+  {
+    "path": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_00_protocol_and_data_lock/v2_development.tsv",
+    "bytes": 5379359,
+    "sha256": "42c82870f161a4b27ed93612a20334801bceb85a6ad9994120a08b2546000522"
+  },
+  {
+    "path": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_00_protocol_and_data_lock/SPLIT_LOCK.json",
+    "bytes": 2843,
+    "sha256": "3c80dec602a4ffecde8c5e1d8c29418daac73fbbeee7a1dd473a2ce6b80a71a8"
+  },
+  {
+    "path": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_00_protocol_and_data_lock/V2_00_AUDIT.json",
+    "bytes": 574,
+    "sha256": "90ceb123bc5c609c7546db68167b613de5cc2caa3cacd6086d2b74c548f47be9"
+  },
+  {
+    "path": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_02_label_audit/INPUT_MANIFEST.json",
+    "bytes": 1698,
+    "sha256": "d99c525cf3e4ec4e8e2fbb8c6c1180f01f573be30a0bab10ac55a52e15048dcb"
+  },
+  {
+    "path": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_02_label_audit/V2_02B_audit_lock_v1/V2_02_LOCKED_TRAINING_REGISTRY.tsv",
+    "bytes": 1195707,
+    "sha256": "d02f0cb31d7b599d1de4780f61d3bda6b26390671dc42053ef1ba1c8dc2b0ee5"
+  },
+  {
+    "path": "/home/lvfang/ESMC_halophile/data/model_ready/original_split/hpclas_clean_manifest.tsv",
+    "bytes": 5904445,
+    "sha256": "920c78223cd29dbd442946f66652773bab7e275419f05670c1a83ea4edb0a1e8"
+  },
+  {
+    "path": "/home/lvfang/ESMC_halophile/data/raw/train_P.fasta",
+    "bytes": 2910819,
+    "sha256": "ed79739fe4d373a03e50543934d5925416a9d086c3a66114ae05c12bcb90caeb"
+  },
+  {
+    "path": "/home/lvfang/ESMC_halophile/data/raw/train_N.fasta",
+    "bytes": 2307707,
+    "sha256": "e7b87c5748fec245181a254a88f2551da8983c7f0d3d0ac8a23ad0ad4e7bdecd"
+  }
+]

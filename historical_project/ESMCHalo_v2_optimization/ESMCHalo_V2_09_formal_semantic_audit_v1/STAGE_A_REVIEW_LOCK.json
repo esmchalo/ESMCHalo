@@ -1,0 +1,28 @@
+{
+  "stage_a_zip_sha256": "b80aee88ce0d76af175b9fdc331cf622074f1c85711afc631d2d0536352281a4",
+  "stage_a_status": "PASS_STAGE_A_INPUT_DISCOVERY_COMPLETE",
+  "candidate_file_count": 780,
+  "excluded_directory_count": 10,
+  "data_rows_read": 0,
+  "blind_labels_read": false,
+  "test200_labels_read": false,
+  "external_challenge_labels_read": false,
+  "authoritative_development_table": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_00_protocol_and_data_lock/v2_development.tsv",
+  "authoritative_development_schema": [
+    "clean_id", "original_id", "source_file", "label", "length",
+    "sequence_hash", "sequence", "homology_group", "genus",
+    "strict25_member", "v2_role"
+  ],
+  "binding_registry": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_02_label_audit/V2_02B_audit_lock_v1/V2_02_LOCKED_TRAINING_REGISTRY.tsv",
+  "upstream_lineage_bridge": "/home/lvfang/ESMC_halophile/data/model_ready/original_split/hpclas_clean_manifest.tsv",
+  "label_sources": [
+    "/home/lvfang/ESMC_halophile/data/raw/train_P.fasta",
+    "/home/lvfang/ESMC_halophile/data/raw/train_N.fasta"
+  ],
+  "excluded_as_authoritative": [
+    "submission_hardening collected copies",
+    "strict_manifest.tsv",
+    "embedding rows.tsv",
+    "blind/test200/external challenge/V2-07 artifacts"
+  ]
+}

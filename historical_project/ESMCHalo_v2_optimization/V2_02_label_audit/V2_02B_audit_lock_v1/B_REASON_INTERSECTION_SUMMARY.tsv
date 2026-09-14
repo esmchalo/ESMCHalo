@@ -1,0 +1,7 @@
+reason_category	label	records
+both	0	7
+both	1	2
+high_confidence_only	0	25
+high_confidence_only	1	18
+mixed_group_only	0	258
+mixed_group_only	1	260

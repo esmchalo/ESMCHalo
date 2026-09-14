@@ -1,0 +1,16 @@
+{
+  "module": "V2-01C",
+  "status": "PASS",
+  "started_at_utc": "2026-09-02T13:15:19.827359+00:00",
+  "finished_at_utc": "2026-09-02T13:15:53.766540+00:00",
+  "blind_labels_read": false,
+  "binding_status": "PASS",
+  "esmc_v1_oof_status": "PASS",
+  "next_gate": "V2-01D DeepSaltPro nested group-OOF smoke test",
+  "versions": {
+    "python": "3.12.13",
+    "numpy": "2.5.1",
+    "pandas": "3.0.3",
+    "sklearn": "1.9.0"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "module": "V2-01E",
+  "status": "PASS",
+  "started_at_utc": "2026-09-03T01:05:54.633210+00:00",
+  "finished_at_utc": "2026-09-03T01:13:23.684646+00:00",
+  "elapsed_seconds": 449.051,
+  "records": 10567,
+  "folds": 5,
+  "blind_labels_read": false,
+  "threshold_optimized": false,
+  "calibration_applied": false,
+  "distillation_gate": "PASS_FOR_KD",
+  "next_gate": "V2-02 label audit and hard-sample registry",
+  "versions": {
+    "python": "3.12.13",
+    "numpy": "2.5.1",
+    "pandas": "3.0.3"
+  }
+}

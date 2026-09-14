@@ -1,0 +1,53 @@
+{
+  "module": "V2-01D",
+  "purpose": "DeepSaltPro nested group-OOF teacher generation",
+  "requested_outer_folds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "outer_fold_source": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_01_baseline_and_teacher_oof/group_folds_v2.tsv",
+  "outer_fold_source_sha256": "68119ccd8a9c03244c2b23356b52bc9c20a4c1ba6319970917a8bca53863205d",
+  "inner_selection": {
+    "algorithm": "StratifiedGroupKFold",
+    "n_splits": 4,
+    "chosen_split": 0,
+    "group": "homology_group",
+    "use": "epoch selection only"
+  },
+  "outer_validation_use": "prediction and evaluation only; never early stopping",
+  "final_refit": "all outer-fit records for the inner-selected epoch count",
+  "preprocessing": "fold-local MinMaxScaler and PCA fitted without outer validation",
+  "pca_components_per_backbone": 512,
+  "epochs_cap": 100,
+  "blind_labels_read": false,
+  "calibration_applied": false,
+  "threshold_optimized": false,
+  "audited_runner": "/home/lvfang/ESMC_halophile/scripts/deepsaltpro_fair_stage4b/train_deepsaltpro_fair.py",
+  "audited_runner_sha256": "8619990b59c092bd563c4d7499ac1acab6da31a37421a6847ef2333a629feb5e",
+  "ankh": {
+    "directory": "/home/lvfang/ESMC_halophile/work/deepsaltpro_fair_v1/features/full_ankh_window",
+    "rows_sha256": "7c4e6715f8f7cb2ef66155beebb1693c5786a052f00adebac592af1bdc8cac35",
+    "embeddings_sha256": "39065de47e630627c5a4048872bce1af314bd3c6d1ba4695aa178802af70dfaf",
+    "shape": [
+      12663,
+      1536
+    ],
+    "source_status": "PASS"
+  },
+  "esm2": {
+    "directory": "/home/lvfang/ESMC_halophile/work/deepsaltpro_fair_v1/features/full_esm2_window",
+    "rows_sha256": "6d6331e08ebdfe2b1cf4299b6f77013fe69c0aa9d1a45a1aaea43e2bd36608d1",
+    "embeddings_sha256": "9d5e26a22ce41d44bc97d220da89cb8704b5fa1eb4c2fe42dd93ae23dc754103",
+    "shape": [
+      12663,
+      2560
+    ],
+    "source_status": "PASS"
+  },
+  "device": "cuda:0",
+  "gpu_name": "NVIDIA GeForce RTX 4090",
+  "seed": 20260902
+}

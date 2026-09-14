@@ -1,0 +1,42 @@
+{
+  "development": {
+    "path": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_00_protocol_and_data_lock/v2_development.tsv",
+    "sha256": "42c82870f161a4b27ed93612a20334801bceb85a6ad9994120a08b2546000522"
+  },
+  "blind_ids": {
+    "path": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_00_protocol_and_data_lock/v2_blind_ids.tsv",
+    "sha256": "74b235b80684ec291fc925ec4a1615a161b9934f545c7abd7e64a787fa8c4c85"
+  },
+  "folds": {
+    "path": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_01_baseline_and_teacher_oof/group_folds_v2.tsv",
+    "sha256": "68119ccd8a9c03244c2b23356b52bc9c20a4c1ba6319970917a8bca53863205d"
+  },
+  "row_map": {
+    "path": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_01_baseline_and_teacher_oof/v2_development_embedding_rows.tsv",
+    "sha256": "3d27c981dd95db2c9e00cb5c3871babebd6ea9bcd5d4fe8218f86300e2a9d1f8"
+  },
+  "baseline_predictions": {
+    "path": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_01_baseline_and_teacher_oof/esmc_v1_oof_predictions.tsv",
+    "sha256": "25937c627917bb6dc6fd363d1af1af3b4da0f2aea4b89fde06d5f5dfa8c2c634"
+  },
+  "baseline_metrics": {
+    "path": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_01_baseline_and_teacher_oof/esmc_v1_oof_metrics.json",
+    "sha256": "a948858846f5e81afcd1b2a89569344c700aac2915047e6ad4ca8f16bc854aba"
+  },
+  "registry": {
+    "path": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_02_label_audit/V2_02B_audit_lock_v1/V2_02_LOCKED_TRAINING_REGISTRY.tsv",
+    "sha256": "d02f0cb31d7b599d1de4780f61d3bda6b26390671dc42053ef1ba1c8dc2b0ee5"
+  },
+  "audit_policy": {
+    "path": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_02_label_audit/V2_02B_audit_lock_v1/V2_02_ADJUDICATION_POLICY.json",
+    "sha256": "552c47850986f1a8d4d0493c6dfe8dfb5016a8453c9aa4566822eadabcdc998d"
+  },
+  "audit_done": {
+    "path": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_02_label_audit/V2_02B_audit_lock_v1/V2_02B_DONE.json",
+    "sha256": "3e8faaa8ad85175b6ab562be15e480cd6ff1666bd5c67856b14ee67803e6a39c"
+  },
+  "matrix": {
+    "path": "/home/lvfang/ESMC_halophile/data/embeddings/esmc600m_canonical_b1/embeddings.npy",
+    "sha256": "04dd4e5a0e0d6738de5ad97a962b9fbd1bc514e2ce04333db3f5875e2ffc837e"
+  }
+}

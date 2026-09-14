@@ -1,0 +1,19 @@
+{
+  "module": "V2-00",
+  "state": "DONE",
+  "result": "PASS",
+  "completed_at_utc": "2026-09-02T12:41:20.936034+00:00",
+  "published_files": [
+    "V2_PROTOCOL.md",
+    "DATA_ROLE_CONTRACT.json",
+    "v2_development.tsv",
+    "v2_blind_ids.tsv",
+    "v2_blind_labels_private.tsv",
+    "SPLIT_LOCK.json",
+    "V2_00_AUDIT.json",
+    "STATUS.json",
+    "SHA256SUMS"
+  ],
+  "blind_labels_opened_for_modelling": false,
+  "next_module": "V2-01_baseline_and_teacher_oof"
+}

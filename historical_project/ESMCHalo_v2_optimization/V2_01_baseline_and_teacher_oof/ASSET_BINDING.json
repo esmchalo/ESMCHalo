@@ -1,0 +1,91 @@
+{
+  "module": "V2-01C",
+  "status": "PASS_READY_FOR_BASELINE_OOF",
+  "created_at_utc": "2026-09-02T13:15:21.527317+00:00",
+  "strict_manifest": {
+    "path": "/home/lvfang/ESMC_halophile/data/model_ready/strict_mmseqs50/strict_manifest.tsv",
+    "rows": 12663,
+    "sha256": "68cb4df25be72a43c9594f1b85ca89735987a4821917b81e63f65aaa5437d2d6"
+  },
+  "development": {
+    "path": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_00_protocol_and_data_lock/v2_development.tsv",
+    "rows": 10567,
+    "sha256": "42c82870f161a4b27ed93612a20334801bceb85a6ad9994120a08b2546000522",
+    "blind_id_overlap": 0
+  },
+  "folds": {
+    "path": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_01_baseline_and_teacher_oof/group_folds_v2.tsv",
+    "sha256": "68119ccd8a9c03244c2b23356b52bc9c20a4c1ba6319970917a8bca53863205d"
+  },
+  "feature_bindings": {
+    "ankh": {
+      "name": "Ankh",
+      "directory": "/home/lvfang/ESMC_halophile/work/deepsaltpro_fair_v1/features/full_ankh_window",
+      "rows_path": "/home/lvfang/ESMC_halophile/work/deepsaltpro_fair_v1/features/full_ankh_window/rows.tsv",
+      "rows_sha256": "7c4e6715f8f7cb2ef66155beebb1693c5786a052f00adebac592af1bdc8cac35",
+      "matrix_path": "/home/lvfang/ESMC_halophile/work/deepsaltpro_fair_v1/features/full_ankh_window/embeddings.npy",
+      "matrix_sha256": "39065de47e630627c5a4048872bce1af314bd3c6d1ba4695aa178802af70dfaf",
+      "shape": [
+        12663,
+        1536
+      ],
+      "dtype": "float32",
+      "id_column": "clean_id",
+      "id_set_matches_strict_manifest": true,
+      "metadata_mismatch_counts": {
+        "label": 0,
+        "cluster_id": 0
+      },
+      "source_summary_status": "PASS",
+      "record_key_candidate_scores": {
+        "sha256:clean_id": 128
+      },
+      "selected_record_key": "sha256:clean_id",
+      "sampled_record_files_verified": 128,
+      "sampled_record_max_abs_difference": 0.0,
+      "binding_status": "PASS",
+      "binding_basis": "rows.tsv clean_id alignment plus PASS source summary"
+    },
+    "esm2": {
+      "name": "ESM-2",
+      "directory": "/home/lvfang/ESMC_halophile/work/deepsaltpro_fair_v1/features/full_esm2_window",
+      "rows_path": "/home/lvfang/ESMC_halophile/work/deepsaltpro_fair_v1/features/full_esm2_window/rows.tsv",
+      "rows_sha256": "6d6331e08ebdfe2b1cf4299b6f77013fe69c0aa9d1a45a1aaea43e2bd36608d1",
+      "matrix_path": "/home/lvfang/ESMC_halophile/work/deepsaltpro_fair_v1/features/full_esm2_window/embeddings.npy",
+      "matrix_sha256": "9d5e26a22ce41d44bc97d220da89cb8704b5fa1eb4c2fe42dd93ae23dc754103",
+      "shape": [
+        12663,
+        2560
+      ],
+      "dtype": "float32",
+      "id_column": "clean_id",
+      "id_set_matches_strict_manifest": true,
+      "metadata_mismatch_counts": {
+        "label": 0,
+        "cluster_id": 0
+      },
+      "source_summary_status": "PASS",
+      "record_key_candidate_scores": {
+        "sha256:clean_id": 128
+      },
+      "selected_record_key": "sha256:clean_id",
+      "sampled_record_files_verified": 128,
+      "sampled_record_max_abs_difference": 0.0,
+      "binding_status": "PASS",
+      "binding_basis": "rows.tsv clean_id alignment plus PASS source summary"
+    }
+  },
+  "esmc_roles": {
+    "historical_baseline": {
+      "path": "/home/lvfang/ESMC_halophile/data/embeddings/esmc600m_canonical_b1/embeddings.npy",
+      "sha256": "04dd4e5a0e0d6738de5ad97a962b9fbd1bc514e2ce04333db3f5875e2ffc837e",
+      "role": "V2-01 original ESMCHalo baseline"
+    },
+    "layer36_screen_asset": {
+      "path": "/home/lvfang/ESMC_halophile/data/embeddings/esmc600m_layers/layer_36.npy",
+      "sha256": "f52c3c81a36134e72ce7de221437c2d48e2581df5e5a9bbe3d7c6897261ca52b",
+      "role": "V2-03 layer/pooling screen; not silently substituted for baseline"
+    }
+  },
+  "blind_labels_read": false
+}

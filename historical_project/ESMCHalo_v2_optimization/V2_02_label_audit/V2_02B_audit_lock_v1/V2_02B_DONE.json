@@ -1,0 +1,17 @@
+{
+  "module": "V2-02B",
+  "status": "PASS_READY_FOR_V2_03A",
+  "finished_at_utc": "2026-09-03T01:37:50.420152+00:00",
+  "records": 10567,
+  "B_ambiguous": 570,
+  "C_data_conflict": 0,
+  "labels_changed": 0,
+  "v2_03_training_weight": 1.0,
+  "blind_labels_read": false,
+  "next_gate": "V2-03A fixed head screening on existing 1152-D embeddings",
+  "versions": {
+    "python": "3.12.13",
+    "numpy": "2.5.1",
+    "pandas": "3.0.3"
+  }
+}
