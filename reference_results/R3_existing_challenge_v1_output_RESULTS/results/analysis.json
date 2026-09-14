@@ -1,0 +1,18 @@
+{
+  "status": "COMPLETED",
+  "records": 1680,
+  "unique_sequences": 1675,
+  "r2_coefficient": 1.7244061167358966,
+  "r2_intercept": -0.007820316795430216,
+  "repeats": 5000,
+  "seed": 20260913,
+  "ece_bins": 10,
+  "limitations": [
+    "Existing public challenges previously evaluated with final-v3; not first project-wide blind evaluation.",
+    "Historical homology flags are reused and not revalidated against current training records.",
+    "Bootstrap groups exact sequences only; no taxonomic or homology independence claim.",
+    "R2 Platt is retrospective sensitivity analysis, with parameters fitted previously; no challenge fitting.",
+    "No causal distillation claim. final-v3 uses historical threshold 0.47."
+  ],
+  "inference": "ESMCHalo: mean of five raw logits then frozen Platt; DSP: mean of five probabilities."
+}

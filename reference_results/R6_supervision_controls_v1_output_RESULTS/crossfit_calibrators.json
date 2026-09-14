@@ -1,0 +1,122 @@
+[
+  {
+    "arm": "B0",
+    "fold": 0,
+    "coefficient": 0.6384174542147981,
+    "intercept": -0.11436009254743923
+  },
+  {
+    "arm": "B0",
+    "fold": 1,
+    "coefficient": 0.4821775754585173,
+    "intercept": -0.02830109333664346
+  },
+  {
+    "arm": "B0",
+    "fold": 2,
+    "coefficient": 0.46856786201952555,
+    "intercept": -0.07196304318077837
+  },
+  {
+    "arm": "B0",
+    "fold": 3,
+    "coefficient": 0.47875264504986004,
+    "intercept": -0.06456620878448967
+  },
+  {
+    "arm": "B0",
+    "fold": 4,
+    "coefficient": 0.5774543222219805,
+    "intercept": -0.01893701644632186
+  },
+  {
+    "arm": "H0",
+    "fold": 0,
+    "coefficient": 1.6651451768677135,
+    "intercept": -0.04061556193194823
+  },
+  {
+    "arm": "H0",
+    "fold": 1,
+    "coefficient": 1.6543026372431533,
+    "intercept": -0.025700205652615795
+  },
+  {
+    "arm": "H0",
+    "fold": 2,
+    "coefficient": 1.6444619347517653,
+    "intercept": -0.046823855275777634
+  },
+  {
+    "arm": "H0",
+    "fold": 3,
+    "coefficient": 1.6443703582680227,
+    "intercept": -0.09758665821955435
+  },
+  {
+    "arm": "H0",
+    "fold": 4,
+    "coefficient": 1.6651573200396355,
+    "intercept": -0.08373520934678728
+  },
+  {
+    "arm": "M0",
+    "fold": 0,
+    "coefficient": 1.2351789282171244,
+    "intercept": -0.10698036222419412
+  },
+  {
+    "arm": "M0",
+    "fold": 1,
+    "coefficient": 1.1992181226793166,
+    "intercept": -0.14104566130910906
+  },
+  {
+    "arm": "M0",
+    "fold": 2,
+    "coefficient": 1.1686172652522153,
+    "intercept": -0.1578725540990853
+  },
+  {
+    "arm": "M0",
+    "fold": 3,
+    "coefficient": 1.1725596324471959,
+    "intercept": -0.05422623854986857
+  },
+  {
+    "arm": "M0",
+    "fold": 4,
+    "coefficient": 1.1342427417456113,
+    "intercept": -0.10969860699645591
+  },
+  {
+    "arm": "Mixup_KD",
+    "fold": 0,
+    "coefficient": 1.792263041982698,
+    "intercept": -0.04362426307249788
+  },
+  {
+    "arm": "Mixup_KD",
+    "fold": 1,
+    "coefficient": 1.8538663920138287,
+    "intercept": -0.07516204757667848
+  },
+  {
+    "arm": "Mixup_KD",
+    "fold": 2,
+    "coefficient": 1.7997923169845955,
+    "intercept": -0.06191930676665589
+  },
+  {
+    "arm": "Mixup_KD",
+    "fold": 3,
+    "coefficient": 1.8024156120543435,
+    "intercept": -0.11549584276911726
+  },
+  {
+    "arm": "Mixup_KD",
+    "fold": 4,
+    "coefficient": 1.8149891754945289,
+    "intercept": -0.12099566419936879
+  }
+]

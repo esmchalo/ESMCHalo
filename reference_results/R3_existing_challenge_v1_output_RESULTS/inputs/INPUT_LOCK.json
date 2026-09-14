@@ -1,0 +1,17 @@
+{
+  "records": 1680,
+  "unique_sequences": 1675,
+  "datasets": {
+    "haloclass_newtest1402": {
+      "n": 1402,
+      "positive": 548
+    },
+    "haloclass_zhang278": {
+      "n": 278,
+      "positive": 139
+    }
+  },
+  "source_zip_sha256": "1e8feacba0144b6e6b21cc1055085034a532124b073bcd2dd023291ffe5686e8",
+  "synthetic_encoder_label": 0,
+  "note": "Encoder label is placeholder metadata; evaluation labels are in records.tsv. Historical subset flags are not a new homology audit."
+}

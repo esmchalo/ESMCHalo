@@ -1,0 +1,4 @@
+{
+  "ESMCHalo_v2_optimization/V2_05_hard_negative_and_peft/V2_05A_hard_sample_weighting_ablation_v1/all_candidate_oof_predictions.tsv": "d8d60797edf7f1864120005258e6e52847e655728aaa263406831617f7fc7a86",
+  "ESMCHalo_v2_optimization/V2_01_baseline_and_teacher_oof/deepsaltpro_nested_oof_full_v1/deepsaltpro_oof_predictions.tsv": "e3715f16f7f32fb0bd28f48250c5c0bf748f8666762ba52e2a5d853d508915b2"
+}
