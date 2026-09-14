@@ -1,0 +1,12 @@
+{
+  "status": "COMPLETED",
+  "exploratory": true,
+  "production_model": "H0",
+  "automatic_replacement": false,
+  "development_original_gate_passed": false,
+  "challenge_evaluated": true,
+  "records": 1680,
+  "unique_sequences": 1675,
+  "heads": 10,
+  "training_performed": false
+}

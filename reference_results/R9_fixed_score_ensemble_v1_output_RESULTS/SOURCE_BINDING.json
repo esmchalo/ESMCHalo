@@ -1,0 +1,42 @@
+[
+  {
+    "path": "ESMCHalo_v2_optimization/V2_06_ensemble_calibration_freeze/V2_06_ensemble_calibration_freeze_v1/frozen_ensemble/members/fold_0.pt",
+    "sha256": "57a12bba50e19bebc94cb839ba05639276b4b004892283efb867adf5c5480ae4"
+  },
+  {
+    "path": "R5_student_training_v1_output/partial/Mixup/fold_0.pt",
+    "sha256": "34c25122c991ec4bf76efcd4e095f8b1740f14eb3fa65b7bb8868edb4a2ca04b"
+  },
+  {
+    "path": "ESMCHalo_v2_optimization/V2_06_ensemble_calibration_freeze/V2_06_ensemble_calibration_freeze_v1/frozen_ensemble/members/fold_1.pt",
+    "sha256": "1e49d4f98d7ba8e2a567e9a7bf1298db43cbde20389d7b7243a41ce753c2c9bf"
+  },
+  {
+    "path": "R5_student_training_v1_output/partial/Mixup/fold_1.pt",
+    "sha256": "36d82f2534eabca3b9dcccfab0670ac6ad10072a73ff50c15fd713936e0fd226"
+  },
+  {
+    "path": "ESMCHalo_v2_optimization/V2_06_ensemble_calibration_freeze/V2_06_ensemble_calibration_freeze_v1/frozen_ensemble/members/fold_2.pt",
+    "sha256": "5685ca6f2ec06e4ac19c44cdbf8d13347d2ab00646a17a995b366e279ec3d023"
+  },
+  {
+    "path": "R5_student_training_v1_output/partial/Mixup/fold_2.pt",
+    "sha256": "9e193d68df434350f161b29b1565a024b1b89a29e468b4775d9aeeb6a9999d2b"
+  },
+  {
+    "path": "ESMCHalo_v2_optimization/V2_06_ensemble_calibration_freeze/V2_06_ensemble_calibration_freeze_v1/frozen_ensemble/members/fold_3.pt",
+    "sha256": "c40651770ae2f689415cefdd516e7f2a74a60efd5c2f70b26a798c460f1606a2"
+  },
+  {
+    "path": "R5_student_training_v1_output/partial/Mixup/fold_3.pt",
+    "sha256": "fac32dce9cf2888b7beebbe9abf08f24786e3acad0edfaceb7c0c3e888ab9304"
+  },
+  {
+    "path": "ESMCHalo_v2_optimization/V2_06_ensemble_calibration_freeze/V2_06_ensemble_calibration_freeze_v1/frozen_ensemble/members/fold_4.pt",
+    "sha256": "6c290a6b7f5de70c5ff9052df2565486008f54056dccbb84d521216d545c524a"
+  },
+  {
+    "path": "R5_student_training_v1_output/partial/Mixup/fold_4.pt",
+    "sha256": "95f6d0c6986037fd46022b62fdc36ad82a7701ab39a85994e044839c126739e6"
+  }
+]

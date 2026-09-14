@@ -1,0 +1,7 @@
+{
+  "status": "COMPLETED",
+  "decision": "NO_CANDIDATE_SELECTED",
+  "selected_arm": "H0",
+  "challenge_evaluated": false,
+  "note": "No candidate selected is a screen result, not a conclusion that all model improvement is exhausted."
+}

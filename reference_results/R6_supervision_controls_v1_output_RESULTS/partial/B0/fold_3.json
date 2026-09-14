@@ -1,0 +1,92 @@
+{
+  "status": "PASS",
+  "arm": "B0",
+  "outer_fold": 3,
+  "inner_fold": 4,
+  "outer_train_records": 8454,
+  "outer_validation_records": 2113,
+  "weighted_outer_train_records": 0,
+  "selected_epochs": 5,
+  "best_inner_ap": 0.9878828431435396,
+  "epoch_history": [
+    {
+      "epoch": 1,
+      "mean_training_loss": 0.3150482350587845,
+      "inner_ap": 0.9855010656990772
+    },
+    {
+      "epoch": 2,
+      "mean_training_loss": 0.18228407680988312,
+      "inner_ap": 0.9869912785491146
+    },
+    {
+      "epoch": 3,
+      "mean_training_loss": 0.1518234971165657,
+      "inner_ap": 0.9878524944389391
+    },
+    {
+      "epoch": 4,
+      "mean_training_loss": 0.1263680425286293,
+      "inner_ap": 0.9873808618241543
+    },
+    {
+      "epoch": 5,
+      "mean_training_loss": 0.10724027812480927,
+      "inner_ap": 0.9878828431435396
+    },
+    {
+      "epoch": 6,
+      "mean_training_loss": 0.09341403499245643,
+      "inner_ap": 0.9871251858043908
+    },
+    {
+      "epoch": 7,
+      "mean_training_loss": 0.07571194157004356,
+      "inner_ap": 0.9868667735774697
+    },
+    {
+      "epoch": 8,
+      "mean_training_loss": 0.07424763709306717,
+      "inner_ap": 0.9874764761752887
+    },
+    {
+      "epoch": 9,
+      "mean_training_loss": 0.05359082639217377,
+      "inner_ap": 0.9870721549740689
+    },
+    {
+      "epoch": 10,
+      "mean_training_loss": 0.04159447811543941,
+      "inner_ap": 0.9853941630069352
+    },
+    {
+      "epoch": 11,
+      "mean_training_loss": 0.03554067745804787,
+      "inner_ap": 0.986428344412577
+    },
+    {
+      "epoch": 12,
+      "mean_training_loss": 0.03332788098603487,
+      "inner_ap": 0.9859987433964952
+    },
+    {
+      "epoch": 13,
+      "mean_training_loss": 0.036224810592830184,
+      "inner_ap": 0.9865358089742693
+    },
+    {
+      "epoch": 14,
+      "mean_training_loss": 0.028888931311666966,
+      "inner_ap": 0.986494897819174
+    },
+    {
+      "epoch": 15,
+      "mean_training_loss": 0.021385312862694263,
+      "inner_ap": 0.9862813769010033
+    }
+  ],
+  "result_sha256": "de60fde642c515ec3b8e9fb61ed076412db6429529a618774be43be0fdf0802c",
+  "checkpoint_sha256": "6316b997041feaa257fca53053d2987bde65caf37b8558f60757c18011564353",
+  "outer_shared_groups": 0,
+  "validation_flags_used_for_training": false
+}

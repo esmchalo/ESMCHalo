@@ -1,0 +1,97 @@
+{
+  "status": "PASS",
+  "arm": "M0",
+  "outer_fold": 4,
+  "inner_fold": 0,
+  "outer_train_records": 8454,
+  "outer_validation_records": 2113,
+  "weighted_outer_train_records": 0,
+  "selected_epochs": 6,
+  "best_inner_ap": 0.9843279503547165,
+  "epoch_history": [
+    {
+      "epoch": 1,
+      "mean_training_loss": 0.3924484896659851,
+      "inner_ap": 0.9789026671305244
+    },
+    {
+      "epoch": 2,
+      "mean_training_loss": 0.28082944512367247,
+      "inner_ap": 0.982866270276717
+    },
+    {
+      "epoch": 3,
+      "mean_training_loss": 0.28164126455783844,
+      "inner_ap": 0.9832561822468284
+    },
+    {
+      "epoch": 4,
+      "mean_training_loss": 0.2949238270521164,
+      "inner_ap": 0.9816972027908565
+    },
+    {
+      "epoch": 5,
+      "mean_training_loss": 0.23026153802871704,
+      "inner_ap": 0.9831619586630671
+    },
+    {
+      "epoch": 6,
+      "mean_training_loss": 0.2497631084918976,
+      "inner_ap": 0.9843279503547165
+    },
+    {
+      "epoch": 7,
+      "mean_training_loss": 0.2491285225749016,
+      "inner_ap": 0.9835171794643356
+    },
+    {
+      "epoch": 8,
+      "mean_training_loss": 0.262524311542511,
+      "inner_ap": 0.9810898102115282
+    },
+    {
+      "epoch": 9,
+      "mean_training_loss": 0.22229654878377914,
+      "inner_ap": 0.9835733460661149
+    },
+    {
+      "epoch": 10,
+      "mean_training_loss": 0.21355398863554,
+      "inner_ap": 0.9822694912686467
+    },
+    {
+      "epoch": 11,
+      "mean_training_loss": 0.16990467444062232,
+      "inner_ap": 0.9799724484711204
+    },
+    {
+      "epoch": 12,
+      "mean_training_loss": 0.20863682985305787,
+      "inner_ap": 0.9797922042542067
+    },
+    {
+      "epoch": 13,
+      "mean_training_loss": 0.24464055314660071,
+      "inner_ap": 0.9810646899118626
+    },
+    {
+      "epoch": 14,
+      "mean_training_loss": 0.16952007472515107,
+      "inner_ap": 0.9680084999257755
+    },
+    {
+      "epoch": 15,
+      "mean_training_loss": 0.14760570228099823,
+      "inner_ap": 0.9717939869598724
+    },
+    {
+      "epoch": 16,
+      "mean_training_loss": 0.16481741771101951,
+      "inner_ap": 0.9794025948284956
+    }
+  ],
+  "result_sha256": "160004c8da7898d46de6c100537f5601635535994f90b9ffd82b91a9ba4a5b9c",
+  "checkpoint_sha256": "2ad6aee7b5f1403e6bcabfb265aeb199412ae8d80766362654bf9eab2204dff8",
+  "outer_shared_groups": 0,
+  "validation_flags_used_for_training": false
+}

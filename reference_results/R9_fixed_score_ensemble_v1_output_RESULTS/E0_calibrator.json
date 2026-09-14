@@ -1,0 +1,8 @@
+{
+  "coefficient": 1.7473426969146193,
+  "intercept": -0.07031368943079835,
+  "records": 10567,
+  "fit": "development fixed logit midpoint OOF only",
+  "label_source": "development",
+  "source_oof_sha256": "850e1d386749aedb88052978e2ac3fcd128eb1b918ef15c3f134cc34ef7e3d25"
+}

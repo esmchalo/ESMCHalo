@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "arm": "S0",
+  "outer_fold": 0,
+  "training_performed": false,
+  "source_checkpoints": {
+    "H0": {
+      "path": "ESMCHalo_v2_optimization/V2_06_ensemble_calibration_freeze/V2_06_ensemble_calibration_freeze_v1/frozen_ensemble/members/fold_0.pt",
+      "sha256": "57a12bba50e19bebc94cb839ba05639276b4b004892283efb867adf5c5480ae4"
+    },
+    "Mixup": {
+      "path": "R5_student_training_v1_output/partial/Mixup/fold_0.pt",
+      "sha256": "34c25122c991ec4bf76efcd4e095f8b1740f14eb3fa65b7bb8868edb4a2ca04b"
+    }
+  },
+  "source_raw_logit_max_abs_error": {
+    "H0": 8.881784197001252e-16,
+    "Mixup": 0.0
+  },
+  "checkpoint_sha256": "5780854f530346356882a238d40f0ad4bf45c114aa148d7a17a6ee180933a156",
+  "result_sha256": "7cfc442446ffde04aa9e14228b7c7e65f4d5337d17b35ac073bb8f83d780f967"
+}

@@ -1,0 +1,7 @@
+mode	subset	n	corrected	introduced
+raw	all	10567	63	65
+raw	teacher_agrees	9742	39	31
+raw	teacher_disagrees	825	24	34
+crossfit_Platt	all	10567	62	62
+crossfit_Platt	teacher_agrees	9742	39	28
+crossfit_Platt	teacher_disagrees	825	23	34

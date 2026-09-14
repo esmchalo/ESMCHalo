@@ -1,0 +1,82 @@
+{
+  "status": "PASS",
+  "arm": "M0",
+  "outer_fold": 2,
+  "inner_fold": 3,
+  "outer_train_records": 8454,
+  "outer_validation_records": 2113,
+  "weighted_outer_train_records": 0,
+  "selected_epochs": 3,
+  "best_inner_ap": 0.9898099447784551,
+  "epoch_history": [
+    {
+      "epoch": 1,
+      "mean_training_loss": 0.3707236063480377,
+      "inner_ap": 0.985483488395811
+    },
+    {
+      "epoch": 2,
+      "mean_training_loss": 0.33525625467300413,
+      "inner_ap": 0.9878221739923141
+    },
+    {
+      "epoch": 3,
+      "mean_training_loss": 0.2910877811908722,
+      "inner_ap": 0.9898099447784551
+    },
+    {
+      "epoch": 4,
+      "mean_training_loss": 0.26994109332561494,
+      "inner_ap": 0.9890718035817766
+    },
+    {
+      "epoch": 5,
+      "mean_training_loss": 0.25324972450733185,
+      "inner_ap": 0.9890135648516455
+    },
+    {
+      "epoch": 6,
+      "mean_training_loss": 0.25216821014881136,
+      "inner_ap": 0.9882940425851686
+    },
+    {
+      "epoch": 7,
+      "mean_training_loss": 0.3271777859330177,
+      "inner_ap": 0.9890533241313044
+    },
+    {
+      "epoch": 8,
+      "mean_training_loss": 0.26007537215948107,
+      "inner_ap": 0.9865316552600805
+    },
+    {
+      "epoch": 9,
+      "mean_training_loss": 0.23494569033384324,
+      "inner_ap": 0.9893749638616023
+    },
+    {
+      "epoch": 10,
+      "mean_training_loss": 0.25702960550785064,
+      "inner_ap": 0.9886979559551365
+    },
+    {
+      "epoch": 11,
+      "mean_training_loss": 0.2215564301609993,
+      "inner_ap": 0.9845023016153515
+    },
+    {
+      "epoch": 12,
+      "mean_training_loss": 0.23866519778966905,
+      "inner_ap": 0.9846497965500381
+    },
+    {
+      "epoch": 13,
+      "mean_training_loss": 0.17554883167147636,
+      "inner_ap": 0.9860734610906607
+    }
+  ],
+  "result_sha256": "c9d128085874dc2a29e530df237616abb6e2cd43b9ea6d4d1e2f6e2864f30770",
+  "checkpoint_sha256": "53948b664d2b070c6cf0206a1cecee92dcabfa4ab00e370734bfae0dac08036b",
+  "outer_shared_groups": 0,
+  "validation_flags_used_for_training": false
+}

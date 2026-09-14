@@ -1,0 +1,28 @@
+{
+  "selected_arm": "H0",
+  "eligible_arms": [],
+  "gates": [
+    {
+      "arm": "G0",
+      "passed": false,
+      "delta": {
+        "ACC": -0.0021765874893536763,
+        "MCC": -0.004508318661087696,
+        "Brier": 0.0004881480895274695,
+        "log_loss": 0.002816976754134337
+      },
+      "guards": {
+        "raw_AP": true,
+        "raw_AUROC": true,
+        "crossfit_Platt_AP": true,
+        "crossfit_Platt_AUROC": true,
+        "strict25_AP": true,
+        "strict25_AUROC": true,
+        "clean_core_AP": true,
+        "clean_core_AUROC": true
+      },
+      "improving_folds": 1
+    }
+  ],
+  "decision": "NO_CANDIDATE_SELECTED"
+}
