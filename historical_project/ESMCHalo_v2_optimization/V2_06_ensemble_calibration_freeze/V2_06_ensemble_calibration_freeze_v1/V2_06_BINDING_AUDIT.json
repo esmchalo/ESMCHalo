@@ -1,0 +1,90 @@
+{
+  "status": "PASS",
+  "records": 10567,
+  "positive": 6269,
+  "negative": 4298,
+  "fold_sizes": {
+    "0": 2114,
+    "1": 2114,
+    "2": 2113,
+    "3": 2113,
+    "4": 2113
+  },
+  "unique_strict40_groups": 10239,
+  "maximum_folds_per_group": 1,
+  "strict25_records": 10458,
+  "clean_core_records": 7934,
+  "source_arm": "H0",
+  "source_equivalence": "V2-04 K2 exact reproduction",
+  "input_hashes": {
+    "folds": {
+      "path": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_01_baseline_and_teacher_oof/group_folds_v2.tsv",
+      "sha256": "68119ccd8a9c03244c2b23356b52bc9c20a4c1ba6319970917a8bca53863205d",
+      "status": "PASS"
+    },
+    "registry": {
+      "path": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_02_label_audit/V2_02B_audit_lock_v1/V2_02_LOCKED_TRAINING_REGISTRY.tsv",
+      "sha256": "d02f0cb31d7b599d1de4780f61d3bda6b26390671dc42053ef1ba1c8dc2b0ee5",
+      "status": "PASS"
+    },
+    "v205_done": {
+      "path": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_05_hard_negative_and_peft/V2_05A_hard_sample_weighting_ablation_v1/V2_05A_DONE.json",
+      "sha256": "279641e6b5488d762d286b50b3c3cffbdd874925b5db421139fb803a26fa57d8",
+      "status": "PASS"
+    },
+    "v205_selection": {
+      "path": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_05_hard_negative_and_peft/V2_05A_hard_sample_weighting_ablation_v1/selected_hard_sample_strategy.json",
+      "sha256": "f5a151eccf08fad3d98f868eedaa2e7d0673f950b9b022597b62d127f42ebe73",
+      "status": "PASS"
+    },
+    "v205_reproduction": {
+      "path": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_05_hard_negative_and_peft/V2_05A_hard_sample_weighting_ablation_v1/H0_REPRODUCTION_AUDIT.json",
+      "sha256": "79543e0c70a3b71fa8d6caab5f9d788d23c25cdcdb60a7d4761874cb123db497",
+      "status": "PASS"
+    },
+    "v205_oof": {
+      "path": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_05_hard_negative_and_peft/V2_05A_hard_sample_weighting_ablation_v1/all_candidate_oof_predictions.tsv",
+      "sha256": "d8d60797edf7f1864120005258e6e52847e655728aaa263406831617f7fc7a86",
+      "status": "PASS"
+    },
+    "v205_binding": {
+      "path": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_05_hard_negative_and_peft/V2_05A_hard_sample_weighting_ablation_v1/V2_05A_BINDING_AUDIT.json",
+      "sha256": "46c1fcc0d67d5d4bdbe243f724df0d8eea36c2b8accc9cb4d9d19c3ce1a38614",
+      "status": "PASS"
+    },
+    "v205_access": {
+      "path": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_05_hard_negative_and_peft/V2_05A_hard_sample_weighting_ablation_v1/DATA_ACCESS_AUDIT.json",
+      "sha256": "d5793cea32c9e69b5c7bb0f90e4bc80214ed3491abc7d9149c3bd21593ebdd81",
+      "status": "PASS"
+    },
+    "member_0": {
+      "path": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_05_hard_negative_and_peft/V2_05A_hard_sample_weighting_ablation_v1/partial/H0/fold_0.pt",
+      "sha256": "57a12bba50e19bebc94cb839ba05639276b4b004892283efb867adf5c5480ae4",
+      "status": "PASS"
+    },
+    "member_1": {
+      "path": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_05_hard_negative_and_peft/V2_05A_hard_sample_weighting_ablation_v1/partial/H0/fold_1.pt",
+      "sha256": "1e49d4f98d7ba8e2a567e9a7bf1298db43cbde20389d7b7243a41ce753c2c9bf",
+      "status": "PASS"
+    },
+    "member_2": {
+      "path": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_05_hard_negative_and_peft/V2_05A_hard_sample_weighting_ablation_v1/partial/H0/fold_2.pt",
+      "sha256": "5685ca6f2ec06e4ac19c44cdbf8d13347d2ab00646a17a995b366e279ec3d023",
+      "status": "PASS"
+    },
+    "member_3": {
+      "path": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_05_hard_negative_and_peft/V2_05A_hard_sample_weighting_ablation_v1/partial/H0/fold_3.pt",
+      "sha256": "c40651770ae2f689415cefdd516e7f2a74a60efd5c2f70b26a798c460f1606a2",
+      "status": "PASS"
+    },
+    "member_4": {
+      "path": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_05_hard_negative_and_peft/V2_05A_hard_sample_weighting_ablation_v1/partial/H0/fold_4.pt",
+      "sha256": "6c290a6b7f5de70c5ff9052df2565486008f54056dccbb84d521216d545c524a",
+      "status": "PASS"
+    }
+  },
+  "deployment_ensemble_dev_metrics_computed": false,
+  "blind_test200_external_labels_read": false,
+  "model_retraining": false,
+  "lora": false
+}

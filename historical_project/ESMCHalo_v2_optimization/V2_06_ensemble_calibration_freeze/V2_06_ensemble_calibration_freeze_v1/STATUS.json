@@ -1,0 +1,21 @@
+{
+  "module": "V2-06",
+  "status": "PASS_ENSEMBLE_CALIBRATION_FREEZE",
+  "started_at_utc": "2026-09-03T12:13:41.687301+00:00",
+  "finished_at_utc": "2026-09-03T12:17:07.595817+00:00",
+  "elapsed_seconds": 205.909,
+  "records": 10567,
+  "ensemble_members": 5,
+  "aggregation": "mean_raw_logit",
+  "selected_calibrator": "C1",
+  "calibration_decision": "KEEP_CALIBRATOR",
+  "deployment_threshold": 0.5,
+  "threshold_decision": "KEEP_FIXED_0_5",
+  "development_ensemble_performance_claimed": false,
+  "model_retraining": false,
+  "blind_labels_read": false,
+  "test200_labels_read": false,
+  "external_challenge_labels_read": false,
+  "lora": false,
+  "next_gate": "V2-07 one-time blind evaluation only after review"
+}

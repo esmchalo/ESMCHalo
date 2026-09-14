@@ -1,0 +1,81 @@
+{
+  "status": "PASS_LABEL_FREE_BINDING",
+  "records": 1865,
+  "blind_ids_sha256": "74b235b80684ec291fc925ec4a1615a161b9934f545c7abd7e64a787fa8c4c85",
+  "safe_binding_sha256": "6af9fe379acb9c2240329377dc0dedc223c85d7c7fae22ff3cebaf5612da4d97",
+  "canonical_matrix": "/home/lvfang/ESMC_halophile/data/embeddings/esmc600m_canonical_b1/embeddings.npy",
+  "canonical_matrix_sha256": "04dd4e5a0e0d6738de5ad97a962b9fbd1bc514e2ce04333db3f5875e2ffc837e",
+  "ankh_matrix": "/home/lvfang/ESMC_halophile/work/deepsaltpro_fair_v1/features/full_ankh_window/embeddings.npy",
+  "ankh_matrix_sha256": "39065de47e630627c5a4048872bce1af314bd3c6d1ba4695aa178802af70dfaf",
+  "esm2_matrix": "/home/lvfang/ESMC_halophile/work/deepsaltpro_fair_v1/features/full_esm2_window/embeddings.npy",
+  "esm2_matrix_sha256": "9d5e26a22ce41d44bc97d220da89cb8704b5fa1eb4c2fe42dd93ae23dc754103",
+  "feature_row_files_opened_with_usecols_clean_id_only": [
+    "/home/lvfang/ESMC_halophile/data/embeddings/esmc600m_canonical_b1/rows.tsv",
+    "/home/lvfang/ESMC_halophile/work/deepsaltpro_fair_v1/features/full_ankh_window/rows.tsv",
+    "/home/lvfang/ESMC_halophile/work/deepsaltpro_fair_v1/features/full_esm2_window/rows.tsv"
+  ],
+  "models": {
+    "esmchalo_v2": [
+      {
+        "file": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_06_ensemble_calibration_freeze/V2_06_ensemble_calibration_freeze_v1/frozen_ensemble/members/fold_0.pt",
+        "sha256": "57a12bba50e19bebc94cb839ba05639276b4b004892283efb867adf5c5480ae4"
+      },
+      {
+        "file": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_06_ensemble_calibration_freeze/V2_06_ensemble_calibration_freeze_v1/frozen_ensemble/members/fold_1.pt",
+        "sha256": "1e49d4f98d7ba8e2a567e9a7bf1298db43cbde20389d7b7243a41ce753c2c9bf"
+      },
+      {
+        "file": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_06_ensemble_calibration_freeze/V2_06_ensemble_calibration_freeze_v1/frozen_ensemble/members/fold_2.pt",
+        "sha256": "5685ca6f2ec06e4ac19c44cdbf8d13347d2ab00646a17a995b366e279ec3d023"
+      },
+      {
+        "file": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_06_ensemble_calibration_freeze/V2_06_ensemble_calibration_freeze_v1/frozen_ensemble/members/fold_3.pt",
+        "sha256": "c40651770ae2f689415cefdd516e7f2a74a60efd5c2f70b26a798c460f1606a2"
+      },
+      {
+        "file": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_06_ensemble_calibration_freeze/V2_06_ensemble_calibration_freeze_v1/frozen_ensemble/members/fold_4.pt",
+        "sha256": "6c290a6b7f5de70c5ff9052df2565486008f54056dccbb84d521216d545c524a"
+      }
+    ],
+    "deepsaltpro": [
+      {
+        "fold": 0,
+        "model": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_01_baseline_and_teacher_oof/deepsaltpro_nested_oof_full_v1/fold_0/final_model.pt",
+        "model_sha256": "95cdba5d18b01969eb0f63c99eba3b42ab7d85555f83caa5ca1f5679da583675",
+        "preprocessing": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_01_baseline_and_teacher_oof/deepsaltpro_nested_oof_full_v1/fold_0/final_preprocessing.joblib",
+        "preprocessing_sha256": "a4b5c832d01299926b891604495c37d3edfbfe23846cbdb6c0aaf98277fd3e9b"
+      },
+      {
+        "fold": 1,
+        "model": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_01_baseline_and_teacher_oof/deepsaltpro_nested_oof_full_v1/fold_1/final_model.pt",
+        "model_sha256": "4a4881e803e0e571a6b2f7839912b3ec6c041111adbc532635dafca93372a906",
+        "preprocessing": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_01_baseline_and_teacher_oof/deepsaltpro_nested_oof_full_v1/fold_1/final_preprocessing.joblib",
+        "preprocessing_sha256": "5d4d0d25df0f383054f38c984683d48d0eab622025c01b2455b45a509cef9cc0"
+      },
+      {
+        "fold": 2,
+        "model": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_01_baseline_and_teacher_oof/deepsaltpro_nested_oof_full_v1/fold_2/final_model.pt",
+        "model_sha256": "e1712dc98f416ebee359594be58015f330a58bca5745e4efc23004eef58488b8",
+        "preprocessing": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_01_baseline_and_teacher_oof/deepsaltpro_nested_oof_full_v1/fold_2/final_preprocessing.joblib",
+        "preprocessing_sha256": "a852fd149939d8d0ee72ef14fea4998f9c192274cc83cb063b9ed4852e1ce220"
+      },
+      {
+        "fold": 3,
+        "model": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_01_baseline_and_teacher_oof/deepsaltpro_nested_oof_full_v1/fold_3/final_model.pt",
+        "model_sha256": "33d1d8232faa61bf9ac56f77ad57dee45831dbbee0737421868c7f15777f429f",
+        "preprocessing": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_01_baseline_and_teacher_oof/deepsaltpro_nested_oof_full_v1/fold_3/final_preprocessing.joblib",
+        "preprocessing_sha256": "2057d3b97014c979a79ba03adcdd28bf26d1bfbb3df179951be527d193d63d57"
+      },
+      {
+        "fold": 4,
+        "model": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_01_baseline_and_teacher_oof/deepsaltpro_nested_oof_full_v1/fold_4/final_model.pt",
+        "model_sha256": "7e589f7ea50b4e79f6cce773a2a949892a8e07a5a2753913ae2f73e8918901f9",
+        "preprocessing": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_01_baseline_and_teacher_oof/deepsaltpro_nested_oof_full_v1/fold_4/final_preprocessing.joblib",
+        "preprocessing_sha256": "c50b30de6f0812e57846680816dbdc34c89d14aa0367110adb2a46caab0780c7"
+      }
+    ]
+  },
+  "deepsaltpro_runner": "/home/lvfang/ESMC_halophile/scripts/deepsaltpro_fair_stage4b/train_deepsaltpro_fair.py",
+  "deepsaltpro_runner_sha256": "8619990b59c092bd563c4d7499ac1acab6da31a37421a6847ef2333a629feb5e",
+  "blind_labels_read": false
+}

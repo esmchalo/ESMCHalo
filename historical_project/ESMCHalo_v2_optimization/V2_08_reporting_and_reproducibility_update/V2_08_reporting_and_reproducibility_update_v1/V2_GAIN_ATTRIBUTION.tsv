@@ -1,0 +1,9 @@
+module	comparison	delta_ap	delta_mcc	delta_auroc	decision	attribution
+V2-03B2	streamed_layer36_mean vs canonical_mean	3.274597924707301e-06	-0.00018998764468602936	-1.8556895553523134e-07	KEEP_CANONICAL_POOLING	No material gain; canonical mean retained
+V2-04	K2 vs K0	0.0038585875377602497	0.020693371282199835	0.0047573570853680636	KEEP_KD_K2	Only clean development-stage predictive gain retained
+V2-05A	H1 vs H0	-0.00047722897680346765	-0.005413259771684387	-0.00041444970528325964	REJECT_WEIGHTING	No stable gain; H0 retained
+V2-05A	H2 vs H0	-5.888579342983036e-05	-0.003168235594836921	-4.850772497599909e-05	REJECT_WEIGHTING	No stable gain; H0 retained
+V2-05A	H3 vs H0	-0.00022840256062439668	-0.003462058488682529	-0.0002541923552866754	REJECT_WEIGHTING	No stable gain; H0 retained
+V2-06	C1 vs C0	-4.255518092666222e-05		-4.568707685204121e-05	KEEP_C1_PLATT	Calibration gain: Brier -0.002934, ECE -0.044013, log-loss -0.029934; not a ranking gain
+V2-06	five-fold ensemble vs single model				NO_CAUSAL_GAIN_CLAIM	No preregistered like-for-like comparison; ensemble is a deployment freeze choice
+V2-07	ESMCHalo-v2 vs DeepSaltPro on blind n=1,865	0.002534671853645	0.0211017933972864	0.0041818316160295	FINAL_COMPARATIVE_EVIDENCE	Independent comparison, not a component-level causal attribution

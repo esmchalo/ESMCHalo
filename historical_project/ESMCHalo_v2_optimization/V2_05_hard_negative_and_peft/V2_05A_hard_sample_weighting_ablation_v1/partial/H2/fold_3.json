@@ -1,0 +1,167 @@
+{
+  "status": "PASS",
+  "arm": "H2",
+  "outer_fold": 3,
+  "inner_fold": 4,
+  "outer_train_records": 8454,
+  "outer_validation_records": 2113,
+  "weighted_outer_train_records": 293,
+  "selected_epochs": 20,
+  "best_inner_ap": 0.9894861210481212,
+  "epoch_history": [
+    {
+      "epoch": 1,
+      "mean_training_loss": 1.3804973411560058,
+      "inner_ap": 0.9829688664284537
+    },
+    {
+      "epoch": 2,
+      "mean_training_loss": 1.2847346830368043,
+      "inner_ap": 0.9858726945569923
+    },
+    {
+      "epoch": 3,
+      "mean_training_loss": 1.2705536842346192,
+      "inner_ap": 0.9859713746637737
+    },
+    {
+      "epoch": 4,
+      "mean_training_loss": 1.2624619007110596,
+      "inner_ap": 0.9878984264052484
+    },
+    {
+      "epoch": 5,
+      "mean_training_loss": 1.2553307723999023,
+      "inner_ap": 0.9876745663868631
+    },
+    {
+      "epoch": 6,
+      "mean_training_loss": 1.2508885955810547,
+      "inner_ap": 0.9879950852706773
+    },
+    {
+      "epoch": 7,
+      "mean_training_loss": 1.248446102142334,
+      "inner_ap": 0.9877388858711913
+    },
+    {
+      "epoch": 8,
+      "mean_training_loss": 1.2451829242706298,
+      "inner_ap": 0.9883981039132939
+    },
+    {
+      "epoch": 9,
+      "mean_training_loss": 1.2412684869766235,
+      "inner_ap": 0.9885884269882621
+    },
+    {
+      "epoch": 10,
+      "mean_training_loss": 1.2390298557281494,
+      "inner_ap": 0.9864604772151391
+    },
+    {
+      "epoch": 11,
+      "mean_training_loss": 1.2376920127868651,
+      "inner_ap": 0.9890324707466062
+    },
+    {
+      "epoch": 12,
+      "mean_training_loss": 1.2352448272705079,
+      "inner_ap": 0.9889445959956167
+    },
+    {
+      "epoch": 13,
+      "mean_training_loss": 1.234594283103943,
+      "inner_ap": 0.9889912958868716
+    },
+    {
+      "epoch": 14,
+      "mean_training_loss": 1.2323832178115846,
+      "inner_ap": 0.9884360521806592
+    },
+    {
+      "epoch": 15,
+      "mean_training_loss": 1.2317595863342286,
+      "inner_ap": 0.9879877825094284
+    },
+    {
+      "epoch": 16,
+      "mean_training_loss": 1.2312935543060304,
+      "inner_ap": 0.9880048051487977
+    },
+    {
+      "epoch": 17,
+      "mean_training_loss": 1.230565414428711,
+      "inner_ap": 0.9893457148568224
+    },
+    {
+      "epoch": 18,
+      "mean_training_loss": 1.2293232679367065,
+      "inner_ap": 0.9886754429947318
+    },
+    {
+      "epoch": 19,
+      "mean_training_loss": 1.2290791845321656,
+      "inner_ap": 0.988520838269068
+    },
+    {
+      "epoch": 20,
+      "mean_training_loss": 1.2287347078323365,
+      "inner_ap": 0.9894861210481212
+    },
+    {
+      "epoch": 21,
+      "mean_training_loss": 1.227633843421936,
+      "inner_ap": 0.988800442400281
+    },
+    {
+      "epoch": 22,
+      "mean_training_loss": 1.2278401136398316,
+      "inner_ap": 0.9881926483632998
+    },
+    {
+      "epoch": 23,
+      "mean_training_loss": 1.2272894763946534,
+      "inner_ap": 0.9878701645996489
+    },
+    {
+      "epoch": 24,
+      "mean_training_loss": 1.2265798091888427,
+      "inner_ap": 0.9877367986640744
+    },
+    {
+      "epoch": 25,
+      "mean_training_loss": 1.2263982391357422,
+      "inner_ap": 0.9886951351290882
+    },
+    {
+      "epoch": 26,
+      "mean_training_loss": 1.2266155290603638,
+      "inner_ap": 0.9884963597483267
+    },
+    {
+      "epoch": 27,
+      "mean_training_loss": 1.2260926866531372,
+      "inner_ap": 0.9886820064503263
+    },
+    {
+      "epoch": 28,
+      "mean_training_loss": 1.226028184890747,
+      "inner_ap": 0.9878565418299121
+    },
+    {
+      "epoch": 29,
+      "mean_training_loss": 1.2252923679351806,
+      "inner_ap": 0.9868040711143835
+    },
+    {
+      "epoch": 30,
+      "mean_training_loss": 1.2255827236175536,
+      "inner_ap": 0.9862413553803202
+    }
+  ],
+  "result_sha256": "20942dcafbe98624936c1cfcd3de404baaae6ed64db7b785a01c7eaa32654c1f",
+  "checkpoint_sha256": "e5e33e9e9052b6bdbea79b35d1539ec8fae784e0c4ea3a88937bc249b3e10784",
+  "outer_shared_groups": 0,
+  "validation_flags_used_for_training": false
+}

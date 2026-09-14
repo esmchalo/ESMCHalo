@@ -1,0 +1,24 @@
+{
+  "status": "PASS_CALIBRATION_SCREEN",
+  "decision": "KEEP_CALIBRATOR",
+  "selected_candidate": "C1",
+  "eligible_candidates": [
+    "C1"
+  ],
+  "selection_priority": [
+    "Brier",
+    "ECE",
+    "log_loss",
+    "simpler_calibrator"
+  ],
+  "final_fit_records": 10567,
+  "final_calibrator": {
+    "name": "C1",
+    "type": "platt",
+    "coefficient": 1.65445192210991,
+    "intercept": -0.059280024051954906,
+    "optimizer": "scipy_L-BFGS-B",
+    "objective": "unregularized_binary_log_loss",
+    "seed_unused_deterministic": 20320903
+  }
+}

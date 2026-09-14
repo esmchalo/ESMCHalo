@@ -1,0 +1,19 @@
+{
+  "system": "ESMCHalo",
+  "repeat": 1,
+  "wall_seconds": 27.070043292827904,
+  "proteins_per_second": 37.82779321491904,
+  "components": [
+    {
+      "stage": "esmc",
+      "wall_seconds": 24.424408142920583
+    },
+    {
+      "stage": "ESMCHalo",
+      "wall_seconds": 2.6451895111240447
+    }
+  ],
+  "peak_torch_allocated_mib": 1208.73095703125,
+  "peak_torch_reserved_mib": 1340.0,
+  "largest_child_process_rss_mib": 4165.0703125
+}

@@ -1,0 +1,20 @@
+{
+  "ESMCHalo": {
+    "median_seconds": 27.11223899712786,
+    "min_seconds": 27.070043292827904,
+    "max_seconds": 27.474237638991326,
+    "throughput_at_median": 37.76892052731158
+  },
+  "DeepSaltPro": {
+    "median_seconds": 210.62423722306266,
+    "min_seconds": 210.20221549924463,
+    "max_seconds": 210.80911971302703,
+    "throughput_at_median": 4.861738675001242
+  },
+  "paired_time_ratios_DSP_over_ESMCHalo": [
+    7.765122989475855,
+    7.672974314448223,
+    7.768603590628394
+  ],
+  "median_paired_time_ratio": 7.765122989475855
+}

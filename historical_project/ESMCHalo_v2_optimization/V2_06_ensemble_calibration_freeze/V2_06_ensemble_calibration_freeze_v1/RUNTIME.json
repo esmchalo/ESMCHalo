@@ -1,0 +1,7 @@
+{
+  "python": "3.12.13 | packaged by conda-forge | (main, Mar  5 2026, 16:50:00) [GCC 14.3.0]",
+  "numpy": "2.5.1",
+  "pandas": "3.0.3",
+  "scipy": "1.18.0",
+  "sklearn": "1.9.0"
+}

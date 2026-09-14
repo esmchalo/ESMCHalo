@@ -1,0 +1,89 @@
+{
+  "status": "PASS_ALLOWED_INPUTS_ONLY",
+  "accessed_inputs": [
+    {
+      "role": "protocol",
+      "path": "/home/lvfang/ESMC_halophile/v2_06_execution_package/ESMCHalo_v2_V2_06_ensemble_calibration_freeze_v1/V2_06_PROTOCOL.json",
+      "opened_at_utc": "2026-09-03T12:13:41.688625+00:00"
+    },
+    {
+      "role": "folds",
+      "path": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_01_baseline_and_teacher_oof/group_folds_v2.tsv",
+      "opened_at_utc": "2026-09-03T12:13:41.689137+00:00"
+    },
+    {
+      "role": "registry",
+      "path": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_02_label_audit/V2_02B_audit_lock_v1/V2_02_LOCKED_TRAINING_REGISTRY.tsv",
+      "opened_at_utc": "2026-09-03T12:13:41.691529+00:00"
+    },
+    {
+      "role": "v205_done",
+      "path": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_05_hard_negative_and_peft/V2_05A_hard_sample_weighting_ablation_v1/V2_05A_DONE.json",
+      "opened_at_utc": "2026-09-03T12:13:41.693135+00:00"
+    },
+    {
+      "role": "v205_selection",
+      "path": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_05_hard_negative_and_peft/V2_05A_hard_sample_weighting_ablation_v1/selected_hard_sample_strategy.json",
+      "opened_at_utc": "2026-09-03T12:13:41.693199+00:00"
+    },
+    {
+      "role": "v205_reproduction",
+      "path": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_05_hard_negative_and_peft/V2_05A_hard_sample_weighting_ablation_v1/H0_REPRODUCTION_AUDIT.json",
+      "opened_at_utc": "2026-09-03T12:13:41.693251+00:00"
+    },
+    {
+      "role": "v205_oof",
+      "path": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_05_hard_negative_and_peft/V2_05A_hard_sample_weighting_ablation_v1/all_candidate_oof_predictions.tsv",
+      "opened_at_utc": "2026-09-03T12:13:41.693303+00:00"
+    },
+    {
+      "role": "v205_binding",
+      "path": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_05_hard_negative_and_peft/V2_05A_hard_sample_weighting_ablation_v1/V2_05A_BINDING_AUDIT.json",
+      "opened_at_utc": "2026-09-03T12:13:41.698887+00:00"
+    },
+    {
+      "role": "v205_access",
+      "path": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_05_hard_negative_and_peft/V2_05A_hard_sample_weighting_ablation_v1/DATA_ACCESS_AUDIT.json",
+      "opened_at_utc": "2026-09-03T12:13:41.698946+00:00"
+    },
+    {
+      "role": "member_0",
+      "path": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_05_hard_negative_and_peft/V2_05A_hard_sample_weighting_ablation_v1/partial/H0/fold_0.pt",
+      "opened_at_utc": "2026-09-03T12:13:41.699003+00:00"
+    },
+    {
+      "role": "member_1",
+      "path": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_05_hard_negative_and_peft/V2_05A_hard_sample_weighting_ablation_v1/partial/H0/fold_1.pt",
+      "opened_at_utc": "2026-09-03T12:13:41.700290+00:00"
+    },
+    {
+      "role": "member_2",
+      "path": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_05_hard_negative_and_peft/V2_05A_hard_sample_weighting_ablation_v1/partial/H0/fold_2.pt",
+      "opened_at_utc": "2026-09-03T12:13:41.701536+00:00"
+    },
+    {
+      "role": "member_3",
+      "path": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_05_hard_negative_and_peft/V2_05A_hard_sample_weighting_ablation_v1/partial/H0/fold_3.pt",
+      "opened_at_utc": "2026-09-03T12:13:41.702791+00:00"
+    },
+    {
+      "role": "member_4",
+      "path": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_05_hard_negative_and_peft/V2_05A_hard_sample_weighting_ablation_v1/partial/H0/fold_4.pt",
+      "opened_at_utc": "2026-09-03T12:13:41.704007+00:00"
+    }
+  ],
+  "forbidden_tokens": [
+    "blind",
+    "test200",
+    "external",
+    "challenge"
+  ],
+  "blind_labels_read": false,
+  "test200_labels_read": false,
+  "external_challenge_labels_read": false,
+  "DeepSaltPro_loaded_for_inference": false,
+  "model_retraining": false,
+  "hard_sample_weighting": false,
+  "candidate_negative_pool_used": false,
+  "lora_or_peft": false
+}

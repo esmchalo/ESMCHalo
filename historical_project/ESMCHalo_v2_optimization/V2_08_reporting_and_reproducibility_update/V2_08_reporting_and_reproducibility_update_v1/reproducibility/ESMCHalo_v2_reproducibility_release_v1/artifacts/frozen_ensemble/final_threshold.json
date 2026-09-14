@@ -1,0 +1,5 @@
+{
+  "deployment_threshold": 0.5,
+  "decision": "KEEP_FIXED_0_5",
+  "probability_comparison": ">="
+}

@@ -1,0 +1,27 @@
+{
+  "module": "V2-08",
+  "status": "PASS_REPORTING_AND_REPRODUCIBILITY_UPDATE_COMPLETE",
+  "version": "V2_08_reporting_and_reproducibility_update_v1",
+  "completed_at_utc": "2026-09-04T02:29:45.373803+00:00",
+  "v2_07_permanently_closed": true,
+  "authoritative_source": "V2_08_MASTER_SOURCE_OF_TRUTH.md",
+  "figures": {
+    "rebuilt_or_replaced": [
+      1,
+      2,
+      3,
+      5
+    ],
+    "retained_with_scope_warning": [
+      4
+    ]
+  },
+  "public_release": "reproducibility/ESMCHalo_v2_reproducibility_release_v1.zip",
+  "synthetic_frozen_inference_smoke": "PASS",
+  "model_training": false,
+  "model_modified": false,
+  "recalibration": false,
+  "threshold_changed": false,
+  "private_labels_in_release": false,
+  "next_action": "independent V2-08 review and manuscript integration only"
+}

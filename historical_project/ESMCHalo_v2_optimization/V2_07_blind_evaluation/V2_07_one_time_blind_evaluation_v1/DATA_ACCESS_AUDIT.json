@@ -1,0 +1,13 @@
+{
+  "status": "PASS_ONE_TIME_BLIND_LABEL_ACCESS",
+  "stage1_blind_labels_read": false,
+  "stage2_private_label_physical_reads": 1,
+  "private_label_sha256": "c4e3725c4a7481fb3c0d02c3070659f2d88f5e89d2bfd5c2e85168138ea1aafc",
+  "records_joined": 1865,
+  "test200_labels_read": false,
+  "external_challenge_labels_read": false,
+  "model_retraining": false,
+  "recalibration": false,
+  "threshold_optimization": false,
+  "lora": false
+}

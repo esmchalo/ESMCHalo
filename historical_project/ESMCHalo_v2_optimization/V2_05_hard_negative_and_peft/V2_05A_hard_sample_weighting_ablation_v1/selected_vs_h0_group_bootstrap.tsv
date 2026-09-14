@@ -1,0 +1,4 @@
+metric	replicates	mean	ci_2_5	median	ci_97_5	fraction_gt_zero
+delta_ap	5000	0.0	0.0	0.0	0.0	0.0
+delta_mcc	5000	0.0	0.0	0.0	0.0	0.0
+delta_auroc	5000	0.0	0.0	0.0	0.0	0.0

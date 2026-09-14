@@ -1,0 +1,80 @@
+{
+  "status": "PASS_THRESHOLD_SCREEN",
+  "selected_calibrator": "C1",
+  "fold_thresholds": [
+    {
+      "fold": 0,
+      "selection_train_records": 8453,
+      "validation_records": 2114,
+      "selected_threshold": 0.44800000000000034,
+      "selection_train_mcc": 0.8730442027226594
+    },
+    {
+      "fold": 1,
+      "selection_train_records": 8453,
+      "validation_records": 2114,
+      "selected_threshold": 0.4840000000000004,
+      "selection_train_mcc": 0.8704810242349635
+    },
+    {
+      "fold": 2,
+      "selection_train_records": 8454,
+      "validation_records": 2113,
+      "selected_threshold": 0.45300000000000035,
+      "selection_train_mcc": 0.8713081231828234
+    },
+    {
+      "fold": 3,
+      "selection_train_records": 8454,
+      "validation_records": 2113,
+      "selected_threshold": 0.4880000000000004,
+      "selection_train_mcc": 0.868146332524759
+    },
+    {
+      "fold": 4,
+      "selection_train_records": 8454,
+      "validation_records": 2113,
+      "selected_threshold": 0.4880000000000004,
+      "selection_train_mcc": 0.870134892719318
+    }
+  ],
+  "fixed_0_5_metrics": {
+    "n": 10567,
+    "threshold": 0.5,
+    "accuracy": 0.9369735970474118,
+    "mcc": 0.8693313961882673,
+    "sensitivity": 0.9481576008932844,
+    "specificity": 0.9206607724523034,
+    "ppv": 0.9457438345266508,
+    "tn": 3957,
+    "fp": 341,
+    "fn": 325,
+    "tp": 5944
+  },
+  "cross_fitted_threshold_metrics": {
+    "mcc": 0.8687727982178475,
+    "sensitivity": 0.9518264475992981,
+    "delta_mcc": -0.0005585979704197941,
+    "sensitivity_delta": 0.003668846706013751
+  },
+  "threshold_min": 0.44800000000000034,
+  "threshold_max": 0.4880000000000004,
+  "threshold_range": 0.040000000000000036,
+  "threshold_gate_passed": false,
+  "decision": "KEEP_FIXED_0_5",
+  "deployment_threshold": 0.5,
+  "deployment_threshold_descriptive_oof_metrics": {
+    "n": 10567,
+    "threshold": 0.5,
+    "accuracy": 0.9369735970474118,
+    "mcc": 0.8693313961882673,
+    "sensitivity": 0.9481576008932844,
+    "specificity": 0.9206607724523034,
+    "ppv": 0.9457438345266508,
+    "tn": 3957,
+    "fp": 341,
+    "fn": 325,
+    "tp": 5944
+  },
+  "note": "Cross-fitted fold-threshold metrics are the unbiased threshold-selection diagnostic; deployment-threshold OOF metrics are descriptive only."
+}

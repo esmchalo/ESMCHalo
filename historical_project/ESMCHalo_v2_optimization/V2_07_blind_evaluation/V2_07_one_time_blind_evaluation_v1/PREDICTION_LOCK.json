@@ -1,0 +1,23 @@
+{
+  "module": "V2-07",
+  "stage": 1,
+  "status": "PASS_PREDICTIONS_LOCKED",
+  "created_at_utc": "2026-09-03T12:56:19.282864+00:00",
+  "records": 1865,
+  "prediction_file": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_07_blind_evaluation/V2_07_one_time_blind_evaluation_v1/blind_predictions_LOCKED.tsv",
+  "prediction_sha256": "0b764ab941c42fdd0a04ad3b995561ccd1bfa3a036c7a8018fc21ed0d860fc46",
+  "esmchalo_aggregation": "mean_raw_logit_then_C1_Platt",
+  "esmchalo_threshold": 0.5,
+  "deepsaltpro_aggregation": "mean_probability",
+  "deepsaltpro_threshold": 0.5,
+  "bootstrap_group_field_locked": "homology_group",
+  "private_label_expected_sha256_from_V2_00_lock": "c4e3725c4a7481fb3c0d02c3070659f2d88f5e89d2bfd5c2e85168138ea1aafc",
+  "blind_labels_read": false,
+  "test200_labels_read": false,
+  "external_challenge_labels_read": false,
+  "model_retraining": false,
+  "recalibration": false,
+  "threshold_optimization": false,
+  "lora": false,
+  "next_gate": "Independent review before one-time Stage 2 reveal"
+}

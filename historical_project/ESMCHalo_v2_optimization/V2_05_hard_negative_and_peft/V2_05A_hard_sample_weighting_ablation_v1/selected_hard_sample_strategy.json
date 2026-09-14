@@ -1,0 +1,20 @@
+{
+  "status": "PASS_SCREEN_COMPLETE_NO_STABLE_GAIN",
+  "decision": "STOP_HARD_SAMPLE_NO_STABLE_GAIN",
+  "selected_arm": "H0",
+  "eligible_arms": [],
+  "fallback": "KEEP_K2_UNWEIGHTED",
+  "selection_priority": [
+    "AP",
+    "MCC",
+    "AUROC",
+    "simpler_weight_definition"
+  ],
+  "canonical_mean_only": true,
+  "k2_fixed": true,
+  "blind_labels_read": false,
+  "test200_labels_read": false,
+  "external_challenge_labels_read": false,
+  "lora": false,
+  "next_gate": "V2-06 only after V2-05A review"
+}

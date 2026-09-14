@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "records": 7,
+  "labels_used": false,
+  "model_training": false,
+  "expected_server_status": "PASS in esmc_latest environment"
+}

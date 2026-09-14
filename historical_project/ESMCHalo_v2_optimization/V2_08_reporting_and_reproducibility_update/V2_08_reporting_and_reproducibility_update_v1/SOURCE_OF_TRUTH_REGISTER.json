@@ -1,0 +1,8 @@
+{
+  "status": "V2_08_SOURCE_OF_TRUTH_ESTABLISHED",
+  "integrated_docx_or_tex_found_in_input": false,
+  "authoritative_v2_source": "V2_08_MASTER_SOURCE_OF_TRUTH.md",
+  "legacy_source": "paper/manuscript_finalization/ESMCHalo_PAPER_SOURCE_OF_TRUTH_LOCKED.*",
+  "legacy_status": "SUPERSEDED_FOR_CURRENT_MODEL_AND_PRIMARY_PERFORMANCE; retain only non-conflicting historical analyses",
+  "rule": "V2-03B2 through V2-07 frozen aggregate outputs override legacy LR/test200 model statements"
+}

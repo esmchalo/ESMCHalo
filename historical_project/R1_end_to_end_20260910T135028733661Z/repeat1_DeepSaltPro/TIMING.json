@@ -1,0 +1,23 @@
+{
+  "system": "DeepSaltPro",
+  "repeat": 1,
+  "wall_seconds": 210.20221549924463,
+  "proteins_per_second": 4.871499558498611,
+  "components": [
+    {
+      "stage": "ankh",
+      "wall_seconds": 119.8753459895961
+    },
+    {
+      "stage": "esm2",
+      "wall_seconds": 86.5425766268745
+    },
+    {
+      "stage": "DeepSaltPro",
+      "wall_seconds": 3.783621195703745
+    }
+  ],
+  "peak_torch_allocated_mib": 10987.3046875,
+  "peak_torch_reserved_mib": 11210.0,
+  "largest_child_process_rss_mib": 16714.9609375
+}

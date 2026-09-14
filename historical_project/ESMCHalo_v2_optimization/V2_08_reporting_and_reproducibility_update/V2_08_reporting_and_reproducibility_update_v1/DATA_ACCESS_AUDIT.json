@@ -1,0 +1,179 @@
+{
+  "status": "PASS_ALLOWED_INPUTS_ONLY",
+  "accessed_inputs": [
+    {
+      "role": "v203b2_done",
+      "path": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_03_head_layer_pooling_screen/V2_03B2_streamed_pooling_v1/V2_03B2_DONE.json",
+      "sha256": "99b1ba558f106cdfadbd64fc393ef8abcb24596acc569f272054ade308e7ace0"
+    },
+    {
+      "role": "v203b2_gates",
+      "path": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_03_head_layer_pooling_screen/V2_03B2_streamed_pooling_v1/pooling_gain_gates.tsv",
+      "sha256": "57c9be1ad2fa7a6d314343a932f744168c561203e4f577767b1fdd03948b270e"
+    },
+    {
+      "role": "v203b2_metrics",
+      "path": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_03_head_layer_pooling_screen/V2_03B2_streamed_pooling_v1/pooling_screen_overall_metrics.tsv",
+      "sha256": "ff4b6d4b0e08b682632ead20a66a0a8fc6bc800825e471c1eb7e995d08f00540"
+    },
+    {
+      "role": "v204_done",
+      "path": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_04_knowledge_distillation/V2_04_deepsaltpro_oof_kd_v1/V2_04_DONE.json",
+      "sha256": "e2403dbda79a4e4ce3b512d214653184cf7bb8b00accd5588b81508ddd565027"
+    },
+    {
+      "role": "v204_gates",
+      "path": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_04_knowledge_distillation/V2_04_deepsaltpro_oof_kd_v1/candidate_gain_gates.tsv",
+      "sha256": "294bfdbbc9add7d8e397d2a242b143415f26797d1ff196ee871759e33f1262b0"
+    },
+    {
+      "role": "v204_metrics",
+      "path": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_04_knowledge_distillation/V2_04_deepsaltpro_oof_kd_v1/candidate_overall_metrics.tsv",
+      "sha256": "eba1d20a78b5fe8146f3e4691cd56675470a7fc38d6080e3bbc31b38ffa8d987"
+    },
+    {
+      "role": "v204_selection",
+      "path": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_04_knowledge_distillation/V2_04_deepsaltpro_oof_kd_v1/selected_kd_candidate.json",
+      "sha256": "520d372900467f67aa12d96d9c02c1e11be0ad877e67719543627e16a6535c4e"
+    },
+    {
+      "role": "v205_done",
+      "path": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_05_hard_negative_and_peft/V2_05A_hard_sample_weighting_ablation_v1/V2_05A_DONE.json",
+      "sha256": "279641e6b5488d762d286b50b3c3cffbdd874925b5db421139fb803a26fa57d8"
+    },
+    {
+      "role": "v205_metrics",
+      "path": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_05_hard_negative_and_peft/V2_05A_hard_sample_weighting_ablation_v1/candidate_overall_metrics.tsv",
+      "sha256": "b81a87a934188408535bb6a6ec447ba224e3fde7e10715261053727cba136623"
+    },
+    {
+      "role": "v205_selection",
+      "path": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_05_hard_negative_and_peft/V2_05A_hard_sample_weighting_ablation_v1/selected_hard_sample_strategy.json",
+      "sha256": "f5a151eccf08fad3d98f868eedaa2e7d0673f950b9b022597b62d127f42ebe73"
+    },
+    {
+      "role": "v206_freeze",
+      "path": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_06_ensemble_calibration_freeze/V2_06_ensemble_calibration_freeze_v1/FINAL_FREEZE_MANIFEST.json",
+      "sha256": "6d8ef09cc64b09601f5c486cc11a076ac89fae0f07db37a0930af5ebb84d2ab0"
+    },
+    {
+      "role": "v206_calibration",
+      "path": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_06_ensemble_calibration_freeze/V2_06_ensemble_calibration_freeze_v1/calibration_candidate_metrics.tsv",
+      "sha256": "7c810084c2e67536ed5fdbfcca0e57e4c37adf6b9876cec7353b6f00a9f8af4e"
+    },
+    {
+      "role": "v206_selection",
+      "path": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_06_ensemble_calibration_freeze/V2_06_ensemble_calibration_freeze_v1/selected_calibrator.json",
+      "sha256": "a3d06a3737a1006e691bc1884d36aee2e5c68ab4a31f48d8acf8b649815b3de1"
+    },
+    {
+      "role": "v207_done",
+      "path": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_07_blind_evaluation/V2_07_one_time_blind_evaluation_v1/V2_07_DONE.json",
+      "sha256": "1879f23378bf14e128c25d1b535ebcf10b9acb6245b481480cc258ec60cee361"
+    },
+    {
+      "role": "v207_metrics",
+      "path": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_07_blind_evaluation/V2_07_one_time_blind_evaluation_v1/blind_metrics.tsv",
+      "sha256": "9d4262c89386b47228ecef58263e92f1fd830f23ebe86f1b3544334d38a809e1"
+    },
+    {
+      "role": "v207_bootstrap",
+      "path": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_07_blind_evaluation/V2_07_one_time_blind_evaluation_v1/paired_group_bootstrap_summary.tsv",
+      "sha256": "5ab11a0a40ee2238b7a0d9e261522cc8955e96b0abbbc8e537a577652c744fdb"
+    },
+    {
+      "role": "v207_mcnemar",
+      "path": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_07_blind_evaluation/V2_07_one_time_blind_evaluation_v1/mcnemar_exact.json",
+      "sha256": "17b2205d8f5d8d587320f241f8bb564ac4eab86deb3d930e78e0f6e07413011e"
+    },
+    {
+      "role": "figure4_pdf",
+      "path": "/home/lvfang/ESMC_halophile/paper/figures/Figure4_v6/Figure4_submission_FINAL.pdf",
+      "sha256": "5b704abefecf9202b82c1bb7f099ba18a02ca97b97f162228e8d7245f426bd4e"
+    },
+    {
+      "role": "figure4_png",
+      "path": "/home/lvfang/ESMC_halophile/paper/figures/Figure4_v6/Figure4_submission_FINAL.png",
+      "sha256": "9af56006af6862393efd2d4c80789129cc567cf9715756463ee823d9eec1315c"
+    },
+    {
+      "role": "figure4_svg",
+      "path": "/home/lvfang/ESMC_halophile/paper/figures/Figure4_v6/Figure4_submission_FINAL.svg",
+      "sha256": "35f86284703f6a60f24cf282602e18998351139675fbe83bba068f6f5dca3652"
+    },
+    {
+      "role": "figure4_caption",
+      "path": "/home/lvfang/ESMC_halophile/paper/figures/Figure4_v6/Figure4_caption.txt",
+      "sha256": "ce383da66fb4f45153c08ed8b7f0816f63efc2ce32fd3c808f888ec60dc5c087"
+    },
+    {
+      "role": "legacy_figure3_pdf",
+      "path": "/home/lvfang/ESMC_halophile/paper/figures/Figure3_Computational_efficiency_FINAL.pdf",
+      "sha256": "c0e533388ecb3c62bcca70b44068ff2d457fe3ee9cfbae855b28de97edb7d875"
+    },
+    {
+      "role": "legacy_figure3_png",
+      "path": "/home/lvfang/ESMC_halophile/paper/figures/Figure3_Computational_efficiency_FINAL.png",
+      "sha256": "5f2067e9c7dfd34cbadb6aae9da2fb7a48deed7ae29dd62088d20847708db549"
+    },
+    {
+      "role": "legacy_figure3_svg",
+      "path": "/home/lvfang/ESMC_halophile/paper/figures/Figure3_Computational_efficiency_FINAL.svg",
+      "sha256": "4c7b6f5f1796df18b2eef16845ba2f3ced7d4454b2f5e248b06166abf56f63b5"
+    },
+    {
+      "role": "legacy_release",
+      "path": "/home/lvfang/ESMC_halophile/ESMCHalo_BMC_Q1_reproducibility_release_v2.zip",
+      "sha256": "1d68d4dffd4a512c08a31d2b60f16e39f928cf492edf111b8acae34123009fd5"
+    },
+    {
+      "role": "frozen_member",
+      "path": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_06_ensemble_calibration_freeze/V2_06_ensemble_calibration_freeze_v1/frozen_ensemble/members/fold_0.pt",
+      "sha256": "57a12bba50e19bebc94cb839ba05639276b4b004892283efb867adf5c5480ae4"
+    },
+    {
+      "role": "frozen_member",
+      "path": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_06_ensemble_calibration_freeze/V2_06_ensemble_calibration_freeze_v1/frozen_ensemble/members/fold_1.pt",
+      "sha256": "1e49d4f98d7ba8e2a567e9a7bf1298db43cbde20389d7b7243a41ce753c2c9bf"
+    },
+    {
+      "role": "frozen_member",
+      "path": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_06_ensemble_calibration_freeze/V2_06_ensemble_calibration_freeze_v1/frozen_ensemble/members/fold_2.pt",
+      "sha256": "5685ca6f2ec06e4ac19c44cdbf8d13347d2ab00646a17a995b366e279ec3d023"
+    },
+    {
+      "role": "frozen_member",
+      "path": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_06_ensemble_calibration_freeze/V2_06_ensemble_calibration_freeze_v1/frozen_ensemble/members/fold_3.pt",
+      "sha256": "c40651770ae2f689415cefdd516e7f2a74a60efd5c2f70b26a798c460f1606a2"
+    },
+    {
+      "role": "frozen_member",
+      "path": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_06_ensemble_calibration_freeze/V2_06_ensemble_calibration_freeze_v1/frozen_ensemble/members/fold_4.pt",
+      "sha256": "6c290a6b7f5de70c5ff9052df2565486008f54056dccbb84d521216d545c524a"
+    },
+    {
+      "role": "frozen_inference_artifact",
+      "path": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_06_ensemble_calibration_freeze/V2_06_ensemble_calibration_freeze_v1/frozen_ensemble/inference.py",
+      "sha256": "49472b3444185bb6e7b38e1c52930ddcede1119d62f486d9a7ec0478c7f0e9d3"
+    },
+    {
+      "role": "frozen_inference_artifact",
+      "path": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_06_ensemble_calibration_freeze/V2_06_ensemble_calibration_freeze_v1/frozen_ensemble/final_calibrator.json",
+      "sha256": "1fc1e626455b93beec8b299ec7fb2e33571deee9dc9559e744468a9ec5239c4c"
+    },
+    {
+      "role": "frozen_inference_artifact",
+      "path": "/home/lvfang/ESMC_halophile/ESMCHalo_v2_optimization/V2_06_ensemble_calibration_freeze/V2_06_ensemble_calibration_freeze_v1/frozen_ensemble/final_threshold.json",
+      "sha256": "5db03af1f25891118b7be534b16af19c8aa273738ddad88e78115ff18b3dbce7"
+    }
+  ],
+  "private_blind_labels_read": false,
+  "test200_labels_read": false,
+  "external_challenge_labels_read": false,
+  "labelled_blind_predictions_read_or_exported": false,
+  "model_training": false,
+  "model_modified": false,
+  "recalibration": false,
+  "threshold_optimization": false,
+  "lora_or_peft": false
+}

@@ -1,0 +1,60 @@
+{
+  "status": "FROZEN_FOR_V2_07",
+  "representation": "canonical_mean_1152",
+  "student": "K2_H0_unweighted",
+  "ensemble_members": [
+    {
+      "fold": 0,
+      "file": "frozen_ensemble/members/fold_0.pt",
+      "sha256": "57a12bba50e19bebc94cb839ba05639276b4b004892283efb867adf5c5480ae4",
+      "aggregation_weight": 0.2
+    },
+    {
+      "fold": 1,
+      "file": "frozen_ensemble/members/fold_1.pt",
+      "sha256": "1e49d4f98d7ba8e2a567e9a7bf1298db43cbde20389d7b7243a41ce753c2c9bf",
+      "aggregation_weight": 0.2
+    },
+    {
+      "fold": 2,
+      "file": "frozen_ensemble/members/fold_2.pt",
+      "sha256": "5685ca6f2ec06e4ac19c44cdbf8d13347d2ab00646a17a995b366e279ec3d023",
+      "aggregation_weight": 0.2
+    },
+    {
+      "fold": 3,
+      "file": "frozen_ensemble/members/fold_3.pt",
+      "sha256": "c40651770ae2f689415cefdd516e7f2a74a60efd5c2f70b26a798c460f1606a2",
+      "aggregation_weight": 0.2
+    },
+    {
+      "fold": 4,
+      "file": "frozen_ensemble/members/fold_4.pt",
+      "sha256": "6c290a6b7f5de70c5ff9052df2565486008f54056dccbb84d521216d545c524a",
+      "aggregation_weight": 0.2
+    }
+  ],
+  "aggregation": "mean_raw_logit",
+  "calibrator": {
+    "candidate": "C1",
+    "file": "frozen_ensemble/final_calibrator.json",
+    "sha256": "1fc1e626455b93beec8b299ec7fb2e33571deee9dc9559e744468a9ec5239c4c"
+  },
+  "threshold": {
+    "value": 0.5,
+    "file": "frozen_ensemble/final_threshold.json",
+    "sha256": "5db03af1f25891118b7be534b16af19c8aa273738ddad88e78115ff18b3dbce7"
+  },
+  "inference_script": {
+    "file": "frozen_ensemble/inference.py",
+    "sha256": "49472b3444185bb6e7b38e1c52930ddcede1119d62f486d9a7ec0478c7f0e9d3"
+  },
+  "DeepSaltPro_required_at_inference": false,
+  "development_ensemble_performance_claimed": false,
+  "model_retraining": false,
+  "blind_labels_read": false,
+  "test200_labels_read": false,
+  "external_challenge_labels_read": false,
+  "lora": false,
+  "immutability": "Do not modify models, aggregation, calibrator, or threshold after V2-07 begins."
+}

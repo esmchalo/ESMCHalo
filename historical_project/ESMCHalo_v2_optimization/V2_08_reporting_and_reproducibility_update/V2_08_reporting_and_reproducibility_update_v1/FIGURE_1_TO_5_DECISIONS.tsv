@@ -1,0 +1,6 @@
+figure	input_version	decision	v2_output	reason
+Figure 1	Figure1_ESMCHalo_workflow_v2_DRAFT_QC	REBUILD	Figure1_V2_workflow_FINAL	legacy LR/test200 workflow is not the frozen K2 five-member pipeline
+Figure 2	Figure2_ESMCHalo_vs_DeepSaltPro_FINAL_fused_v3	REPLACE	Figure2_V2_development_decisions_FINAL	legacy comparison used test200 and the LR model; V2 needs development-only attribution
+Figure 3	Figure3_Computational_efficiency_FINAL	REPLACE_MAIN_MOVE_LEGACY_TO_SUPPLEMENT	Figure3_V2_blind_comparison_FINAL	legacy timing describes the LR implementation, not the final five-student ensemble
+Figure 4	Figure4_v6/Figure4_submission_FINAL	RETAIN_WITH_SCOPE_WARNING	Figure4_representation_interpretability_RETAINED	locked representation-level evidence remains usable but does not directly explain the final K2 ensemble
+Figure 5	Figure5_External_validation_FINAL	REPLACE	Figure5_V2_deployment_calibration_FINAL	legacy n=11 figure evaluated the superseded LR model and cannot validate ESMCHalo-v2

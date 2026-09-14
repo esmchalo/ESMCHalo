@@ -1,0 +1,8 @@
+field	value
+representation	ESMC-600M layer36 canonical mean, 1152-D
+student	1152-256-64-1
+KD	K2: alpha=.5 beta=.5 gamma=0 T=2
+weighting	H0 unweighted
+ensemble	5 members, mean raw logit, each weight .2
+calibration	C1 Platt: 1.65445192210991*x - 0.059280024051954906
+threshold	0.5
