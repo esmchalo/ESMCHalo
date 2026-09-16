@@ -5,6 +5,6 @@ scipy==1.18.0
 scikit-learn==1.9.0
 joblib==1.5.3
 torch==2.13.0
-transformers==4.57.6
+transformers @ git+https://github.com/Biohub/transformers.git@ef32577f55da19a4989cd7b22e004dc43a4998cb
 huggingface-hub==0.36.2
 safetensors==0.8.0
