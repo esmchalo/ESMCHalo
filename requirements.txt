@@ -1,10 +1,9 @@
-# Observed server inference versions; clean installation and native ESMC integration not verified.
+# Verified clean-install inference environment for ESMCHalo v2.0.2-rc2.
 numpy==2.5.1
 pandas==3.0.3
 scipy==1.18.0
 scikit-learn==1.9.0
 joblib==1.5.3
-torch==2.13.0
-transformers @ git+https://github.com/Biohub/transformers.git@ef32577f55da19a4989cd7b22e004dc43a4998cb
 huggingface-hub==0.36.2
 safetensors==0.8.0
+esm==3.4.1.post1
