@@ -1,29 +1,83 @@
-# ESMCHalo — 2.0.2-rc1
+# ESMCHalo — 2.0.2-rc2
 
-Pre-release candidate for halophile-associated protein prediction. This update preserves the five frozen H0 student heads, their preprocessing, Platt calibration and decision threshold 0.5. It restores the historical ESMC extraction implementation and adds historical training materials, record-level evaluation inputs, result-recomputation scripts and scoped acceptance evidence.
+Pre-release candidate for halophile-associated protein prediction.
 
-**This is not a verified from-scratch training distribution.** Historical ESMC file hashes are available; their identity with an independently downloadable snapshot and a clean installation of the native ESMC backend remain unverified. No new version DOI has been assigned in this package.
+This release candidate preserves the five frozen H0 student heads, their preprocessing, Platt calibration, decision threshold 0.5, and the historical short/long ESMC extraction contract.
+
+The principal release-engineering change is migration of the historical ESMC loading backend from the previous Biohub Transformers VCS dependency to the public PyPI package `esm==3.4.1.post1`.
+
+No frozen student checkpoint, calibrator, threshold, long-sequence window rule, or reported model result was changed by this backend migration.
 
 ## Validated scope
 
-The antecedent server acceptance passed 378 metric/calibration checks, 38 primary statistical comparisons and seven synthetic feature predictions. With the corrected historical extraction path, three biological FASTA records matched historical probabilities with maximum absolute error 8.20349e-9 and identical classes. Four existing boundary examples passed parsing/window-count/output checks. The reorganized rc1 package retains the numerical functions but has not itself been rerun on GPU. See `evidence/VALIDATION_SCOPE.json` and `docs/VALIDATION.md`.
+A fresh Python 3.12 environment was created and the rc2 candidate requirements were installed from scratch.
+
+Validated core runtime:
+
+- `esm==3.4.1.post1`
+- `torch==2.11.0`
+- `transformers==4.57.6`
+- `numpy==2.5.1`
+- `pandas==3.0.3`
+- `scipy==1.18.0`
+- `scikit-learn==1.9.0`
+- NVIDIA GeForce RTX 4090
+- PyTorch CUDA 13.0
+
+`pip check` reported no broken requirements.
+
+Three historical biological FASTA references reproduced calibrated probabilities with a maximum absolute difference of `8.203488999214414e-09`.
+
+All three threshold-0.5 predictions matched exactly.
+
+Boundary behavior was reproduced as:
+
+- 64 aa -> 1 window
+- 2046 aa -> 1 window
+- 2047 aa -> 2 windows
+- 3837 aa -> 3 windows
+
+The five student checkpoints, Platt calibrator and threshold file were verified byte-for-byte unchanged.
+
+See `docs/VALIDATION.md`.
 
 ## Environment and model
 
-`requirements.txt` records observed server versions; `environment.yml` is an installation recipe, not proof of successful clean installation. A compatible native `transformers.models.esmc` implementation is required. A version string alone does not establish identical backend code. CUDA and BF16 are required by the historical inference path; the default batch size is one. No backend fallback is provided by the ESMCHalo adapter.
+Create the environment with:
 
-Third-party ESMC weights are not bundled. See `docs/MODEL_ACQUISITION.md`. Given a lawfully obtained historical model directory:
+```bash
+conda env create -f environment.yml
+conda activate esmchalo-v2.0.2-rc2
+```
+
+or:
+
+```bash
+python -m pip install -r requirements.txt
+python -m pip check
+```
+
+The historical inference path requires CUDA and BF16-capable GPU execution.
+
+The rc2 release acceptance was performed successfully with the public Biohub `esm` backend under its pure-PyTorch fallback configuration when Transformer Engine, xformers and flash-attn were absent.
+
+Third-party ESMC weights are not bundled.
+
+The predictor requires a local historical ESMC-600M directory matching `src/HISTORICAL_MODEL_SHA256.json`.
+
+Check the model files with:
 
 ```bash
 python scripts/check_model_files.py --model-dir /path/to/ESMC-600M
+```
+
+Run FASTA inference with:
+
+```bash
 python src/esmchalo_v2_predict.py --model-dir /path/to/ESMC-600M --input tests/historical_short.fasta --output predictions.tsv --device cuda:0 --dtype bfloat16 --batch-size 1
 ```
 
-The wrapper verifies the five required model assets before loading. It does not silently substitute another checkpoint. Five-head prediction from existing canonical features remains available:
-
-```bash
-python src/frozen_ensemble_inference.py --freeze-dir artifacts/frozen_ensemble --features tests/synthetic_frozen_inference/features.npy --rows tests/synthetic_frozen_inference/rows.tsv --output feature_predictions.tsv --device cpu
-```
+The wrapper verifies the required model assets before loading and does not silently substitute another checkpoint.
 
 ## Recompute results
 
@@ -31,16 +85,40 @@ python src/frozen_ensemble_inference.py --freeze-dir artifacts/frozen_ensemble -
 python scripts/reproduce_results.py --output recomputed_results
 ```
 
-Use a new output directory. This replays R1 recorded timings, R3–R9 point metrics and the primary holdout/R3 paired statistics. It neither trains models nor retunes thresholds. Primary bootstrap computations can take several minutes or longer. Raw model inference is not required for this route.
+This replays recorded result tables and statistics. It does not retrain models or retune thresholds.
 
 ## Training materials and data
 
-`historical_project/` preserves original teacher/KD/weighting/calibration source and available fixed protocols, fold tables, training registry and teacher OOF targets. `historical_experiments/` preserves R4–R9 execution sources. Original absolute-path/hash bindings remain in these historical records; they are not a portable pipeline certification. See `docs/TRAINING_AND_DATA.md` for exact entry points, prerequisites and omitted raw source data.
+`historical_project/` preserves original teacher/KD/weighting/calibration sources and available protocols, fold tables, training registry and teacher OOF targets.
 
-Do not run historical entry points against the original project to overwrite completed experiments. The `scripts/train_stage.py` helper prints commands by default and only executes with an explicit `--execute`, rejecting an existing output directory. Its stages are not automatically connected into a fresh end-to-end run.
+`historical_experiments/` preserves R4-R9 execution sources.
+
+These historical records are provenance materials and are not a certification of portable from-scratch retraining.
+
+See `docs/TRAINING_AND_DATA.md`.
 
 ## Scientific scope
 
-The task is prediction of association with halophilic organisms, not salt-specific activity, mutation effects or wet-lab validation. Teacher targets can create dependencies across student folds. Historical evaluation-data use must be disclosed. Existing challenges did not show consistent classification improvements. Directory names containing “blind” and historical protocol assertions are provenance, not evidence of first-ever project-wide blind evaluation.
+The task is prediction of association with halophilic organisms, not salt-specific activity, mutation effects or experimentally measured salt tolerance.
 
-Code: MIT for original ESMCHalo code. Original model/results/documentation: CC BY 4.0 under `LICENSE_SCOPE.md`; third-party rights are excluded. Repository: https://github.com/esmchalo/ESMCHalo . The prior v2.0.1 archive DOI is 10.5281/zenodo.22334942; it must not be cited as the DOI of this candidate.
+Teacher-target dependencies across student folds and historical evaluation-data use should be retained when interpreting the reported results.
+
+## Remaining portability limitation
+
+Clean installation of the public inference backend has been verified.
+
+However, rc2 does not claim that an independently downloaded public ESMC-600M snapshot has been demonstrated byte-for-byte identical to the historical locked model directory used for acceptance.
+
+The accepted asset hashes therefore remain enforced by `src/HISTORICAL_MODEL_SHA256.json`.
+
+## License and citation
+
+Original ESMCHalo code: MIT.
+
+Original model/results/documentation: CC BY 4.0 under `LICENSE_SCOPE.md`.
+
+Third-party rights are excluded.
+
+Repository:
+
+https://github.com/esmchalo/ESMCHalo
