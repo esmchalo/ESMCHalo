@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "If you use ESMCHalo in your work, please cite this software release and the associated article."
 title: "ESMCHalo: halophile-associated protein prediction with frozen protein representations"
 type: software
-version: 2.0.2-rc1
+version: 2.0.2-rc2
 repository-code: "https://github.com/esmchalo/ESMCHalo"
 license: MIT
 authors:
