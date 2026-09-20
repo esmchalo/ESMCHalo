@@ -1,4 +1,4 @@
-# ESMCHalo — 2.0.2-rc2
+# ESMCHalo — 2.0.2-rc3
 
 Pre-release candidate for halophile-associated protein prediction.
 
@@ -47,7 +47,7 @@ Create the environment with:
 
 ```bash
 conda env create -f environment.yml
-conda activate esmchalo-v2.0.2-rc2
+conda activate esmchalo-v2.0.2-rc3
 ```
 
 or:
@@ -59,7 +59,7 @@ python -m pip check
 
 The historical inference path requires CUDA and BF16-capable GPU execution.
 
-The rc2 release acceptance was performed successfully with the public Biohub `esm` backend under its pure-PyTorch fallback configuration when Transformer Engine, xformers and flash-attn were absent.
+The rc3 candidate inherits the successful rc2 clean-room acceptance because no runtime-relevant code, dependency version, frozen inference asset, calibrator, threshold, or windowing rule changed; that acceptance used the public Biohub `esm` backend under its pure-PyTorch fallback configuration when Transformer Engine, xformers and flash-attn were absent.
 
 Third-party ESMC weights are not bundled.
 
@@ -107,7 +107,7 @@ Teacher-target dependencies across student folds and historical evaluation-data 
 
 Clean installation of the public inference backend has been verified.
 
-However, rc2 does not claim that an independently downloaded public ESMC-600M snapshot has been demonstrated byte-for-byte identical to the historical locked model directory used for acceptance.
+However, rc3, like the accepted rc2 candidate, does not claim that an independently downloaded public ESMC-600M snapshot has been demonstrated byte-for-byte identical to the historical locked model directory used for acceptance.
 
 The accepted asset hashes therefore remain enforced by `src/HISTORICAL_MODEL_SHA256.json`.
 

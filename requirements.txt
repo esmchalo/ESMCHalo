@@ -1,4 +1,4 @@
-# Verified clean-install inference environment for ESMCHalo v2.0.2-rc2.
+# Verified clean-install inference environment inherited by ESMCHalo v2.0.2-rc3 from the accepted rc2 runtime.
 numpy==2.5.1
 pandas==3.0.3
 scipy==1.18.0
